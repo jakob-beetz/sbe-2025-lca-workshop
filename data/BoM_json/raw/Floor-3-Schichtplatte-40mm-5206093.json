@@ -1,0 +1,155 @@
+{
+  "Element Metadata": {
+    "Name": "Floor:3-Schichtplatte 40mm:5206093",
+    "UID": "99023",
+    "GlobalId": "0mZKsgvRH1Mhc20hMTKOGe",
+    "Type": "IfcSlab",
+    "ObjectType": "Floor:3-Schichtplatte 40mm",
+    "Classification": "Not defined",
+    "Decomposes": {},
+    "Is Decomposed By": []
+  },
+  "Element Material Data": [
+    {
+      "IfcEntity": "IfcMaterialLayerSetUsage",
+      "Layer Set Name": "Floor:3-Schichtplatte 40mm",
+      "Layer Set Description": "Unknown",
+      "Layer Set Total Thickness": "Unknown",
+      "Layers": [
+        {
+          "IfcEntity": "IfcMaterialLayer",
+          "Material Name": "Massivholz",
+          "Description": "Unknown",
+          "Category": "Unknown",
+          "Thickness": 0.04,
+          "Thickness unit": "METRE"
+        }
+      ]
+    }
+  ],
+  "Element Geometry Data": {
+    "Quantities (IFC)": {
+      "Width": 0.04,
+      "Width unit": "METRE",
+      "Gross Volume": 0.0218,
+      "Gross Volume unit": "CUBIC_METRE",
+      "Net Volume": 0.0218,
+      "Net Volume unit": "CUBIC_METRE"
+    },
+    "Geometric Representation": [
+      "SweptSolid"
+    ],
+    "Quantities (COMPAS)": {
+      "Net Volume": 0.02178,
+      "Net Volume unit": "CUBIC_METRE",
+      "Entire Surface Area": 1.2218,
+      "Entire Surface Area unit": "SQUARE_METRE"
+    },
+    "Bounding Box Dimensions (OBB - local frame)": {
+      "X": 1.21,
+      "Y": 0.45,
+      "Z": 0.04,
+      "Bounding Box Dimensions Unit": "METRE"
+    },
+    "Bounding Box Volume": 0.0218,
+    "Real Volume to Bounding Box Volume Ratio": 0.99908,
+    "Face Count (tessellated element)": {
+      "Face Count": 12
+    },
+    "Vertex Count (tessellated element)": {
+      "Vertex Count": 24
+    },
+    "Edge Count (tessellated element)": {
+      "Edge Count": 30
+    },
+    "Primary Object Axis (Cardinal Direction)": "E"
+  },
+  "Element Property Sets": {
+    "Psets Element": {
+      "Related to Mass": "False",
+      "Room Bounding": "True",
+      "Level": "Level: 01_UK Decke",
+      "Height Offset From Level": "-103.626170000001",
+      "Area": "0.544500000084487",
+      "Elevation at Bottom": "2156.37383",
+      "Elevation at Top": "2196.37383",
+      "Perimeter": "3319.99999989448",
+      "Thickness": "40.0",
+      "Volume": "0.0217800000033795",
+      "Edited by": "",
+      "Workset": "Innenausbau",
+      "Category": "Floors",
+      "Family": "Floor: 3-Schichtplatte 40mm",
+      "Family and Type": "Floor: 3-Schichtplatte 40mm",
+      "Type": "Floor: 3-Schichtplatte 40mm",
+      "Type Id": "Floor: 3-Schichtplatte 40mm",
+      "Phase Created": "Zu Bauen",
+      "Enable Analytical Model": "False",
+      "Structural": "False"
+    },
+    "Psets Object Type": {
+      "Analytical Properties.Roughness": "3",
+      "Analytical Properties.Absorptance": "0.7",
+      "Analytical Properties.Heat Transfer Coefficient (U)": "2.65",
+      "Analytical Properties.Thermal Mass": "2.912844754944",
+      "Analytical Properties.Thermal Resistance (R)": "0.377358490566038",
+      "Construction.Function": "Interior",
+      "Construction.Default Thickness": "40.0",
+      "Data.Unternehmer": "Künzli",
+      "Graphics.Coarse Scale Fill Pattern": "<Solid fill",
+      "Graphics.Coarse Scale Fill Color": "8421504",
+      "Identity Data.Edited by": "",
+      "Identity Data.Assembly Code": "",
+      "Identity Data.Assembly Description": "",
+      "Identity Data.Workset": "Floor Types",
+      "Identity Data.Cost": "0.0",
+      "Identity Data.Type Name": "3-Schichtplatte 40mm",
+      "Materials and Finishes.Structural Material": "Massivholz",
+      "Other.Category": "Floors",
+      "Other.Family Name": "Floor"
+    }
+  },
+  "Element Relationships": {
+    "Nests": null,
+    "Is Nested By": null,
+    "Covers": null,
+    "Is Covered By": null,
+    "Has Openings": null,
+    "Assigned Groups": null
+  },
+  "Element Location": {
+    "Storeys Map": {
+      "00_Betonplatte": {
+        "Elevation": -0.54,
+        "Unit": "meters"
+      },
+      "00_Eingang": {
+        "Elevation": 0.0,
+        "Unit": "meters"
+      },
+      "01_Galerie": {
+        "Elevation": 2.92,
+        "Unit": "meters"
+      }
+    },
+    "Element Located in Storey": "00_Eingang",
+    "Spatial Relationship": [
+      {
+        "name": "1072",
+        "type": "IfcProject"
+      },
+      {
+        "name": "Default",
+        "type": "IfcSite"
+      },
+      {
+        "name": "",
+        "type": "IfcBuilding"
+      },
+      {
+        "name": "00_Eingang",
+        "type": "IfcBuildingStorey"
+      }
+    ]
+  }
+}

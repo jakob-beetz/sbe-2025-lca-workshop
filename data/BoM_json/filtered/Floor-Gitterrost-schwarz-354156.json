@@ -1,0 +1,56 @@
+{
+    "Element Metadata": {
+        "Name": "Floor:Gitterrost schwarz:354156",
+        "Type": "IfcSlab",
+        "ObjectType": "Floor:Gitterrost schwarz"
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterialLayerSetUsage",
+            "Layer Set Name": "Floor:Gitterrost schwarz",
+            "Layers": [
+                {
+                    "Material Name": "Zink Gitter",
+                    "Thickness": 0.03,
+                    "Thickness unit": "METRE"
+                }
+            ]
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Width": 0.03,
+            "Width unit": "METRE",
+            "Gross Volume": 0.042,
+            "Gross Volume unit": "CUBIC_METRE",
+            "Net Volume": 0.042,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.042,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 3.08417,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        }
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Level": "Level: 00_Eingang",
+            "Related to Mass": "False",
+            "Room Bounding": "True",
+            "Area": "1.4",
+            "Elevation at Bottom": "-45.0",
+            "Perimeter": "9470.6204",
+            "Thickness": "30.0",
+            "Volume": "0.042",
+            "Workset": "Terrassenkonstruktion",
+            "Category": "Floors",
+            "Family": "Floor: Gitterrost schwarz",
+            "Family and Type": "Floor: Gitterrost schwarz",
+            "Type": "Floor: Gitterrost schwarz",
+            "Type Id": "Floor: Gitterrost schwarz",
+            "Phase Created": "Zu Bauen",
+            "Structural": "False"
+        }
+    }
+}

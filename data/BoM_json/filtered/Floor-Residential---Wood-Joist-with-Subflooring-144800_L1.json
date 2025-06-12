@@ -1,0 +1,57 @@
+{
+    "Target Layer of Material Inference": {
+        "Material Name": "Wood - Sheathing - plywood",
+        "Thickness": 0.019,
+        "Thickness Unit": "METRE",
+        "Layer Number": 1
+    },
+    "Building Element Context": {
+        "Element Metadata": {
+            "Name": "Floor:Residential - Wood Joist with Subflooring:144800",
+            "Type": "IfcSlab",
+            "ObjectType": "Floor:Residential - Wood Joist with Subflooring"
+        },
+        "Other Material Layers": [
+            {
+                "Material Name": "Wood - Dimensional Lumber",
+                "Thickness": 0.286,
+                "Thickness Unit": "METRE",
+                "Layer Number": 2
+            }
+        ],
+        "Element Geometry Data": {
+            "Quantities (COMPAS)": {
+                "Net Volume": 18.0649,
+                "Net Volume unit": "CUBIC_METRE",
+                "Entire Surface Area": 131.7124,
+                "Entire Surface Area unit": "SQUARE_METRE"
+            }
+        },
+        "Element Property Sets": {
+            "Psets Element": {
+                "Reference": "Reference",
+                "IsExternal": "False",
+                "LoadBearing": "True",
+                "Level": "Level 2",
+                "Room Bounding": "True",
+                "Related to Mass": "False",
+                "Structural": "False",
+                "Phase Created": "New Construction",
+                "Perimeter": "43.4568",
+                "Area": "59.229",
+                "Volume": "18.0649",
+                "Thickness": "0.305",
+                "Structural Usage": "3.0",
+                "Function": "0.0",
+                "Manufacturer": "Manufacturer",
+                "Color": "Color",
+                "Features": "Features",
+                "Finish": "Finish",
+                "Material": "Material",
+                "Shape": "Shape",
+                "Size": "Size",
+                "Classification Description": "Structural Floor Decks"
+            }
+        }
+    }
+}

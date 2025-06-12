@@ -1,0 +1,35 @@
+{
+    "Element Metadata": {
+        "Name": "Attikabrett:Attikabrett:6718052",
+        "Type": "IfcSlab",
+        "ObjectType": "Attikabrett:Attikabrett"
+    },
+    "Element Material Data": "Not defined",
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Net Volume": 0.0367,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.03675,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 3.05148,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        }
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Room Bounding": "True",
+            "Level": "Level: 01_Galerie",
+            "Area": "1.5257",
+            "Volume": "0.0367",
+            "Workset": "Architecture",
+            "Category": "Floors",
+            "Family": "Attikabrett: Attikabrett",
+            "Family and Type": "Attikabrett: Attikabrett",
+            "Type": "Attikabrett: Attikabrett",
+            "Type Id": "Attikabrett: Attikabrett",
+            "Phase Created": "Zu Bauen"
+        }
+    }
+}

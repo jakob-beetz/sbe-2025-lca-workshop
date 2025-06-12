@@ -1,0 +1,170 @@
+{
+  "Target Layer of Material Inference": {
+    "Material Name": "Archisonic Charcoal",
+    "Thickness": 0.012,
+    "Thickness Unit": "METRE",
+    "Layer Number": 1
+  },
+  "Building Element Context": {
+    "Element Metadata": {
+      "Name": "Basic Wall:Holzbau_Archisonic_Vorbauschale:2146702",
+      "UID": "56105",
+      "GlobalId": "3YjB$irNvB$vE12DKBJJ5a",
+      "Type": "IfcWallStandardCase",
+      "ObjectType": "Basic Wall:Holzbau_Archisonic_Vorbauschale",
+      "Classification": "Not defined",
+      "Decomposes": {},
+      "Is Decomposed By": []
+    },
+    "Other Material Layers": [
+      {
+        "Material Name": "MDF",
+        "Thickness": 0.012,
+        "Thickness Unit": "METRE",
+        "Layer Number": 2
+      }
+    ],
+    "Layer Set Metadata": {
+      "IfcEntity": "IfcMaterialLayerSetUsage",
+      "Layer Set Name": "Basic Wall:Holzbau_Archisonic_Vorbauschale",
+      "Layer Set Description": "Unknown",
+      "Layer Set Total Thickness": "Unknown",
+      "Layer Direction and Growth description": "Layers are stacked perpendicular to the element's length, defining its thickness."
+    },
+    "Element Geometry Data": {
+      "Quantities (IFC)": {
+        "Width": 0.024,
+        "Width unit": "METRE",
+        "Length": 0.59,
+        "Length unit": "METRE",
+        "Height": 2.286,
+        "Height unit": "METRE",
+        "Gross Side Area": 1.3488,
+        "Gross Side Area unit": "SQUARE_METRE",
+        "Net Side Area": 1.3488,
+        "Net Side Area unit": "SQUARE_METRE",
+        "Gross Footprint Area": 0.0142,
+        "Gross Footprint Area unit": "SQUARE_METRE",
+        "Gross Volume": 0.0324,
+        "Gross Volume unit": "CUBIC_METRE",
+        "Net Volume": 0.0324,
+        "Net Volume unit": "CUBIC_METRE"
+      },
+      "Geometric Representation": [
+        "Curve2D",
+        "SweptSolid"
+      ],
+      "Quantities (COMPAS)": {
+        "Net Volume": 0.03237,
+        "Net Volume unit": "CUBIC_METRE",
+        "Entire Surface Area": 2.83571,
+        "Entire Surface Area unit": "SQUARE_METRE"
+      },
+      "Bounding Box Dimensions (OBB - local frame)": {
+        "X": 0.59,
+        "Y": 2.29,
+        "Z": 0.02,
+        "Bounding Box Dimensions Unit": "METRE"
+      },
+      "Bounding Box Volume": 0.027,
+      "Real Volume to Bounding Box Volume Ratio": 1.19889,
+      "Face Count (tessellated element)": {
+        "Face Count": 12
+      },
+      "Vertex Count (tessellated element)": {
+        "Vertex Count": 24
+      },
+      "Edge Count (tessellated element)": {
+        "Edge Count": 30
+      },
+      "Primary Object Axis (Cardinal Direction)": "Undefined"
+    },
+    "Element Property Sets": {
+      "Psets Element": {
+        "Related to Mass": "False",
+        "Room Bounding": "True",
+        "Base Extension Distance": "0.0",
+        "Base is Attached": "False",
+        "Cross-Section": "Vertical",
+        "Top Extension Distance": "0.0",
+        "Top is Attached": "False",
+        "Base Constraint": "Level: 00_Eingang",
+        "Location Line": "Finish Face: Exterior",
+        "Top Constraint": "Level: 01_UK Decke",
+        "Base Offset": "6.0",
+        "Top Offset": "-8.0",
+        "Unconnected Height": "2286.0",
+        "Area": "1.3488280243331",
+        "Length": "590.038505832504",
+        "Volume": "0.0323718725839938",
+        "Edited by": "",
+        "Workset": "Innenausbau",
+        "Category": "Walls",
+        "Family": "Basic Wall: Holzbau_Archisonic_Vorbauschale",
+        "Family and Type": "Basic Wall: Holzbau_Archisonic_Vorbauschale",
+        "Type": "Basic Wall: Holzbau_Archisonic_Vorbauschale",
+        "Type Id": "Basic Wall: Holzbau_Archisonic_Vorbauschale",
+        "Phase Created": "Zu Bauen",
+        "Enable Analytical Model": "False",
+        "Structural": "False",
+        "Structural Usage": "Non-bearing"
+      },
+      "Psets Object Type": {
+        "Analytical Properties.Roughness": "3",
+        "Analytical Properties.Absorptance": "0.7",
+        "Construction.Function": "Exterior",
+        "Construction.Wrapping at Ends": "None",
+        "Construction.Wrapping at Inserts": "Do not wrap",
+        "Construction.Width": "24.0",
+        "Data.Unternehmer": "Künzli",
+        "Graphics.Coarse Scale Fill Pattern": "<Solid fill",
+        "Graphics.Coarse Scale Fill Color": "12632256",
+        "Identity Data.Edited by": "",
+        "Identity Data.Assembly Code": "",
+        "Identity Data.Assembly Description": "",
+        "Identity Data.Workset": "Wall Types",
+        "Identity Data.Cost": "0.0",
+        "Identity Data.Description": "TYP E",
+        "Identity Data.Type Name": "Holzbau_Archisonic_Vorbauschale",
+        "Other.Category": "Walls",
+        "Other.Family Name": "Basic Wall"
+      }
+    },
+    "Element Location": {
+      "Storeys Map": {
+        "00_Betonplatte": {
+          "Elevation": -0.54,
+          "Unit": "meters"
+        },
+        "00_Eingang": {
+          "Elevation": 0.0,
+          "Unit": "meters"
+        },
+        "01_Galerie": {
+          "Elevation": 2.92,
+          "Unit": "meters"
+        }
+      },
+      "Element Located in Storey": "00_Eingang",
+      "Spatial Relationship": [
+        {
+          "name": "1072",
+          "type": "IfcProject"
+        },
+        {
+          "name": "Default",
+          "type": "IfcSite"
+        },
+        {
+          "name": "",
+          "type": "IfcBuilding"
+        },
+        {
+          "name": "00_Eingang",
+          "type": "IfcBuildingStorey"
+        }
+      ]
+    }
+  },
+  "CompilationGroupID": "f17ad5cce9"
+}

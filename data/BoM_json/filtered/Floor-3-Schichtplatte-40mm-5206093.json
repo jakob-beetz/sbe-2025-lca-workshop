@@ -1,0 +1,56 @@
+{
+    "Element Metadata": {
+        "Name": "Floor:3-Schichtplatte 40mm:5206093",
+        "Type": "IfcSlab",
+        "ObjectType": "Floor:3-Schichtplatte 40mm"
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterialLayerSetUsage",
+            "Layer Set Name": "Floor:3-Schichtplatte 40mm",
+            "Layers": [
+                {
+                    "Material Name": "Massivholz",
+                    "Thickness": 0.04,
+                    "Thickness unit": "METRE"
+                }
+            ]
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Width": 0.04,
+            "Width unit": "METRE",
+            "Gross Volume": 0.0218,
+            "Gross Volume unit": "CUBIC_METRE",
+            "Net Volume": 0.0218,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.02178,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 1.2218,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        }
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Related to Mass": "False",
+            "Room Bounding": "True",
+            "Level": "Level: 01_UK Decke",
+            "Area": "0.5445",
+            "Elevation at Bottom": "2156.3738",
+            "Perimeter": "3320.0",
+            "Thickness": "40.0",
+            "Volume": "0.0218",
+            "Workset": "Innenausbau",
+            "Category": "Floors",
+            "Family": "Floor: 3-Schichtplatte 40mm",
+            "Family and Type": "Floor: 3-Schichtplatte 40mm",
+            "Type": "Floor: 3-Schichtplatte 40mm",
+            "Type Id": "Floor: 3-Schichtplatte 40mm",
+            "Phase Created": "Zu Bauen",
+            "Structural": "False"
+        }
+    }
+}

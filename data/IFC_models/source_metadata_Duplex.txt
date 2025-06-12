@@ -1,0 +1,18 @@
+Duplex_A_20110907.ifc
+
+source: https://openifcmodel.cs.auckland.ac.nz/
+
+language: english
+
+design stage: early
+
+software: 
+
+description:
+The Duplex Apartment Project Model was produced in Weimar Germany 
+for a design competition. Permission was given by the author in 2009 to 
+ERDC and the buildingSMART alliance to use for purposes of research and 
+development. This model was updated in 2011 by Kristine Fallon and Associates 
+through a contract with the Engineer Research and Development Center. 
+The purpose of this update was to utilize the Revit 2011 to produce the 
+most complete model possible in support of the FM Handover MVD (or COBie) exchange.

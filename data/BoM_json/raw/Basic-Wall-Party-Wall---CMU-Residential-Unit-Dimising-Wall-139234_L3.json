@@ -1,0 +1,203 @@
+{
+  "Target Layer of Material Inference": {
+    "Material Name": "Masonry - Concrete Block",
+    "Thickness": 0.193,
+    "Thickness Unit": "METRE",
+    "Layer Number": 3
+  },
+  "Building Element Context": {
+    "Element Metadata": {
+      "Name": "Basic Wall:Party Wall - CMU Residential Unit Dimising Wall:139234",
+      "UID": "4287",
+      "GlobalId": "2O2Fr$t4X7Zf8NOew3FNbT",
+      "Type": "IfcWallStandardCase",
+      "ObjectType": "Basic Wall:Party Wall - CMU Residential Unit Dimising Wall:128555",
+      "Classification": "Not defined",
+      "Decomposes": {},
+      "Is Decomposed By": []
+    },
+    "Other Material Layers": [
+      {
+        "Material Name": "Plasterboard",
+        "Thickness": 0.016,
+        "Thickness Unit": "METRE",
+        "Layer Number": 1
+      },
+      {
+        "Material Name": "Metal - Stud Layer",
+        "Thickness": 0.041,
+        "Thickness Unit": "METRE",
+        "Layer Number": 2
+      },
+      {
+        "Material Name": "Misc. Air Layers - Air Space",
+        "Thickness": 0.05,
+        "Thickness Unit": "METRE",
+        "Layer Number": 4
+      },
+      {
+        "Material Name": "Masonry - Concrete Block",
+        "Thickness": 0.193,
+        "Thickness Unit": "METRE",
+        "Layer Number": 5
+      },
+      {
+        "Material Name": "Metal - Stud Layer",
+        "Thickness": 0.041,
+        "Thickness Unit": "METRE",
+        "Layer Number": 6
+      },
+      {
+        "Material Name": "Plasterboard",
+        "Thickness": 0.016,
+        "Thickness Unit": "METRE",
+        "Layer Number": 7
+      }
+    ],
+    "Layer Set Metadata": {
+      "IfcEntity": "IfcMaterialLayerSetUsage",
+      "Layer Set Name": "Basic Wall:Party Wall - CMU Residential Unit Dimising Wall",
+      "Layer Set Description": "Unknown",
+      "Layer Set Total Thickness": "Unknown",
+      "Layer Direction and Growth description": "Layers are stacked perpendicular to the element's length, growing in the opposite direction from its reference surface."
+    },
+    "Element Geometry Data": {
+      "Quantities (IFC)": {},
+      "Geometric Representation": [
+        "Curve2D",
+        "Clipping"
+      ],
+      "Quantities (COMPAS)": {
+        "Net Volume": 5.7887,
+        "Net Volume unit": "CUBIC_METRE",
+        "Entire Surface Area": 30.3816,
+        "Entire Surface Area unit": "SQUARE_METRE"
+      },
+      "Bounding Box Dimensions (OBB - local frame)": {
+        "X": 0.49,
+        "Y": 4.2,
+        "Z": 2.8,
+        "Bounding Box Dimensions Unit": "METRE"
+      },
+      "Bounding Box Volume": 5.7624,
+      "Real Volume to Bounding Box Volume Ratio": 1.0046,
+      "Face Count (tessellated element)": {
+        "Face Count": 12
+      },
+      "Vertex Count (tessellated element)": {
+        "Vertex Count": 24
+      },
+      "Edge Count (tessellated element)": {
+        "Edge Count": 30
+      },
+      "Primary Object Axis (Cardinal Direction)": "N"
+    },
+    "Element Property Sets": {
+      "Psets Element": {
+        "Reference": "Reference",
+        "LoadBearing": "False",
+        "ExtendToStructure": "False",
+        "IsExternal": "True",
+        "Location Line": "0",
+        "Base Constraint": "Level 1",
+        "Base Offset": "0.0",
+        "Base is Attached": "False",
+        "Base Extension Distance": "0.0",
+        "Top Constraint": "Up to level: Level 2",
+        "Unconnected Height": "2.795000000000378",
+        "Top Offset": "-0.3050000000000002",
+        "Top is Attached": "False",
+        "Top Extension Distance": "0.0",
+        "Room Bounding": "True",
+        "Related to Mass": "False",
+        "InstallationDate": "InstallationDate",
+        "SerialNumber": "SerialNumber",
+        "WarrantyStartDate": "WarrantyStartDate",
+        "BarCode": "BarCode",
+        "AssetIdentifier": "AssetIdentifier",
+        "TagNumber": "TagNumber",
+        "Phase Created": "New Construction",
+        "Structural Usage": "0",
+        "Length": "4.191499999999984",
+        "Area": "11.74179500000078",
+        "Volume": "5.788704935000469",
+        "Wrapping at Inserts": "0",
+        "Wrapping at Ends": "0",
+        "Width": "0.5500000000000002",
+        "Function": "5",
+        "Coarse Scale Fill Color": "0",
+        "Manufacturer": "Manufacturer",
+        "Assembly Description": "",
+        "Assembly Code": "",
+        "AccessibilityPerformance": "AccessibilityPerformance",
+        "CodePerformance": "CodePerformance",
+        "Color": "Color",
+        "Constituents": "Constituents",
+        "Features": "Features",
+        "Finish": "Finish",
+        "Grade": "Grade",
+        "Material": "Material",
+        "ModelReference": "ModelReference",
+        "NominalHeight": "NominalHeight",
+        "NominalLength": "NominalLength",
+        "NominalWidth": "NominalWidth",
+        "ProductionYear": "ProductionYear",
+        "Shape": "Shape",
+        "Size": "Size",
+        "SustainabilityPerformance": "SustainabilityPerformance",
+        "WarrantyDescription": "WarrantyDescription",
+        "WarrantyDurationLabor": "WarrantyDurationLabor",
+        "WarrantyDurationParts": "WarrantyDurationParts",
+        "WarrantyGuarantorLabor": "WarrantyGuarantorLabor",
+        "WarrantyGuarantorParts": "WarrantyGuarantorParts",
+        "ExpectedLife": "ExpectedLife",
+        "ReplacementCost": "ReplacementCost",
+        "AssetAccountingType": "FIXED",
+        "Classification Description": "Masonry Structural Walls",
+        "Classification Code": "23-25 30 24 14",
+        "ModelLabel": "ModelLabel"
+      },
+      "Psets Object Type": {}
+    },
+    "Element Location": {
+      "Storeys Map": {
+        "T/FDN": {
+          "Elevation": -1.25,
+          "Unit": "meters"
+        },
+        "Level 1": {
+          "Elevation": 0.0,
+          "Unit": "meters"
+        },
+        "Level 2": {
+          "Elevation": 3.1,
+          "Unit": "meters"
+        },
+        "Roof": {
+          "Elevation": 6.0,
+          "Unit": "meters"
+        }
+      },
+      "Element Located in Storey": "Level 1",
+      "Spatial Relationship": [
+        {
+          "name": "0001",
+          "type": "IfcProject"
+        },
+        {
+          "name": "Default",
+          "type": "IfcSite"
+        },
+        {
+          "name": null,
+          "type": "IfcBuilding"
+        },
+        {
+          "name": "Level 1",
+          "type": "IfcBuildingStorey"
+        }
+      ]
+    }
+  },
+  "CompilationGroupID": "74d4897453"
+}

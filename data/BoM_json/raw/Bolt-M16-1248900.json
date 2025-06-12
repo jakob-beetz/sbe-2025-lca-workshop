@@ -1,0 +1,135 @@
+{
+  "Element Metadata": {
+    "Name": "Bolt:M16:1248900",
+    "UID": "341702",
+    "GlobalId": "0TsKffvhLEDRQQTRDLrGbv",
+    "Type": "IfcBuildingElementProxy",
+    "ObjectType": "M16",
+    "Classification": "Not defined",
+    "Decomposes": {},
+    "Is Decomposed By": []
+  },
+  "Element Material Data": [
+    {
+      "IfcEntity": "IfcMaterial",
+      "Material Name": "Steel",
+      "Material Description": "Unknown",
+      "Material Category": "Unknown",
+      "Thickness": "Unknown",
+      "Thickness unit": "Unknown"
+    }
+  ],
+  "Element Geometry Data": {
+    "Quantities (IFC)": {},
+    "Geometric Representation": [
+      "MappedRepresentation"
+    ],
+    "Quantities (COMPAS)": {
+      "Net Volume": 2.2e-05,
+      "Net Volume unit": "CUBIC_METRE",
+      "Entire Surface Area": 0.006,
+      "Entire Surface Area unit": "SQUARE_METRE"
+    },
+    "Bounding Box Dimensions (OBB - local frame)": {
+      "X": 0.03,
+      "Y": 0.05,
+      "Z": 0.03,
+      "Bounding Box Dimensions Unit": "METRE"
+    },
+    "Bounding Box Volume": 0.0,
+    "Real Volume to Bounding Box Volume Ratio": null,
+    "Face Count (tessellated element)": {
+      "Face Count": 236
+    },
+    "Vertex Count (tessellated element)": {
+      "Vertex Count": 540
+    },
+    "Edge Count (tessellated element)": {
+      "Edge Count": 624
+    },
+    "Primary Object Axis (Cardinal Direction)": "Undefined"
+  },
+  "Element Property Sets": {
+    "Psets Element": {
+      "Default Elevation": "0.0",
+      "H": "9.9",
+      "F": "27.0",
+      "r": "8.0",
+      "HN": "15.5",
+      "D": "16.0",
+      "Workset": "Workset1",
+      "Assembly Description": "",
+      "OmniClass Title": "",
+      "URL": "www.cad-q.no",
+      "OmniClass Number": "",
+      "Assembly Code": "",
+      "Edited by": "",
+      "Elevation": "-2398.99999999966",
+      "Host": "Beam HE : HEA220",
+      "Volume": "2.1966875561457e-05",
+      "L": "21.0",
+      "T": "24.0",
+      "Structural Material": "Steel",
+      "Phase Created": "New",
+      "Schedule Level": "Level: VÅN 4",
+      "Reference": "M16"
+    },
+    "Psets Object Type": {}
+  },
+  "Element Relationships": {
+    "Nests": null,
+    "Is Nested By": null,
+    "Covers": null,
+    "Is Covered By": null,
+    "Has Openings": null,
+    "Assigned Groups": null
+  },
+  "Element Location": {
+    "Storeys Map": {
+      "Ref.": {
+        "Elevation": 0.0,
+        "Unit": "meters"
+      },
+      "VÅN 1": {
+        "Elevation": 2.7,
+        "Unit": "meters"
+      },
+      "VÅN 2": {
+        "Elevation": 6.0,
+        "Unit": "meters"
+      },
+      "VÅN 3": {
+        "Elevation": 9.3,
+        "Unit": "meters"
+      },
+      "VÅN 4": {
+        "Elevation": 12.0,
+        "Unit": "meters"
+      },
+      "VÅN 5": {
+        "Elevation": 16.0,
+        "Unit": "meters"
+      }
+    },
+    "Element Located in Storey": "VÅN 3",
+    "Spatial Relationship": [
+      {
+        "name": "1018 4979",
+        "type": "IfcProject"
+      },
+      {
+        "name": "Default",
+        "type": "IfcSite"
+      },
+      {
+        "name": "",
+        "type": "IfcBuilding"
+      },
+      {
+        "name": "VÅN 3",
+        "type": "IfcBuildingStorey"
+      }
+    ]
+  },
+  "CompilationGroupID": "62728b82aa"
+}

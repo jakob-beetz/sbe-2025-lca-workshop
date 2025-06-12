@@ -1,0 +1,66 @@
+{
+    "Element Metadata": {
+        "Name": "Basic Wall:KVH Balken 120mm:6158104",
+        "Type": "IfcWallStandardCase",
+        "ObjectType": "Basic Wall:KVH Balken 120mm"
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterialLayerSetUsage",
+            "Layer Set Name": "Basic Wall:KVH Balken 120mm",
+            "Layers": [
+                {
+                    "Material Name": "Brettschichtholz C24",
+                    "Thickness": 0.12,
+                    "Thickness unit": "METRE"
+                }
+            ]
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Width": 0.12,
+            "Width unit": "METRE",
+            "Length": 0.544,
+            "Length unit": "METRE",
+            "Height": 0.2012,
+            "Height unit": "METRE",
+            "Gross Side Area": 0.1093,
+            "Gross Side Area unit": "SQUARE_METRE",
+            "Net Side Area": 0.1093,
+            "Net Side Area unit": "SQUARE_METRE",
+            "Gross Footprint Area": 0.0653,
+            "Gross Footprint Area unit": "SQUARE_METRE",
+            "Gross Volume": 0.0131,
+            "Gross Volume unit": "CUBIC_METRE",
+            "Net Volume": 0.013,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.01304,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 0.39609,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        }
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Related to Mass": "False",
+            "Room Bounding": "True",
+            "Location Line": "Finish Face: Exterior",
+            "Base Constraint": "Level: 01_Galerie",
+            "Area": "0.1093",
+            "Length": "543.956",
+            "Volume": "0.013",
+            "Workset": "Architecture",
+            "Category": "Walls",
+            "Family": "Basic Wall: KVH Balken 120mm",
+            "Family and Type": "Basic Wall: KVH Balken 120mm",
+            "Type": "Basic Wall: KVH Balken 120mm",
+            "Type Id": "Basic Wall: KVH Balken 120mm",
+            "Phase Created": "Zu Bauen",
+            "Structural": "False",
+            "Structural Usage": "Non-bearing"
+        }
+    }
+}

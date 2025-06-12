@@ -1,0 +1,56 @@
+{
+    "Element Metadata": {
+        "Name": "Floor:Terrassenbelag Holzlattung Douglasie:7269453",
+        "Type": "IfcSlab",
+        "ObjectType": "Floor:Terrassenbelag Holzlattung Douglasie"
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterialLayerSetUsage",
+            "Layer Set Name": "Floor:Terrassenbelag Holzlattung Douglasie",
+            "Layers": [
+                {
+                    "Material Name": "Terrassenbelag Holz",
+                    "Thickness": 0.026000000000000002,
+                    "Thickness unit": "METRE"
+                }
+            ]
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Width": 0.026,
+            "Width unit": "METRE",
+            "Gross Volume": 0.3438,
+            "Gross Volume unit": "CUBIC_METRE",
+            "Net Volume": 0.3438,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.34377,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 26.98082,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        }
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Level": "Level: 00_Eingang",
+            "Related to Mass": "False",
+            "Room Bounding": "True",
+            "Area": "13.2219",
+            "Elevation at Bottom": "-41.0",
+            "Perimeter": "20653.9467",
+            "Thickness": "26.0",
+            "Volume": "0.3438",
+            "Workset": "Architecture",
+            "Category": "Floors",
+            "Family": "Floor: Terrassenbelag Holzlattung Douglasie",
+            "Family and Type": "Floor: Terrassenbelag Holzlattung Douglasie",
+            "Type": "Floor: Terrassenbelag Holzlattung Douglasie",
+            "Type Id": "Floor: Terrassenbelag Holzlattung Douglasie",
+            "Phase Created": "Zu Bauen",
+            "Structural": "False"
+        }
+    }
+}

@@ -1,0 +1,116 @@
+{
+  "Element Metadata": {
+    "Name": "Attikablech Galerie Südost:Attikablech Galerie Südost:6350725",
+    "UID": "669918",
+    "GlobalId": "1lNlPQ7XT5RQ2wbJSTuGUj",
+    "Type": "IfcWall",
+    "ObjectType": "Attikablech Galerie Südost:Attikablech Galerie Südost",
+    "Classification": "Not defined",
+    "Decomposes": {},
+    "Is Decomposed By": []
+  },
+  "Element Material Data": "Not defined",
+  "Element Geometry Data": {
+    "Quantities (IFC)": {},
+    "Geometric Representation": [
+      "Brep"
+    ],
+    "Quantities (COMPAS)": {
+      "Net Volume": 0.00495,
+      "Net Volume unit": "CUBIC_METRE",
+      "Entire Surface Area": 4.98504,
+      "Entire Surface Area unit": "SQUARE_METRE"
+    },
+    "Bounding Box Dimensions (OBB - local frame)": {
+      "X": 5.51,
+      "Y": 0.58,
+      "Z": 0.08,
+      "Bounding Box Dimensions Unit": "METRE"
+    },
+    "Bounding Box Volume": 0.2557,
+    "Real Volume to Bounding Box Volume Ratio": 0.01936,
+    "Face Count (tessellated element)": {
+      "Face Count": 68
+    },
+    "Vertex Count (tessellated element)": {
+      "Vertex Count": 120
+    },
+    "Edge Count (tessellated element)": {
+      "Edge Count": 162
+    },
+    "Primary Object Axis (Cardinal Direction)": "E"
+  },
+  "Element Property Sets": {
+    "Psets Element": {
+      "Room Bounding": "True",
+      "Moves With Nearby Elements": "False",
+      "Area": "1.65634238394336",
+      "Volume": "0.00494927026237301",
+      "Edited by": "",
+      "Workset": "Architecture",
+      "Category": "Walls",
+      "Family": "Attikablech Galerie Südost: Attikablech Galerie Südost",
+      "Family and Type": "Attikablech Galerie Südost: Attikablech Galerie Südost",
+      "Type": "Attikablech Galerie Südost: Attikablech Galerie Südost",
+      "Type Id": "Attikablech Galerie Südost: Attikablech Galerie Südost",
+      "Phase Created": "Zu Bauen",
+      "Rebar Cover": "Rebar Cover Settings: Bewehrungsüberdeckung 1"
+    },
+    "Psets Object Type": {
+      "Data.Unternehmer": "Kaufmann",
+      "Identity Data.Edited by": "",
+      "Identity Data.Assembly Code": "",
+      "Identity Data.Assembly Description": "",
+      "Identity Data.Workset": "Architecture",
+      "Identity Data.Code Name": "",
+      "Identity Data.OmniClass Number": "",
+      "Identity Data.OmniClass Title": "",
+      "Identity Data.Type Name": "Attikablech Galerie Südost",
+      "Other.Category": "Walls",
+      "Other.Family Name": "Attikablech Galerie Südost"
+    }
+  },
+  "Element Relationships": {
+    "Nests": null,
+    "Is Nested By": null,
+    "Covers": null,
+    "Is Covered By": null,
+    "Has Openings": null,
+    "Assigned Groups": null
+  },
+  "Element Location": {
+    "Storeys Map": {
+      "00_Betonplatte": {
+        "Elevation": -0.54,
+        "Unit": "meters"
+      },
+      "00_Eingang": {
+        "Elevation": 0.0,
+        "Unit": "meters"
+      },
+      "01_Galerie": {
+        "Elevation": 2.92,
+        "Unit": "meters"
+      }
+    },
+    "Element Located in Storey": "00_Eingang",
+    "Spatial Relationship": [
+      {
+        "name": "1072",
+        "type": "IfcProject"
+      },
+      {
+        "name": "Default",
+        "type": "IfcSite"
+      },
+      {
+        "name": "",
+        "type": "IfcBuilding"
+      },
+      {
+        "name": "00_Eingang",
+        "type": "IfcBuildingStorey"
+      }
+    ]
+  }
+}

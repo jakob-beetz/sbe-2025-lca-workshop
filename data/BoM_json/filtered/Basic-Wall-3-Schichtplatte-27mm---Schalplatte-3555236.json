@@ -1,0 +1,66 @@
+{
+    "Element Metadata": {
+        "Name": "Basic Wall:3-Schichtplatte 27mm - Schalplatte:3555236",
+        "Type": "IfcWallStandardCase",
+        "ObjectType": "Basic Wall:3-Schichtplatte 27mm - Schalplatte"
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterialLayerSetUsage",
+            "Layer Set Name": "Basic Wall:3-Schichtplatte 27mm - Schalplatte",
+            "Layers": [
+                {
+                    "Material Name": "3-Schicht-Platte",
+                    "Thickness": 0.027,
+                    "Thickness unit": "METRE"
+                }
+            ]
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Width": 0.027,
+            "Width unit": "METRE",
+            "Length": 5.2808,
+            "Length unit": "METRE",
+            "Height": 0.36,
+            "Height unit": "METRE",
+            "Gross Side Area": 1.9011,
+            "Gross Side Area unit": "SQUARE_METRE",
+            "Net Side Area": 1.9011,
+            "Net Side Area unit": "SQUARE_METRE",
+            "Gross Footprint Area": 0.1425,
+            "Gross Footprint Area unit": "SQUARE_METRE",
+            "Gross Volume": 0.0513,
+            "Gross Volume unit": "CUBIC_METRE",
+            "Net Volume": 0.0513,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.0513,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 4.10474,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        }
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Related to Mass": "False",
+            "Room Bounding": "True",
+            "Location Line": "Finish Face: Exterior",
+            "Base Constraint": "Level: 01_UK Decke",
+            "Area": "1.9011",
+            "Length": "5250.5585",
+            "Volume": "0.0513",
+            "Workset": "Tragwerk",
+            "Category": "Walls",
+            "Family": "Basic Wall: 3-Schichtplatte 27mm - Schalplatte",
+            "Family and Type": "Basic Wall: 3-Schichtplatte 27mm - Schalplatte",
+            "Type": "Basic Wall: 3-Schichtplatte 27mm - Schalplatte",
+            "Type Id": "Basic Wall: 3-Schichtplatte 27mm - Schalplatte",
+            "Phase Created": "Montage Funicular Floor",
+            "Structural": "False",
+            "Structural Usage": "Non-bearing"
+        }
+    }
+}

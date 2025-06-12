@@ -1,0 +1,127 @@
+{
+  "Element Metadata": {
+    "Name": "Bleche Fassade_V6:Bleche Fassade_V6:4910201",
+    "UID": "97732",
+    "GlobalId": "1GYJkCWSXDPAizLcwxbAKl",
+    "Type": "IfcBuildingElementProxy",
+    "ObjectType": "Bleche Fassade_V6:Bleche Fassade_V6",
+    "Classification": "Not defined",
+    "Decomposes": {},
+    "Is Decomposed By": []
+  },
+  "Element Material Data": [
+    {
+      "IfcEntity": "IfcMaterial",
+      "Material Name": "Material 4",
+      "Material Description": "Unknown",
+      "Material Category": "Unknown",
+      "Thickness": "Unknown",
+      "Thickness unit": "Unknown"
+    }
+  ],
+  "Element Geometry Data": {
+    "Quantities (IFC)": {},
+    "Geometric Representation": [
+      "MappedRepresentation"
+    ],
+    "Quantities (COMPAS)": {
+      "Net Volume": 0.06457,
+      "Net Volume unit": "CUBIC_METRE",
+      "Entire Surface Area": 27.10547,
+      "Entire Surface Area unit": "SQUARE_METRE"
+    },
+    "Bounding Box Dimensions (OBB - local frame)": {
+      "X": 16.62,
+      "Y": 6.78,
+      "Z": 7.15,
+      "Bounding Box Dimensions Unit": "METRE"
+    },
+    "Bounding Box Volume": 805.6877,
+    "Real Volume to Bounding Box Volume Ratio": 8e-05,
+    "Face Count (tessellated element)": {
+      "Face Count": 3568
+    },
+    "Vertex Count (tessellated element)": {
+      "Vertex Count": 5448
+    },
+    "Edge Count (tessellated element)": {
+      "Edge Count": 8076
+    },
+    "Primary Object Axis (Cardinal Direction)": "W"
+  },
+  "Element Property Sets": {
+    "Psets Element": {
+      "Level": "Level: 00_Eingang",
+      "Moves With Nearby Elements": "False",
+      "Elevation from Level": "0.0",
+      "Host": "Level : 00_Eingang",
+      "Offset from Host": "0.0",
+      "Area": "13.5527289961991",
+      "Volume": "0.0645729327375878",
+      "Edited by": "",
+      "Workset": "Dachkonstruktion",
+      "Category": "Generic Models",
+      "Family": "Bleche Fassade_V6: Bleche Fassade_V6",
+      "Family and Type": "Bleche Fassade_V6: Bleche Fassade_V6",
+      "Type": "Bleche Fassade_V6: Bleche Fassade_V6",
+      "Type Id": "Bleche Fassade_V6: Bleche Fassade_V6",
+      "Phase Created": "Zu Bauen"
+    },
+    "Psets Object Type": {
+      "Constraints.Default Elevation": "0.0",
+      "Identity Data.Edited by": "",
+      "Identity Data.Assembly Code": "",
+      "Identity Data.Assembly Description": "",
+      "Identity Data.Code Name": "",
+      "Identity Data.OmniClass Number": "",
+      "Identity Data.OmniClass Title": "",
+      "Identity Data.Type Name": "Bleche Fassade_V6",
+      "Identity Data.Workset": "Family  : Generic Models : Bleche Fassade_V6",
+      "Other.Category": "Generic Models",
+      "Other.Family Name": "Bleche Fassade_V6"
+    }
+  },
+  "Element Relationships": {
+    "Nests": null,
+    "Is Nested By": null,
+    "Covers": null,
+    "Is Covered By": null,
+    "Has Openings": null,
+    "Assigned Groups": null
+  },
+  "Element Location": {
+    "Storeys Map": {
+      "00_Betonplatte": {
+        "Elevation": -0.54,
+        "Unit": "meters"
+      },
+      "00_Eingang": {
+        "Elevation": 0.0,
+        "Unit": "meters"
+      },
+      "01_Galerie": {
+        "Elevation": 2.92,
+        "Unit": "meters"
+      }
+    },
+    "Element Located in Storey": "00_Eingang",
+    "Spatial Relationship": [
+      {
+        "name": "1072",
+        "type": "IfcProject"
+      },
+      {
+        "name": "Default",
+        "type": "IfcSite"
+      },
+      {
+        "name": "",
+        "type": "IfcBuilding"
+      },
+      {
+        "name": "00_Eingang",
+        "type": "IfcBuildingStorey"
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+    "Element Metadata": {
+        "Name": "Attikablech Galerie Südost:Attikablech Galerie Südost:6350725",
+        "Type": "IfcWall",
+        "ObjectType": "Attikablech Galerie Südost:Attikablech Galerie Südost"
+    },
+    "Element Material Data": "Not defined",
+    "Element Geometry Data": {
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.00495,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 4.98504,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        }
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Room Bounding": "True",
+            "Area": "1.6563",
+            "Volume": "0.0049",
+            "Workset": "Architecture",
+            "Category": "Walls",
+            "Family": "Attikablech Galerie Südost: Attikablech Galerie Südost",
+            "Family and Type": "Attikablech Galerie Südost: Attikablech Galerie Südost",
+            "Type": "Attikablech Galerie Südost: Attikablech Galerie Südost",
+            "Type Id": "Attikablech Galerie Südost: Attikablech Galerie Südost",
+            "Phase Created": "Zu Bauen"
+        }
+    }
+}

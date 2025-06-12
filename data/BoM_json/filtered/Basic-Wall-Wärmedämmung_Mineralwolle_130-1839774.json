@@ -1,0 +1,47 @@
+{
+    "Element Metadata": {
+        "Name": "Basic Wall:Wärmedämmung_Mineralwolle_130:1839774",
+        "Type": "IfcWall",
+        "ObjectType": "Basic Wall:Wärmedämmung_Mineralwolle_130"
+    },
+    "Element Material Data": [
+        {
+            "Layers": [
+                {
+                    "IfcEntity": "IfcMaterialLayer",
+                    "Material Name": "Wärmedämmung Mineralwolle, 0.035 W/mK",
+                    "Thickness": 0.13,
+                    "Thickness unit": "METRE"
+                }
+            ]
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.22159,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 4.54742,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        }
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Related to Mass": "False",
+            "Base Constraint": "Level: 00_Betonplatte",
+            "Location Line": "Core Face: Exterior",
+            "Room Bounding": "False",
+            "Area": "1.7095",
+            "Length": "3940.0",
+            "Volume": "0.2216",
+            "Workset": "Architecture",
+            "Category": "Walls",
+            "Family": "Basic Wall: Wärmedämmung_Mineralwolle_130",
+            "Family and Type": "Basic Wall: Wärmedämmung_Mineralwolle_130",
+            "Type": "Basic Wall: Wärmedämmung_Mineralwolle_130",
+            "Type Id": "Basic Wall: Wärmedämmung_Mineralwolle_130",
+            "Phase Created": "Zu Bauen",
+            "Structural": "False",
+            "Structural Usage": "Non-bearing"
+        }
+    }
+}

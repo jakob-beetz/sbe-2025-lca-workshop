@@ -1,0 +1,57 @@
+{
+    "Target Layer of Material Inference": {
+        "Material Name": "Wood - Flooring",
+        "Thickness": 0.016,
+        "Thickness Unit": "METRE",
+        "Layer Number": 1
+    },
+    "Building Element Context": {
+        "Element Metadata": {
+            "Name": "Floor:Finish Floor - Wood:169093",
+            "Type": "IfcSlab",
+            "ObjectType": "Floor:Finish Floor - Wood"
+        },
+        "Other Material Layers": [
+            {
+                "Material Name": "Insulation / Thermal Barriers - Semi-rigid insulation",
+                "Thickness": 0.003,
+                "Thickness Unit": "METRE",
+                "Layer Number": 2
+            }
+        ],
+        "Element Geometry Data": {
+            "Quantities (COMPAS)": {
+                "Net Volume": 0.4188,
+                "Net Volume unit": "CUBIC_METRE",
+                "Entire Surface Area": 44.4648,
+                "Entire Surface Area unit": "SQUARE_METRE"
+            }
+        },
+        "Element Property Sets": {
+            "Psets Element": {
+                "Reference": "Reference",
+                "IsExternal": "False",
+                "LoadBearing": "True",
+                "Level": "Level 2",
+                "Room Bounding": "True",
+                "Related to Mass": "False",
+                "Structural": "False",
+                "Phase Created": "New Construction",
+                "Perimeter": "19.914",
+                "Area": "22.0432",
+                "Volume": "0.4188",
+                "Thickness": "0.019",
+                "Structural Usage": "3.0",
+                "Function": "0.0",
+                "Manufacturer": "Manufacturer",
+                "Color": "Color",
+                "Features": "Features",
+                "Finish": "Finish",
+                "Material": "Material",
+                "Shape": "Shape",
+                "Size": "Size",
+                "Classification Description": "Wood Flooring"
+            }
+        }
+    }
+}

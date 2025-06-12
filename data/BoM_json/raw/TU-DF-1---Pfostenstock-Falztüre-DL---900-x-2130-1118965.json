@@ -1,0 +1,183 @@
+{
+  "Element Metadata": {
+    "Name": "TU DF 1 - Pfostenstock Falztüre:DL - 900 x 2130:1118965",
+    "UID": "11115",
+    "GlobalId": "2p6mMpo0jBHOHKNx73TrN0",
+    "Type": "IfcDoor",
+    "ObjectType": "TU DF 1 - Pfostenstock Falztüre:DL - 900 x 2130",
+    "Classification": "Not defined",
+    "Decomposes": {},
+    "Is Decomposed By": []
+  },
+  "Element Material Data": "Not defined",
+  "Element Geometry Data": {
+    "Quantities (IFC)": {
+      "Width": 1.06,
+      "Width unit": "METRE",
+      "Height": 2.205,
+      "Height unit": "METRE"
+    },
+    "Geometric Representation": [
+      "MappedRepresentation"
+    ],
+    "Quantities (COMPAS)": {
+      "Net Volume": 0.10707,
+      "Net Volume unit": "CUBIC_METRE",
+      "Entire Surface Area": 6.57707,
+      "Entire Surface Area unit": "SQUARE_METRE"
+    },
+    "Bounding Box Dimensions (OBB - local frame)": {
+      "X": 0.31,
+      "Y": 1.06,
+      "Z": 2.31,
+      "Bounding Box Dimensions Unit": "METRE"
+    },
+    "Bounding Box Volume": 0.7591,
+    "Real Volume to Bounding Box Volume Ratio": 0.14105,
+    "Face Count (tessellated element)": {
+      "Face Count": 10288
+    },
+    "Vertex Count (tessellated element)": {
+      "Vertex Count": 11012
+    },
+    "Edge Count (tessellated element)": {
+      "Edge Count": 20938
+    },
+    "Primary Object Axis (Cardinal Direction)": "W"
+  },
+  "Element Property Sets": {
+    "Psets Element": {
+      "Level": "Level: 00_Eingang",
+      "Einbautiefe": "208.0",
+      "Fußbodenaufbau": "100.0",
+      "Pfostenstock Wandmittig eingebaut": "False",
+      "Sill Height": "0.0",
+      "Wandaufbau Bandseite": "0.0",
+      "Wandaufbau Gegenbandseite": "0.0",
+      "Winkel Öffnungsbogen": "90.0",
+      "SOFiSTiK_HeadProject": "2124.99999999804",
+      "SOFiSTiK_HeadShared": "447374.999999998",
+      "SOFiSTiK_SillProject": "-5.0",
+      "SOFiSTiK_SillShared": "445245.0",
+      "Area": "6.88009853561724",
+      "Height": "2205.0",
+      "Rough Height": "2305.0",
+      "Volume": "0.0467128625000006",
+      "Grundrissdarstellung Türsturz": "False",
+      "Kollisionskörper einschalten": "False",
+      "Tür mit Anschlag": "False",
+      "Edited by": "",
+      "Workset": "Architecture",
+      "Mark": "18",
+      "Drücker Bandseite": "True",
+      "Drücker Gegenbandseite": "True",
+      "Zylinderrosette": "True",
+      "Category": "Doors",
+      "Family": "TU DF 1 - Pfostenstock Falztüre: DL - 900 x 2130",
+      "Family and Type": "TU DF 1 - Pfostenstock Falztüre: DL - 900 x 2130",
+      "Head Height": "2205.0",
+      "Host Id": "Basic Wall: BSP 140 Sichtseite einseitig",
+      "Type": "TU DF 1 - Pfostenstock Falztüre: DL - 900 x 2130",
+      "Type Id": "TU DF 1 - Pfostenstock Falztüre: DL - 900 x 2130",
+      "B_Einbautiefe": "208.0",
+      "Knauf Außenseite": "False",
+      "Knauf Innenseite": "False",
+      "Wandstärke": "140.0",
+      "Wandstärke Gesamt": "140.000000000966",
+      "Phase Created": "Zu Bauen"
+    },
+    "Psets Object Type": {
+      "Analytical Properties.Analytic Construction": "<None",
+      "Analytical Properties.Define Thermal Properties by": "Schematic Type",
+      "Constraints.Durchgangsbreite": "900.0",
+      "Constraints.Durchgangshöhe": "2125.0",
+      "Construction.Function": "Interior",
+      "Construction.Drückerhöhe": "1050.0",
+      "Construction.Falzaufschlag": "0.0",
+      "Construction.Rahmendicke": "80.0",
+      "Construction.Rahmentiefe": "55.0",
+      "Construction.Wall Closure": "By host",
+      "Data.Anschlag- / Bewegungsart Tür": "Drehflügeltür",
+      "Data.Anzahl Flügel": "einflügelig",
+      "Data.Anzahl Oberlichter": "0",
+      "Data.Anzahl Seitenteile": "0",
+      "Data.Ausführung Zarge": "Blockzarge",
+      "Data.Form Tür": "rechteckig",
+      "Data.Unternehmer": "Künzli",
+      "Dimensions.Abstand_Glasrahmen": "200.0",
+      "Dimensions.Angabe Lichter Durchgang Breite": "900.0",
+      "Dimensions.Angabe Lichter Durchgang Höhe": "2125.0",
+      "Dimensions.Angabe Maueröffnungsmaß Breite": "885.0",
+      "Dimensions.Angabe Maueröffnungsmaß Höhe": "2135.0",
+      "Dimensions.Größenberechnung über Lichten Durchgang": "True",
+      "Dimensions.Größenberechnung über Maueröffnungsmaß": "False",
+      "Dimensions.Höhe ab FBOK": "2205.0",
+      "Dimensions.Höhe ab FBOK berechnen": "True",
+      "Dimensions.Randabstand Öffnungssymbol": "0.0",
+      "Dimensions.Rough Width": "1060.0",
+      "Dimensions.Thickness": "45.0",
+      "Dimensions.Tiefe Rahmen": "208.0",
+      "Dimensions.Width": "1060.0",
+      "Identity Data.Edited by": "",
+      "Identity Data.Assembly Code": "",
+      "Identity Data.Assembly Description": "",
+      "Identity Data.Code Name": "",
+      "Identity Data.Fire Rating": "",
+      "Identity Data.Description": "1-teilig",
+      "Identity Data.OmniClass Number": "23.30.10.00",
+      "Identity Data.OmniClass Title": "Doors",
+      "Identity Data.Type Comments": "Pfostenstock Falztüre",
+      "Identity Data.Type Mark": "60",
+      "Identity Data.Type Name": "DL - 900 x 2130",
+      "Identity Data.URL": "http://www.autodesk.de/BIM",
+      "Identity Data.Workset": "Family  : Doors : TU DF 1 - Pfostenstock Falztüre",
+      "Other.Category": "Doors",
+      "Other.Family Name": "TU DF 1 - Pfostenstock Falztüre",
+      "Overall Legend.Falztiefe": "45.0"
+    }
+  },
+  "Element Relationships": {
+    "Nests": null,
+    "Is Nested By": null,
+    "Covers": null,
+    "Is Covered By": null,
+    "Has Openings": null,
+    "Assigned Groups": null
+  },
+  "Element Location": {
+    "Storeys Map": {
+      "00_Betonplatte": {
+        "Elevation": -0.54,
+        "Unit": "meters"
+      },
+      "00_Eingang": {
+        "Elevation": 0.0,
+        "Unit": "meters"
+      },
+      "01_Galerie": {
+        "Elevation": 2.92,
+        "Unit": "meters"
+      }
+    },
+    "Element Located in Storey": "00_Eingang",
+    "Spatial Relationship": [
+      {
+        "name": "1072",
+        "type": "IfcProject"
+      },
+      {
+        "name": "Default",
+        "type": "IfcSite"
+      },
+      {
+        "name": "",
+        "type": "IfcBuilding"
+      },
+      {
+        "name": "00_Eingang",
+        "type": "IfcBuildingStorey"
+      }
+    ]
+  },
+  "CompilationGroupID": "f235024de1"
+}

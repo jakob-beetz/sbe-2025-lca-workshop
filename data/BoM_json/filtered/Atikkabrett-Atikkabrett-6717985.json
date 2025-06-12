@@ -1,0 +1,41 @@
+{
+    "Element Metadata": {
+        "Name": "Atikkabrett:Atikkabrett:6717985",
+        "Type": "IfcSlab",
+        "ObjectType": "Atikkabrett:Atikkabrett"
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterial",
+            "Material Name": "Massivholz"
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Net Volume": 0.1636,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.16356,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 13.5378,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        }
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Room Bounding": "True",
+            "Level": "Level: 01_Brüstung",
+            "Elevation from Level": "0.0",
+            "Area": "6.7689",
+            "Volume": "0.1636",
+            "Workset": "Architecture",
+            "Category": "Floors",
+            "Family": "Atikkabrett: Atikkabrett",
+            "Family and Type": "Atikkabrett: Atikkabrett",
+            "Type": "Atikkabrett: Atikkabrett",
+            "Type Id": "Atikkabrett: Atikkabrett",
+            "Phase Created": "Zu Bauen"
+        }
+    }
+}

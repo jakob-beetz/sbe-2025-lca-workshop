@@ -1,0 +1,152 @@
+{
+  "Element Metadata": {
+    "Name": "Floor:Fensterbank 40mm:7087153",
+    "UID": "1088562",
+    "GlobalId": "2a3aebrJ92phd3vVWBKgpr",
+    "Type": "IfcSlab",
+    "ObjectType": "Floor:Fensterbank 40mm",
+    "Classification": "Not defined",
+    "Decomposes": {},
+    "Is Decomposed By": []
+  },
+  "Element Material Data": [
+    {
+      "IfcEntity": "IfcMaterialLayerSetUsage",
+      "Layer Set Name": "Floor:Fensterbank 40mm",
+      "Layer Set Description": "Unknown",
+      "Layer Set Total Thickness": "Unknown",
+      "Layers": [
+        {
+          "IfcEntity": "IfcMaterialLayer",
+          "Material Name": "Holzschalung Horizontal, Nadelholz,  schwarz gestrichen",
+          "Description": "Unknown",
+          "Category": "Unknown",
+          "Thickness": 0.04,
+          "Thickness unit": "METRE"
+        }
+      ]
+    }
+  ],
+  "Element Geometry Data": {
+    "Quantities (IFC)": {
+      "Width": 0.04,
+      "Width unit": "METRE",
+      "Gross Volume": 0.0352,
+      "Gross Volume unit": "CUBIC_METRE",
+      "Net Volume": 0.0352,
+      "Net Volume unit": "CUBIC_METRE"
+    },
+    "Geometric Representation": [
+      "SweptSolid"
+    ],
+    "Quantities (COMPAS)": {
+      "Net Volume": 0.03524,
+      "Net Volume unit": "CUBIC_METRE",
+      "Entire Surface Area": 2.04052,
+      "Entire Surface Area unit": "SQUARE_METRE"
+    },
+    "Bounding Box Dimensions (OBB - local frame)": {
+      "X": 3.2,
+      "Y": 0.27,
+      "Z": 0.04,
+      "Bounding Box Dimensions Unit": "METRE"
+    },
+    "Bounding Box Volume": 0.0346,
+    "Real Volume to Bounding Box Volume Ratio": 1.0185,
+    "Face Count (tessellated element)": {
+      "Face Count": 12
+    },
+    "Vertex Count (tessellated element)": {
+      "Vertex Count": 24
+    },
+    "Edge Count (tessellated element)": {
+      "Edge Count": 30
+    },
+    "Primary Object Axis (Cardinal Direction)": "N"
+  },
+  "Element Property Sets": {
+    "Psets Element": {
+      "Related to Mass": "False",
+      "Room Bounding": "True",
+      "Level": "Level: 00_Betonplatte",
+      "Height Offset From Level": "549.732344761147",
+      "Area": "0.881100000154016",
+      "Elevation at Bottom": "-30.2676552388519",
+      "Elevation at Top": "9.7323447611481",
+      "Perimeter": "6958.00000112012",
+      "Thickness": "40.0",
+      "Volume": "0.0352440000061606",
+      "Edited by": "",
+      "Workset": "Architecture",
+      "Category": "Floors",
+      "Family": "Floor: Fensterbank 40mm",
+      "Family and Type": "Floor: Fensterbank 40mm",
+      "Type": "Floor: Fensterbank 40mm",
+      "Type Id": "Floor: Fensterbank 40mm",
+      "Phase Created": "Zu Bauen",
+      "Enable Analytical Model": "False",
+      "Structural": "False"
+    },
+    "Psets Object Type": {
+      "Analytical Properties.Roughness": "3",
+      "Analytical Properties.Absorptance": "0.7",
+      "Construction.Function": "Interior",
+      "Construction.Default Thickness": "40.0",
+      "Data.Unternehmer": "Künzli",
+      "Graphics.Coarse Scale Fill Pattern": "<Solid fill",
+      "Graphics.Coarse Scale Fill Color": "8421504",
+      "Identity Data.Edited by": "",
+      "Identity Data.Assembly Code": "",
+      "Identity Data.Assembly Description": "",
+      "Identity Data.Workset": "Floor Types",
+      "Identity Data.Cost": "0.0",
+      "Identity Data.Type Name": "Fensterbank 40mm",
+      "Other.Category": "Floors",
+      "Other.Family Name": "Floor"
+    }
+  },
+  "Element Relationships": {
+    "Nests": null,
+    "Is Nested By": null,
+    "Covers": null,
+    "Is Covered By": null,
+    "Has Openings": null,
+    "Assigned Groups": null
+  },
+  "Element Location": {
+    "Storeys Map": {
+      "00_Betonplatte": {
+        "Elevation": -0.54,
+        "Unit": "meters"
+      },
+      "00_Eingang": {
+        "Elevation": 0.0,
+        "Unit": "meters"
+      },
+      "01_Galerie": {
+        "Elevation": 2.92,
+        "Unit": "meters"
+      }
+    },
+    "Element Located in Storey": "00_Betonplatte",
+    "Spatial Relationship": [
+      {
+        "name": "1072",
+        "type": "IfcProject"
+      },
+      {
+        "name": "Default",
+        "type": "IfcSite"
+      },
+      {
+        "name": "",
+        "type": "IfcBuilding"
+      },
+      {
+        "name": "00_Betonplatte",
+        "type": "IfcBuildingStorey"
+      }
+    ]
+  },
+  "CompilationGroupID": "7f5669cfcb"
+}

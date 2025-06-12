@@ -1,0 +1,155 @@
+{
+  "Element Metadata": {
+    "Name": "Floor:Gitterrost schwarz:354156",
+    "UID": "319",
+    "GlobalId": "3fl00qHO16BwCmbpQP9mlL",
+    "Type": "IfcSlab",
+    "ObjectType": "Floor:Gitterrost schwarz",
+    "Classification": "Not defined",
+    "Decomposes": {},
+    "Is Decomposed By": []
+  },
+  "Element Material Data": [
+    {
+      "IfcEntity": "IfcMaterialLayerSetUsage",
+      "Layer Set Name": "Floor:Gitterrost schwarz",
+      "Layer Set Description": "Unknown",
+      "Layer Set Total Thickness": "Unknown",
+      "Layers": [
+        {
+          "IfcEntity": "IfcMaterialLayer",
+          "Material Name": "Zink Gitter",
+          "Description": "Unknown",
+          "Category": "Unknown",
+          "Thickness": 0.03,
+          "Thickness unit": "METRE"
+        }
+      ]
+    }
+  ],
+  "Element Geometry Data": {
+    "Quantities (IFC)": {
+      "Width": 0.03,
+      "Width unit": "METRE",
+      "Gross Volume": 0.042,
+      "Gross Volume unit": "CUBIC_METRE",
+      "Net Volume": 0.042,
+      "Net Volume unit": "CUBIC_METRE"
+    },
+    "Geometric Representation": [
+      "SweptSolid"
+    ],
+    "Quantities (COMPAS)": {
+      "Net Volume": 0.042,
+      "Net Volume unit": "CUBIC_METRE",
+      "Entire Surface Area": 3.08417,
+      "Entire Surface Area unit": "SQUARE_METRE"
+    },
+    "Bounding Box Dimensions (OBB - local frame)": {
+      "X": 0.58,
+      "Y": 4.18,
+      "Z": 0.03,
+      "Bounding Box Dimensions Unit": "METRE"
+    },
+    "Bounding Box Volume": 0.0727,
+    "Real Volume to Bounding Box Volume Ratio": 0.57772,
+    "Face Count (tessellated element)": {
+      "Face Count": 108
+    },
+    "Vertex Count (tessellated element)": {
+      "Vertex Count": 168
+    },
+    "Edge Count (tessellated element)": {
+      "Edge Count": 246
+    },
+    "Primary Object Axis (Cardinal Direction)": "N"
+  },
+  "Element Property Sets": {
+    "Psets Element": {
+      "Height Offset From Level": "-15.0",
+      "Level": "Level: 00_Eingang",
+      "Related to Mass": "False",
+      "Room Bounding": "True",
+      "Area": "1.40002327702636",
+      "Elevation at Bottom": "-45.0",
+      "Elevation at Top": "-15.0",
+      "Perimeter": "9470.62040674018",
+      "Thickness": "30.0",
+      "Volume": "0.0420006983107908",
+      "Edited by": "",
+      "Workset": "Terrassenkonstruktion",
+      "Category": "Floors",
+      "Family": "Floor: Gitterrost schwarz",
+      "Family and Type": "Floor: Gitterrost schwarz",
+      "Type": "Floor: Gitterrost schwarz",
+      "Type Id": "Floor: Gitterrost schwarz",
+      "Phase Created": "Zu Bauen",
+      "Enable Analytical Model": "False",
+      "Structural": "False"
+    },
+    "Psets Object Type": {
+      "Analytical Properties.Absorptance": "0.7",
+      "Analytical Properties.Heat Transfer Coefficient (U)": "7666.66666666667",
+      "Analytical Properties.Roughness": "3",
+      "Analytical Properties.Thermal Mass": "6.75005617728",
+      "Analytical Properties.Thermal Resistance (R)": "0.000130434782608696",
+      "Construction.Default Thickness": "30.0",
+      "Construction.Function": "Exterior",
+      "Data.Unternehmer": "Pletscher",
+      "Graphics.Coarse Scale Fill Color": "8421504",
+      "Graphics.Coarse Scale Fill Pattern": "<Solid fill",
+      "Identity Data.Edited by": "",
+      "Identity Data.Assembly Code": "",
+      "Identity Data.Assembly Description": "",
+      "Identity Data.Cost": "0.0",
+      "Identity Data.Type Name": "Gitterrost schwarz",
+      "Identity Data.Workset": "Floor Types",
+      "Materials and Finishes.Structural Material": "Zink Gitter",
+      "Other.Category": "Floors",
+      "Other.Family Name": "Floor"
+    }
+  },
+  "Element Relationships": {
+    "Nests": null,
+    "Is Nested By": null,
+    "Covers": null,
+    "Is Covered By": null,
+    "Has Openings": null,
+    "Assigned Groups": null
+  },
+  "Element Location": {
+    "Storeys Map": {
+      "00_Betonplatte": {
+        "Elevation": -0.54,
+        "Unit": "meters"
+      },
+      "00_Eingang": {
+        "Elevation": 0.0,
+        "Unit": "meters"
+      },
+      "01_Galerie": {
+        "Elevation": 2.92,
+        "Unit": "meters"
+      }
+    },
+    "Element Located in Storey": "00_Eingang",
+    "Spatial Relationship": [
+      {
+        "name": "1072",
+        "type": "IfcProject"
+      },
+      {
+        "name": "Default",
+        "type": "IfcSite"
+      },
+      {
+        "name": "",
+        "type": "IfcBuilding"
+      },
+      {
+        "name": "00_Eingang",
+        "type": "IfcBuildingStorey"
+      }
+    ]
+  }
+}

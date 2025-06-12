@@ -1,0 +1,17 @@
+LTU_A-House_K-modell.ifc
+
+typology: university
+
+source: https://github.com/bimdata/BIMData-Research-and-Development/blob/master/pages/IFC_FILES.md
+
+language: swedish/english
+
+design stage: late
+
+software: Autodesk Revit 2014 (ENU)
+
+schema: IFC2X3
+
+description:
+BIM model of Luleå University of Technology (LTU). Has a lot of prefabricated timber elements, so that's why it was chosen. 
+Built.

@@ -1,0 +1,115 @@
+{
+  "Element Metadata": {
+    "Name": "Blechabdeckung Brüstung:Blechabdeckung Brüstung:7933804",
+    "UID": "1117745",
+    "GlobalId": "2lKHuWZur3SwHp3ySgW6UM",
+    "Type": "IfcWall",
+    "ObjectType": "Blechabdeckung Brüstung:Blechabdeckung Brüstung",
+    "Classification": "Not defined",
+    "Decomposes": {},
+    "Is Decomposed By": []
+  },
+  "Element Material Data": "Not defined",
+  "Element Geometry Data": {
+    "Quantities (IFC)": {},
+    "Geometric Representation": [
+      "Brep"
+    ],
+    "Quantities (COMPAS)": {
+      "Net Volume": 0.02213,
+      "Net Volume unit": "CUBIC_METRE",
+      "Entire Surface Area": 22.28618,
+      "Entire Surface Area unit": "SQUARE_METRE"
+    },
+    "Bounding Box Dimensions (OBB - local frame)": {
+      "X": 18.38,
+      "Y": 0.08,
+      "Z": 6.38,
+      "Bounding Box Dimensions Unit": "METRE"
+    },
+    "Bounding Box Volume": 9.3812,
+    "Real Volume to Bounding Box Volume Ratio": 0.00236,
+    "Face Count (tessellated element)": {
+      "Face Count": 116
+    },
+    "Vertex Count (tessellated element)": {
+      "Vertex Count": 216
+    },
+    "Edge Count (tessellated element)": {
+      "Edge Count": 282
+    },
+    "Primary Object Axis (Cardinal Direction)": "Undefined"
+  },
+  "Element Property Sets": {
+    "Psets Element": {
+      "Room Bounding": "True",
+      "Moves With Nearby Elements": "False",
+      "Area": "7.40682808939662",
+      "Volume": "0.022132119889782",
+      "Edited by": "",
+      "Workset": "Architecture",
+      "Category": "Walls",
+      "Family": "Blechabdeckung Brüstung: Blechabdeckung Brüstung",
+      "Family and Type": "Blechabdeckung Brüstung: Blechabdeckung Brüstung",
+      "Type": "Blechabdeckung Brüstung: Blechabdeckung Brüstung",
+      "Type Id": "Blechabdeckung Brüstung: Blechabdeckung Brüstung",
+      "Phase Created": "Zu Bauen",
+      "Rebar Cover": "Rebar Cover Settings: Bewehrungsüberdeckung 1"
+    },
+    "Psets Object Type": {
+      "Identity Data.Edited by": "",
+      "Identity Data.Assembly Code": "",
+      "Identity Data.Assembly Description": "",
+      "Identity Data.Workset": "Architecture",
+      "Identity Data.Code Name": "",
+      "Identity Data.OmniClass Number": "",
+      "Identity Data.OmniClass Title": "",
+      "Identity Data.Type Name": "Blechabdeckung Brüstung",
+      "Other.Category": "Walls",
+      "Other.Family Name": "Blechabdeckung Brüstung"
+    }
+  },
+  "Element Relationships": {
+    "Nests": null,
+    "Is Nested By": null,
+    "Covers": null,
+    "Is Covered By": null,
+    "Has Openings": null,
+    "Assigned Groups": null
+  },
+  "Element Location": {
+    "Storeys Map": {
+      "00_Betonplatte": {
+        "Elevation": -0.54,
+        "Unit": "meters"
+      },
+      "00_Eingang": {
+        "Elevation": 0.0,
+        "Unit": "meters"
+      },
+      "01_Galerie": {
+        "Elevation": 2.92,
+        "Unit": "meters"
+      }
+    },
+    "Element Located in Storey": "01_Galerie",
+    "Spatial Relationship": [
+      {
+        "name": "1072",
+        "type": "IfcProject"
+      },
+      {
+        "name": "Default",
+        "type": "IfcSite"
+      },
+      {
+        "name": "",
+        "type": "IfcBuilding"
+      },
+      {
+        "name": "01_Galerie",
+        "type": "IfcBuildingStorey"
+      }
+    ]
+  }
+}

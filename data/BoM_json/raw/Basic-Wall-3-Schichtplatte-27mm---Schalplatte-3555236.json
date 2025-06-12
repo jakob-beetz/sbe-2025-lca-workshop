@@ -1,0 +1,176 @@
+{
+  "Element Metadata": {
+    "Name": "Basic Wall:3-Schichtplatte 27mm - Schalplatte:3555236",
+    "UID": "89030",
+    "GlobalId": "1o7gVYtKXE5gHCcVTSsaqP",
+    "Type": "IfcWallStandardCase",
+    "ObjectType": "Basic Wall:3-Schichtplatte 27mm - Schalplatte",
+    "Classification": "Not defined",
+    "Decomposes": {},
+    "Is Decomposed By": []
+  },
+  "Element Material Data": [
+    {
+      "IfcEntity": "IfcMaterialLayerSetUsage",
+      "Layer Set Name": "Basic Wall:3-Schichtplatte 27mm - Schalplatte",
+      "Layer Set Description": "Unknown",
+      "Layer Set Total Thickness": "Unknown",
+      "Layers": [
+        {
+          "IfcEntity": "IfcMaterialLayer",
+          "Material Name": "3-Schicht-Platte",
+          "Description": "Unknown",
+          "Category": "Unknown",
+          "Thickness": 0.027,
+          "Thickness unit": "METRE"
+        }
+      ]
+    }
+  ],
+  "Element Geometry Data": {
+    "Quantities (IFC)": {
+      "Width": 0.027,
+      "Width unit": "METRE",
+      "Length": 5.2808,
+      "Length unit": "METRE",
+      "Height": 0.36,
+      "Height unit": "METRE",
+      "Gross Side Area": 1.9011,
+      "Gross Side Area unit": "SQUARE_METRE",
+      "Net Side Area": 1.9011,
+      "Net Side Area unit": "SQUARE_METRE",
+      "Gross Footprint Area": 0.1425,
+      "Gross Footprint Area unit": "SQUARE_METRE",
+      "Gross Volume": 0.0513,
+      "Gross Volume unit": "CUBIC_METRE",
+      "Net Volume": 0.0513,
+      "Net Volume unit": "CUBIC_METRE"
+    },
+    "Geometric Representation": [
+      "Curve2D",
+      "SweptSolid"
+    ],
+    "Quantities (COMPAS)": {
+      "Net Volume": 0.0513,
+      "Net Volume unit": "CUBIC_METRE",
+      "Entire Surface Area": 4.10474,
+      "Entire Surface Area unit": "SQUARE_METRE"
+    },
+    "Bounding Box Dimensions (OBB - local frame)": {
+      "X": 5.28,
+      "Y": 0.03,
+      "Z": 0.36,
+      "Bounding Box Dimensions Unit": "METRE"
+    },
+    "Bounding Box Volume": 0.057,
+    "Real Volume to Bounding Box Volume Ratio": 0.9,
+    "Face Count (tessellated element)": {
+      "Face Count": 20
+    },
+    "Vertex Count (tessellated element)": {
+      "Vertex Count": 36
+    },
+    "Edge Count (tessellated element)": {
+      "Edge Count": 48
+    },
+    "Primary Object Axis (Cardinal Direction)": "E"
+  },
+  "Element Property Sets": {
+    "Psets Element": {
+      "Related to Mass": "False",
+      "Room Bounding": "True",
+      "Base Extension Distance": "0.0",
+      "Base is Attached": "False",
+      "Cross-Section": "Vertical",
+      "Top Constraint": "Level: 01_Galerie",
+      "Top Extension Distance": "0.0",
+      "Top is Attached": "False",
+      "Location Line": "Finish Face: Exterior",
+      "Base Constraint": "Level: 01_UK Decke",
+      "Base Offset": "144.999999999907",
+      "Top Offset": "-115.0",
+      "Unconnected Height": "360.000000000001",
+      "Area": "1.90109596418992",
+      "Length": "5250.55848731252",
+      "Volume": "0.0513009564543741",
+      "Edited by": "",
+      "Workset": "Tragwerk",
+      "Category": "Walls",
+      "Family": "Basic Wall: 3-Schichtplatte 27mm - Schalplatte",
+      "Family and Type": "Basic Wall: 3-Schichtplatte 27mm - Schalplatte",
+      "Type": "Basic Wall: 3-Schichtplatte 27mm - Schalplatte",
+      "Type Id": "Basic Wall: 3-Schichtplatte 27mm - Schalplatte",
+      "Phase Created": "Montage Funicular Floor",
+      "Enable Analytical Model": "False",
+      "Structural": "False",
+      "Structural Usage": "Non-bearing"
+    },
+    "Psets Object Type": {
+      "Analytical Properties.Roughness": "3",
+      "Analytical Properties.Absorptance": "0.7",
+      "Analytical Properties.Heat Transfer Coefficient (U)": "3.92592592592593",
+      "Analytical Properties.Thermal Mass": "1.9661702095872",
+      "Analytical Properties.Thermal Resistance (R)": "0.254716981132075",
+      "Construction.Function": "Exterior",
+      "Construction.Wrapping at Ends": "None",
+      "Construction.Wrapping at Inserts": "Do not wrap",
+      "Construction.Width": "27.0",
+      "Data.Unternehmer": "",
+      "Graphics.Coarse Scale Fill Pattern": "<Solid fill",
+      "Graphics.Coarse Scale Fill Color": "8421504",
+      "Identity Data.Edited by": "",
+      "Identity Data.Assembly Code": "",
+      "Identity Data.Assembly Description": "",
+      "Identity Data.Workset": "Wall Types",
+      "Identity Data.Cost": "0.0",
+      "Identity Data.Type Name": "3-Schichtplatte 27mm - Schalplatte",
+      "Materials and Finishes.Structural Material": "3-Schicht-Platte",
+      "Other.Category": "Walls",
+      "Other.Family Name": "Basic Wall"
+    }
+  },
+  "Element Relationships": {
+    "Nests": null,
+    "Is Nested By": null,
+    "Covers": null,
+    "Is Covered By": null,
+    "Has Openings": null,
+    "Assigned Groups": null
+  },
+  "Element Location": {
+    "Storeys Map": {
+      "00_Betonplatte": {
+        "Elevation": -0.54,
+        "Unit": "meters"
+      },
+      "00_Eingang": {
+        "Elevation": 0.0,
+        "Unit": "meters"
+      },
+      "01_Galerie": {
+        "Elevation": 2.92,
+        "Unit": "meters"
+      }
+    },
+    "Element Located in Storey": "00_Eingang",
+    "Spatial Relationship": [
+      {
+        "name": "1072",
+        "type": "IfcProject"
+      },
+      {
+        "name": "Default",
+        "type": "IfcSite"
+      },
+      {
+        "name": "",
+        "type": "IfcBuilding"
+      },
+      {
+        "name": "00_Eingang",
+        "type": "IfcBuildingStorey"
+      }
+    ]
+  },
+  "CompilationGroupID": "1fde2b1291"
+}

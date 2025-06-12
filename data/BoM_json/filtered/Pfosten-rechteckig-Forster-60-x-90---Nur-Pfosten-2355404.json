@@ -1,0 +1,47 @@
+{
+    "Element Metadata": {
+        "Name": "Pfosten rechteckig:Forster 60 x 90 - Nur Pfosten:2355404",
+        "Type": "IfcMember",
+        "ObjectType": "Pfosten rechteckig:Forster 60 x 90 - Nur Pfosten",
+        "Decomposes": {
+            "Name": "Curtain Wall:Fassade 90 - Sage:1123952",
+            "IfcEntity": "IfcCurtainWall",
+            "GlobalId": "3pJOH7TkT6DO1BGpL4Z68X"
+        }
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterial",
+            "Material Name": "Stahl, 45-34, Pulverbeschichtung schwarz"
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Length": 0.51,
+            "Length unit": "METRE",
+            "Net Volume": 0.0028,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.00275,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 0.1638,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        }
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Level": "Level: 01_Brüstung",
+            "Area": "0.0819",
+            "Length": "510.0",
+            "Volume": "0.0028",
+            "Workset": "Architecture",
+            "Category": "Curtain Wall Mullions",
+            "Family": "Pfosten rechteckig: Forster 60 x 90 - Nur Pfosten",
+            "Family and Type": "Pfosten rechteckig: Forster 60 x 90 - Nur Pfosten",
+            "Type": "Pfosten rechteckig: Forster 60 x 90 - Nur Pfosten",
+            "Type Id": "Pfosten rechteckig: Forster 60 x 90 - Nur Pfosten",
+            "Phase Created": "Zu Bauen"
+        }
+    }
+}

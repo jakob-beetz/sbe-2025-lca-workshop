@@ -1,0 +1,33 @@
+{
+    "Element Metadata": {
+        "Name": "Stiffener:Stiffener:1094120",
+        "Type": "IfcBuildingElementProxy",
+        "ObjectType": "Stiffener"
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterial",
+            "Material Name": "Steel - S355J2G3"
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.00023,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 0.05277,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        }
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Workset": "Workset1",
+            "OmniClass Title": "",
+            "OmniClass Number": "",
+            "Structural Material": "Steel - S355J2G3",
+            "Host": "<not associated",
+            "Volume": "0.0002",
+            "Phase Created": "New",
+            "Reference": "Stiffener"
+        }
+    }
+}

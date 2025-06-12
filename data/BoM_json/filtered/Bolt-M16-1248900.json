@@ -1,0 +1,35 @@
+{
+    "Element Metadata": {
+        "Name": "Bolt:M16:1248900",
+        "Type": "IfcBuildingElementProxy",
+        "ObjectType": "M16"
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterial",
+            "Material Name": "Steel"
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (COMPAS)": {
+            "Net Volume": 2.2e-05,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 0.006,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        }
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "H": "9.9",
+            "Workset": "Workset1",
+            "OmniClass Title": "",
+            "OmniClass Number": "",
+            "Host": "Beam HE : HEA220",
+            "Volume": "0.0",
+            "L": "21.0",
+            "Structural Material": "Steel",
+            "Phase Created": "New",
+            "Reference": "M16"
+        }
+    }
+}

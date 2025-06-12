@@ -1,0 +1,42 @@
+{
+    "Element Metadata": {
+        "Name": "EG-A-1-1",
+        "Type": "IfcWallStandardCase"
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterialLayerSetUsage",
+            "Layer Set Name": "Massiv",
+            "Layers": [
+                {
+                    "Material Name": "Massiv",
+                    "Thickness": 0.15,
+                    "Thickness unit": "METRE"
+                }
+            ]
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Net Side Area": 17.186,
+            "Net Side Area unit": "SQUARE_METRE",
+            "Net Footprint Area": 1.014,
+            "Net Footprint Area unit": "SQUARE_METRE",
+            "Net Volume": 2.6364,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Quantities (COMPAS)": {
+            "Net Volume": 2.6364,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 38.2831,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        }
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "ThermalTransmittance": "0.41",
+            "IsExternal": "True",
+            "LoadBearing": "True"
+        }
+    }
+}

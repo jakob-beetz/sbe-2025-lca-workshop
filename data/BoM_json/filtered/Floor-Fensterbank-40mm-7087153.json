@@ -1,0 +1,56 @@
+{
+    "Element Metadata": {
+        "Name": "Floor:Fensterbank 40mm:7087153",
+        "Type": "IfcSlab",
+        "ObjectType": "Floor:Fensterbank 40mm"
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterialLayerSetUsage",
+            "Layer Set Name": "Floor:Fensterbank 40mm",
+            "Layers": [
+                {
+                    "Material Name": "Holzschalung Horizontal, Nadelholz,  schwarz gestrichen",
+                    "Thickness": 0.04,
+                    "Thickness unit": "METRE"
+                }
+            ]
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Width": 0.04,
+            "Width unit": "METRE",
+            "Gross Volume": 0.0352,
+            "Gross Volume unit": "CUBIC_METRE",
+            "Net Volume": 0.0352,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.03524,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 2.04052,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        }
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Related to Mass": "False",
+            "Room Bounding": "True",
+            "Level": "Level: 00_Betonplatte",
+            "Area": "0.8811",
+            "Elevation at Bottom": "-30.2677",
+            "Perimeter": "6958.0",
+            "Thickness": "40.0",
+            "Volume": "0.0352",
+            "Workset": "Architecture",
+            "Category": "Floors",
+            "Family": "Floor: Fensterbank 40mm",
+            "Family and Type": "Floor: Fensterbank 40mm",
+            "Type": "Floor: Fensterbank 40mm",
+            "Type Id": "Floor: Fensterbank 40mm",
+            "Phase Created": "Zu Bauen",
+            "Structural": "False"
+        }
+    }
+}

@@ -1,0 +1,16 @@
+KIT_SmileyWest.ifc
+
+typology: housing
+
+source: https://github.com/bimdata/BIMData-Research-and-Development/blob/master/pages/IFC_FILES.md
+
+language: german
+
+design stage: early
+
+software: ArchiCAD 10.0
+
+schema: IFC2X3
+
+description:
+Multi-family housing complex in Karlsruhe (SmileyWest)

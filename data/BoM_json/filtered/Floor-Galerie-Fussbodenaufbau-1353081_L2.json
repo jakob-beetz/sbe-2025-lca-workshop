@@ -1,0 +1,67 @@
+{
+    "Target Layer of Material Inference": {
+        "Material Name": "Knauf - Vidiwall",
+        "Thickness": 0.015,
+        "Thickness Unit": "METRE",
+        "Layer Number": 2
+    },
+    "Building Element Context": {
+        "Element Metadata": {
+            "Name": "Floor:Galerie Fussbodenaufbau:1353081",
+            "Type": "IfcSlab",
+            "ObjectType": "Floor:Galerie Fussbodenaufbau"
+        },
+        "Other Material Layers": [
+            {
+                "Material Name": "PU Bodenbelag - Sika PS23",
+                "Thickness": 0.004,
+                "Thickness Unit": "METRE",
+                "Layer Number": 1
+            },
+            {
+                "Material Name": "Knauf - Brio Heizboden 25",
+                "Thickness": 0.025,
+                "Thickness Unit": "METRE",
+                "Layer Number": 3
+            },
+            {
+                "Material Name": "Trittschalldämmung Flumroc 341",
+                "Thickness": 0.03,
+                "Thickness Unit": "METRE",
+                "Layer Number": 4
+            }
+        ],
+        "Element Geometry Data": {
+            "Quantities (IFC)": {
+                "Net Volume": 4.9429,
+                "Net Volume unit": "CUBIC_METRE"
+            },
+            "Quantities (COMPAS)": {
+                "Net Volume": 4.94288,
+                "Net Volume unit": "CUBIC_METRE",
+                "Entire Surface Area": 138.70794,
+                "Entire Surface Area unit": "SQUARE_METRE"
+            }
+        },
+        "Element Property Sets": {
+            "Psets Element": {
+                "Related to Mass": "False",
+                "Room Bounding": "True",
+                "Level": "Level: 01_Galerie",
+                "Area": "66.7957",
+                "Elevation at Bottom": "2852.0",
+                "Perimeter": "56030.7985",
+                "Thickness": "74.0",
+                "Volume": "4.9429",
+                "Workset": "Architecture",
+                "Category": "Floors",
+                "Family": "Floor: Galerie Fussbodenaufbau",
+                "Family and Type": "Floor: Galerie Fussbodenaufbau",
+                "Type": "Floor: Galerie Fussbodenaufbau",
+                "Type Id": "Floor: Galerie Fussbodenaufbau",
+                "Phase Created": "Zu Bauen",
+                "Structural": "False"
+            }
+        }
+    }
+}

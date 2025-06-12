@@ -1,0 +1,88 @@
+{
+    "Target Layer of Material Inference": {
+        "Material Name": "Masonry - Concrete Block",
+        "Thickness": 0.193,
+        "Thickness Unit": "METRE",
+        "Layer Number": 3
+    },
+    "Building Element Context": {
+        "Element Metadata": {
+            "Name": "Basic Wall:Party Wall - CMU Residential Unit Dimising Wall:139234",
+            "Type": "IfcWallStandardCase",
+            "ObjectType": "Basic Wall:Party Wall - CMU Residential Unit Dimising Wall:128555"
+        },
+        "Other Material Layers": [
+            {
+                "Material Name": "Plasterboard",
+                "Thickness": 0.016,
+                "Thickness Unit": "METRE",
+                "Layer Number": 1
+            },
+            {
+                "Material Name": "Metal - Stud Layer",
+                "Thickness": 0.041,
+                "Thickness Unit": "METRE",
+                "Layer Number": 2
+            },
+            {
+                "Material Name": "Misc. Air Layers - Air Space",
+                "Thickness": 0.05,
+                "Thickness Unit": "METRE",
+                "Layer Number": 4
+            },
+            {
+                "Material Name": "Masonry - Concrete Block",
+                "Thickness": 0.193,
+                "Thickness Unit": "METRE",
+                "Layer Number": 5
+            },
+            {
+                "Material Name": "Metal - Stud Layer",
+                "Thickness": 0.041,
+                "Thickness Unit": "METRE",
+                "Layer Number": 6
+            },
+            {
+                "Material Name": "Plasterboard",
+                "Thickness": 0.016,
+                "Thickness Unit": "METRE",
+                "Layer Number": 7
+            }
+        ],
+        "Element Geometry Data": {
+            "Quantities (COMPAS)": {
+                "Net Volume": 5.7887,
+                "Net Volume unit": "CUBIC_METRE",
+                "Entire Surface Area": 30.3816,
+                "Entire Surface Area unit": "SQUARE_METRE"
+            }
+        },
+        "Element Property Sets": {
+            "Psets Element": {
+                "Reference": "Reference",
+                "LoadBearing": "False",
+                "ExtendToStructure": "False",
+                "IsExternal": "True",
+                "Location Line": "0.0",
+                "Base Constraint": "Level 1",
+                "Room Bounding": "True",
+                "Related to Mass": "False",
+                "Phase Created": "New Construction",
+                "Structural Usage": "0.0",
+                "Length": "4.1915",
+                "Area": "11.7418",
+                "Volume": "5.7887",
+                "Width": "0.55",
+                "Function": "5.0",
+                "Manufacturer": "Manufacturer",
+                "Color": "Color",
+                "Features": "Features",
+                "Finish": "Finish",
+                "Material": "Material",
+                "Shape": "Shape",
+                "Size": "Size",
+                "Classification Description": "Masonry Structural Walls"
+            }
+        }
+    }
+}

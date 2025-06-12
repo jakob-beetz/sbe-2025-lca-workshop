@@ -1,0 +1,66 @@
+{
+    "Element Metadata": {
+        "Name": "Basic Wall:BSP 140 Sichtseite einseitig:1744018",
+        "Type": "IfcWallStandardCase",
+        "ObjectType": "Basic Wall:BSP 140 Sichtseite einseitig"
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterialLayerSetUsage",
+            "Layer Set Name": "Basic Wall:BSP 140 Sichtseite einseitig",
+            "Layers": [
+                {
+                    "Material Name": "Brettsperrholz",
+                    "Thickness": 0.14,
+                    "Thickness unit": "METRE"
+                }
+            ]
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Width": 0.14,
+            "Width unit": "METRE",
+            "Length": 0.77,
+            "Length unit": "METRE",
+            "Height": 2.8181,
+            "Height unit": "METRE",
+            "Gross Side Area": 2.1625,
+            "Gross Side Area unit": "SQUARE_METRE",
+            "Net Side Area": 2.1625,
+            "Net Side Area unit": "SQUARE_METRE",
+            "Gross Footprint Area": 0.098,
+            "Gross Footprint Area unit": "SQUARE_METRE",
+            "Gross Volume": 0.3028,
+            "Gross Volume unit": "CUBIC_METRE",
+            "Net Volume": 0.2753,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.27531,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 5.09265,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        }
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Related to Mass": "False",
+            "Room Bounding": "True",
+            "Base Constraint": "Level: 00_Betonplatte",
+            "Location Line": "Core Face: Exterior",
+            "Area": "2.1625",
+            "Length": "769.9711",
+            "Volume": "0.2753",
+            "Workset": "Tragwerk",
+            "Category": "Walls",
+            "Family": "Basic Wall: BSP 140 Sichtseite einseitig",
+            "Family and Type": "Basic Wall: BSP 140 Sichtseite einseitig",
+            "Type": "Basic Wall: BSP 140 Sichtseite einseitig",
+            "Type Id": "Basic Wall: BSP 140 Sichtseite einseitig",
+            "Phase Created": "Zu Bauen",
+            "Structural": "True",
+            "Structural Usage": "Bearing"
+        }
+    }
+}

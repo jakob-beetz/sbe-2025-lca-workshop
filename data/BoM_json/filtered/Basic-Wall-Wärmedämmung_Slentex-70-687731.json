@@ -1,0 +1,66 @@
+{
+    "Element Metadata": {
+        "Name": "Basic Wall:Wärmedämmung_Slentex 70:687731",
+        "Type": "IfcWallStandardCase",
+        "ObjectType": "Basic Wall:Wärmedämmung_Slentex 70"
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterialLayerSetUsage",
+            "Layer Set Name": "Basic Wall:Wärmedämmung_Slentex 70",
+            "Layers": [
+                {
+                    "Material Name": "Wärmedämmung Slentex Aerogel",
+                    "Thickness": 0.07,
+                    "Thickness unit": "METRE"
+                }
+            ]
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Width": 0.07,
+            "Width unit": "METRE",
+            "Length": 0.7241,
+            "Length unit": "METRE",
+            "Height": 3.1296,
+            "Height unit": "METRE",
+            "Gross Side Area": 2.2605,
+            "Gross Side Area unit": "SQUARE_METRE",
+            "Net Side Area": 2.2605,
+            "Net Side Area unit": "SQUARE_METRE",
+            "Gross Footprint Area": 0.0507,
+            "Gross Footprint Area unit": "SQUARE_METRE",
+            "Gross Volume": 0.1582,
+            "Gross Volume unit": "CUBIC_METRE",
+            "Net Volume": 0.1582,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.15822,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 5.07045,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        }
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Related to Mass": "False",
+            "Room Bounding": "True",
+            "Base Constraint": "Level: 00_Betonplatte",
+            "Location Line": "Finish Face: Interior",
+            "Area": "2.2605",
+            "Length": "624.1",
+            "Volume": "0.1582",
+            "Workset": "Architecture",
+            "Category": "Walls",
+            "Family": "Basic Wall: Wärmedämmung_Slentex 70",
+            "Family and Type": "Basic Wall: Wärmedämmung_Slentex 70",
+            "Type": "Basic Wall: Wärmedämmung_Slentex 70",
+            "Type Id": "Basic Wall: Wärmedämmung_Slentex 70",
+            "Phase Created": "Zu Bauen",
+            "Structural": "False",
+            "Structural Usage": "Non-bearing"
+        }
+    }
+}

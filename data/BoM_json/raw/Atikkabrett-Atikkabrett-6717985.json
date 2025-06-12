@@ -1,0 +1,130 @@
+{
+  "Element Metadata": {
+    "Name": "Atikkabrett:Atikkabrett:6717985",
+    "UID": "1069626",
+    "GlobalId": "3R$9pJGeb6MgJpHJQymJSF",
+    "Type": "IfcSlab",
+    "ObjectType": "Atikkabrett:Atikkabrett",
+    "Classification": "Not defined",
+    "Decomposes": {},
+    "Is Decomposed By": []
+  },
+  "Element Material Data": [
+    {
+      "IfcEntity": "IfcMaterial",
+      "Material Name": "Massivholz",
+      "Material Description": "Unknown",
+      "Material Category": "Unknown",
+      "Thickness": "Unknown",
+      "Thickness unit": "Unknown"
+    }
+  ],
+  "Element Geometry Data": {
+    "Quantities (IFC)": {
+      "Net Volume": 0.1636,
+      "Net Volume unit": "CUBIC_METRE"
+    },
+    "Geometric Representation": [
+      "Brep"
+    ],
+    "Quantities (COMPAS)": {
+      "Net Volume": 0.16356,
+      "Net Volume unit": "CUBIC_METRE",
+      "Entire Surface Area": 13.5378,
+      "Entire Surface Area unit": "SQUARE_METRE"
+    },
+    "Bounding Box Dimensions (OBB - local frame)": {
+      "X": 18.35,
+      "Y": 6.36,
+      "Z": 0.04,
+      "Bounding Box Dimensions Unit": "METRE"
+    },
+    "Bounding Box Volume": 4.6682,
+    "Real Volume to Bounding Box Volume Ratio": 0.03504,
+    "Face Count (tessellated element)": {
+      "Face Count": 36
+    },
+    "Vertex Count (tessellated element)": {
+      "Vertex Count": 72
+    },
+    "Edge Count (tessellated element)": {
+      "Edge Count": 90
+    },
+    "Primary Object Axis (Cardinal Direction)": "W"
+  },
+  "Element Property Sets": {
+    "Psets Element": {
+      "Room Bounding": "True",
+      "Moves With Nearby Elements": "False",
+      "Level": "Level: 01_Brüstung",
+      "Elevation from Level": "0.0",
+      "Area": "6.76889833538318",
+      "Volume": "0.163556530798615",
+      "Edited by": "",
+      "Workset": "Architecture",
+      "Category": "Floors",
+      "Family": "Atikkabrett: Atikkabrett",
+      "Family and Type": "Atikkabrett: Atikkabrett",
+      "Type": "Atikkabrett: Atikkabrett",
+      "Type Id": "Atikkabrett: Atikkabrett",
+      "Phase Created": "Zu Bauen",
+      "Rebar Cover": "Rebar Cover Settings: Bewehrungsüberdeckung 1"
+    },
+    "Psets Object Type": {
+      "Identity Data.Edited by": "",
+      "Identity Data.Assembly Code": "",
+      "Identity Data.Assembly Description": "",
+      "Identity Data.Workset": "Architecture",
+      "Identity Data.Code Name": "",
+      "Identity Data.OmniClass Number": "",
+      "Identity Data.OmniClass Title": "",
+      "Identity Data.Type Name": "Atikkabrett",
+      "Materials and Finishes.Structural Material": "Massivholz",
+      "Other.Category": "Floors",
+      "Other.Family Name": "Atikkabrett"
+    }
+  },
+  "Element Relationships": {
+    "Nests": null,
+    "Is Nested By": null,
+    "Covers": null,
+    "Is Covered By": null,
+    "Has Openings": null,
+    "Assigned Groups": null
+  },
+  "Element Location": {
+    "Storeys Map": {
+      "00_Betonplatte": {
+        "Elevation": -0.54,
+        "Unit": "meters"
+      },
+      "00_Eingang": {
+        "Elevation": 0.0,
+        "Unit": "meters"
+      },
+      "01_Galerie": {
+        "Elevation": 2.92,
+        "Unit": "meters"
+      }
+    },
+    "Element Located in Storey": "01_Galerie",
+    "Spatial Relationship": [
+      {
+        "name": "1072",
+        "type": "IfcProject"
+      },
+      {
+        "name": "Default",
+        "type": "IfcSite"
+      },
+      {
+        "name": "",
+        "type": "IfcBuilding"
+      },
+      {
+        "name": "01_Galerie",
+        "type": "IfcBuildingStorey"
+      }
+    ]
+  }
+}

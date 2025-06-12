@@ -1,0 +1,119 @@
+{
+  "Element Metadata": {
+    "Name": "Attikabrett:Attikabrett:6718052",
+    "UID": "1069786",
+    "GlobalId": "3R$9pJGeb6MgJpHJQymJTA",
+    "Type": "IfcSlab",
+    "ObjectType": "Attikabrett:Attikabrett",
+    "Classification": "Not defined",
+    "Decomposes": {},
+    "Is Decomposed By": []
+  },
+  "Element Material Data": "Not defined",
+  "Element Geometry Data": {
+    "Quantities (IFC)": {
+      "Net Volume": 0.0367,
+      "Net Volume unit": "CUBIC_METRE"
+    },
+    "Geometric Representation": [
+      "Brep"
+    ],
+    "Quantities (COMPAS)": {
+      "Net Volume": 0.03675,
+      "Net Volume unit": "CUBIC_METRE",
+      "Entire Surface Area": 3.05148,
+      "Entire Surface Area unit": "SQUARE_METRE"
+    },
+    "Bounding Box Dimensions (OBB - local frame)": {
+      "X": 5.5,
+      "Y": 0.6,
+      "Z": 0.04,
+      "Bounding Box Dimensions Unit": "METRE"
+    },
+    "Bounding Box Volume": 0.132,
+    "Real Volume to Bounding Box Volume Ratio": 0.27841,
+    "Face Count (tessellated element)": {
+      "Face Count": 34
+    },
+    "Vertex Count (tessellated element)": {
+      "Vertex Count": 54
+    },
+    "Edge Count (tessellated element)": {
+      "Edge Count": 78
+    },
+    "Primary Object Axis (Cardinal Direction)": "E"
+  },
+  "Element Property Sets": {
+    "Psets Element": {
+      "Room Bounding": "True",
+      "Level": "Level: 01_Galerie",
+      "Moves With Nearby Elements": "False",
+      "Area": "1.52574233078765",
+      "Volume": "0.036749082100594",
+      "Edited by": "",
+      "Workset": "Architecture",
+      "Category": "Floors",
+      "Family": "Attikabrett: Attikabrett",
+      "Family and Type": "Attikabrett: Attikabrett",
+      "Type": "Attikabrett: Attikabrett",
+      "Type Id": "Attikabrett: Attikabrett",
+      "Phase Created": "Zu Bauen",
+      "Rebar Cover": "Rebar Cover Settings: Bewehrungsüberdeckung 1"
+    },
+    "Psets Object Type": {
+      "Identity Data.Edited by": "",
+      "Identity Data.Assembly Code": "",
+      "Identity Data.Assembly Description": "",
+      "Identity Data.Workset": "Architecture",
+      "Identity Data.Code Name": "",
+      "Identity Data.OmniClass Number": "",
+      "Identity Data.OmniClass Title": "",
+      "Identity Data.Type Name": "Attikabrett",
+      "Other.Category": "Floors",
+      "Other.Family Name": "Attikabrett"
+    }
+  },
+  "Element Relationships": {
+    "Nests": null,
+    "Is Nested By": null,
+    "Covers": null,
+    "Is Covered By": null,
+    "Has Openings": null,
+    "Assigned Groups": null
+  },
+  "Element Location": {
+    "Storeys Map": {
+      "00_Betonplatte": {
+        "Elevation": -0.54,
+        "Unit": "meters"
+      },
+      "00_Eingang": {
+        "Elevation": 0.0,
+        "Unit": "meters"
+      },
+      "01_Galerie": {
+        "Elevation": 2.92,
+        "Unit": "meters"
+      }
+    },
+    "Element Located in Storey": "01_Galerie",
+    "Spatial Relationship": [
+      {
+        "name": "1072",
+        "type": "IfcProject"
+      },
+      {
+        "name": "Default",
+        "type": "IfcSite"
+      },
+      {
+        "name": "",
+        "type": "IfcBuilding"
+      },
+      {
+        "name": "01_Galerie",
+        "type": "IfcBuildingStorey"
+      }
+    ]
+  }
+}

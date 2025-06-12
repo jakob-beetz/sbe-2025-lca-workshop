@@ -1,0 +1,176 @@
+{
+  "Element Metadata": {
+    "Name": "Basic Wall:Massivholz 24mm:6301160",
+    "UID": "663701",
+    "GlobalId": "3ZnJlnBePBXQGgUrEPS3ek",
+    "Type": "IfcWallStandardCase",
+    "ObjectType": "Basic Wall:Massivholz 24mm",
+    "Classification": "Not defined",
+    "Decomposes": {},
+    "Is Decomposed By": []
+  },
+  "Element Material Data": [
+    {
+      "IfcEntity": "IfcMaterialLayerSetUsage",
+      "Layer Set Name": "Basic Wall:Massivholz 24mm",
+      "Layer Set Description": "Unknown",
+      "Layer Set Total Thickness": "Unknown",
+      "Layers": [
+        {
+          "IfcEntity": "IfcMaterialLayer",
+          "Material Name": "Massivholz Fichte",
+          "Description": "Unknown",
+          "Category": "Unknown",
+          "Thickness": 0.024,
+          "Thickness unit": "METRE"
+        }
+      ]
+    }
+  ],
+  "Element Geometry Data": {
+    "Quantities (IFC)": {
+      "Width": 0.024,
+      "Width unit": "METRE",
+      "Length": 0.14,
+      "Length unit": "METRE",
+      "Height": 2.7,
+      "Height unit": "METRE",
+      "Gross Side Area": 0.378,
+      "Gross Side Area unit": "SQUARE_METRE",
+      "Net Side Area": 0.378,
+      "Net Side Area unit": "SQUARE_METRE",
+      "Gross Footprint Area": 0.0034,
+      "Gross Footprint Area unit": "SQUARE_METRE",
+      "Gross Volume": 0.0091,
+      "Gross Volume unit": "CUBIC_METRE",
+      "Net Volume": 0.0091,
+      "Net Volume unit": "CUBIC_METRE"
+    },
+    "Geometric Representation": [
+      "Curve2D",
+      "SweptSolid"
+    ],
+    "Quantities (COMPAS)": {
+      "Net Volume": 0.00907,
+      "Net Volume unit": "CUBIC_METRE",
+      "Entire Surface Area": 0.89232,
+      "Entire Surface Area unit": "SQUARE_METRE"
+    },
+    "Bounding Box Dimensions (OBB - local frame)": {
+      "X": 0.14,
+      "Y": 2.7,
+      "Z": 0.02,
+      "Bounding Box Dimensions Unit": "METRE"
+    },
+    "Bounding Box Volume": 0.0076,
+    "Real Volume to Bounding Box Volume Ratio": 1.19342,
+    "Face Count (tessellated element)": {
+      "Face Count": 12
+    },
+    "Vertex Count (tessellated element)": {
+      "Vertex Count": 24
+    },
+    "Edge Count (tessellated element)": {
+      "Edge Count": 30
+    },
+    "Primary Object Axis (Cardinal Direction)": "Undefined"
+  },
+  "Element Property Sets": {
+    "Psets Element": {
+      "Related to Mass": "False",
+      "Base Extension Distance": "0.0",
+      "Base is Attached": "False",
+      "Cross-Section": "Vertical",
+      "Top Extension Distance": "0.0",
+      "Top is Attached": "False",
+      "Base Constraint": "Level: 00_Eingang",
+      "Location Line": "Core Face: Interior",
+      "Top Constraint": "Level: 01_UK Decke",
+      "Top Offset": "0.0",
+      "Room Bounding": "False",
+      "Base Offset": "-400.0",
+      "Unconnected Height": "2700.0",
+      "Area": "0.378000000000005",
+      "Length": "140.000000000002",
+      "Volume": "0.00907200000000051",
+      "Edited by": "",
+      "Workset": "Innenausbau",
+      "Category": "Walls",
+      "Family": "Basic Wall: Massivholz 24mm",
+      "Family and Type": "Basic Wall: Massivholz 24mm",
+      "Type": "Basic Wall: Massivholz 24mm",
+      "Type Id": "Basic Wall: Massivholz 24mm",
+      "Phase Created": "Zu Bauen",
+      "Enable Analytical Model": "False",
+      "Structural": "False",
+      "Structural Usage": "Non-bearing"
+    },
+    "Psets Object Type": {
+      "Analytical Properties.Roughness": "3",
+      "Analytical Properties.Absorptance": "0.7",
+      "Analytical Properties.Heat Transfer Coefficient (U)": "4.41666666666667",
+      "Analytical Properties.Thermal Mass": "1.7477068529664",
+      "Analytical Properties.Thermal Resistance (R)": "0.226415094339623",
+      "Construction.Function": "Exterior",
+      "Construction.Wrapping at Ends": "None",
+      "Construction.Wrapping at Inserts": "Do not wrap",
+      "Construction.Width": "24.0",
+      "Data.Unternehmer": "Künzli",
+      "Graphics.Coarse Scale Fill Pattern": "<Solid fill",
+      "Graphics.Coarse Scale Fill Color": "8421504",
+      "Identity Data.Edited by": "",
+      "Identity Data.Assembly Code": "",
+      "Identity Data.Assembly Description": "",
+      "Identity Data.Workset": "Wall Types",
+      "Identity Data.Cost": "0.0",
+      "Identity Data.Type Name": "Massivholz 24mm",
+      "Materials and Finishes.Structural Material": "Massivholz Fichte",
+      "Other.Category": "Walls",
+      "Other.Family Name": "Basic Wall"
+    }
+  },
+  "Element Relationships": {
+    "Nests": null,
+    "Is Nested By": null,
+    "Covers": null,
+    "Is Covered By": null,
+    "Has Openings": null,
+    "Assigned Groups": null
+  },
+  "Element Location": {
+    "Storeys Map": {
+      "00_Betonplatte": {
+        "Elevation": -0.54,
+        "Unit": "meters"
+      },
+      "00_Eingang": {
+        "Elevation": 0.0,
+        "Unit": "meters"
+      },
+      "01_Galerie": {
+        "Elevation": 2.92,
+        "Unit": "meters"
+      }
+    },
+    "Element Located in Storey": "00_Eingang",
+    "Spatial Relationship": [
+      {
+        "name": "1072",
+        "type": "IfcProject"
+      },
+      {
+        "name": "Default",
+        "type": "IfcSite"
+      },
+      {
+        "name": "",
+        "type": "IfcBuilding"
+      },
+      {
+        "name": "00_Eingang",
+        "type": "IfcBuildingStorey"
+      }
+    ]
+  },
+  "CompilationGroupID": "6f5992e3c2"
+}

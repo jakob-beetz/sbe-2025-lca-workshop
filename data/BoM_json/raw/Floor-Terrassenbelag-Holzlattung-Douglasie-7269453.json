@@ -1,0 +1,152 @@
+{
+  "Element Metadata": {
+    "Name": "Floor:Terrassenbelag Holzlattung Douglasie:7269453",
+    "UID": "1094040",
+    "GlobalId": "3dHkNX9eXDKekm9KvP4T_n",
+    "Type": "IfcSlab",
+    "ObjectType": "Floor:Terrassenbelag Holzlattung Douglasie",
+    "Classification": "Not defined",
+    "Decomposes": {},
+    "Is Decomposed By": []
+  },
+  "Element Material Data": [
+    {
+      "IfcEntity": "IfcMaterialLayerSetUsage",
+      "Layer Set Name": "Floor:Terrassenbelag Holzlattung Douglasie",
+      "Layer Set Description": "Unknown",
+      "Layer Set Total Thickness": "Unknown",
+      "Layers": [
+        {
+          "IfcEntity": "IfcMaterialLayer",
+          "Material Name": "Terrassenbelag Holz",
+          "Description": "Unknown",
+          "Category": "Unknown",
+          "Thickness": 0.026000000000000002,
+          "Thickness unit": "METRE"
+        }
+      ]
+    }
+  ],
+  "Element Geometry Data": {
+    "Quantities (IFC)": {
+      "Width": 0.026,
+      "Width unit": "METRE",
+      "Gross Volume": 0.3438,
+      "Gross Volume unit": "CUBIC_METRE",
+      "Net Volume": 0.3438,
+      "Net Volume unit": "CUBIC_METRE"
+    },
+    "Geometric Representation": [
+      "SweptSolid"
+    ],
+    "Quantities (COMPAS)": {
+      "Net Volume": 0.34377,
+      "Net Volume unit": "CUBIC_METRE",
+      "Entire Surface Area": 26.98082,
+      "Entire Surface Area unit": "SQUARE_METRE"
+    },
+    "Bounding Box Dimensions (OBB - local frame)": {
+      "X": 8.57,
+      "Y": 0.03,
+      "Z": 2.26,
+      "Bounding Box Dimensions Unit": "METRE"
+    },
+    "Bounding Box Volume": 0.581,
+    "Real Volume to Bounding Box Volume Ratio": 0.59169,
+    "Face Count (tessellated element)": {
+      "Face Count": 872
+    },
+    "Vertex Count (tessellated element)": {
+      "Vertex Count": 892
+    },
+    "Edge Count (tessellated element)": {
+      "Edge Count": 1754
+    },
+    "Primary Object Axis (Cardinal Direction)": "Undefined"
+  },
+  "Element Property Sets": {
+    "Psets Element": {
+      "Level": "Level: 00_Eingang",
+      "Related to Mass": "False",
+      "Room Bounding": "True",
+      "Height Offset From Level": "-15.0",
+      "Area": "13.2219063087088",
+      "Elevation at Bottom": "-41.0",
+      "Elevation at Top": "-15.0",
+      "Perimeter": "20653.946682874",
+      "Thickness": "26.0",
+      "Volume": "0.343769571004432",
+      "Edited by": "",
+      "Workset": "Architecture",
+      "Category": "Floors",
+      "Family": "Floor: Terrassenbelag Holzlattung Douglasie",
+      "Family and Type": "Floor: Terrassenbelag Holzlattung Douglasie",
+      "Type": "Floor: Terrassenbelag Holzlattung Douglasie",
+      "Type Id": "Floor: Terrassenbelag Holzlattung Douglasie",
+      "Phase Created": "Zu Bauen",
+      "Enable Analytical Model": "False",
+      "Structural": "False"
+    },
+    "Psets Object Type": {
+      "Analytical Properties.Roughness": "3",
+      "Analytical Properties.Absorptance": "0.7",
+      "Construction.Function": "Interior",
+      "Construction.Default Thickness": "26.0",
+      "Data.Unternehmer": "Künzli",
+      "Graphics.Coarse Scale Fill Pattern": "<Solid fill",
+      "Graphics.Coarse Scale Fill Color": "8421504",
+      "Identity Data.Edited by": "",
+      "Identity Data.Assembly Code": "",
+      "Identity Data.Assembly Description": "",
+      "Identity Data.Workset": "Floor Types",
+      "Identity Data.Cost": "0.0",
+      "Identity Data.Type Name": "Terrassenbelag Holzlattung Douglasie",
+      "Materials and Finishes.Structural Material": "Terrassenbelag Holz",
+      "Other.Category": "Floors",
+      "Other.Family Name": "Floor"
+    }
+  },
+  "Element Relationships": {
+    "Nests": null,
+    "Is Nested By": null,
+    "Covers": null,
+    "Is Covered By": null,
+    "Has Openings": null,
+    "Assigned Groups": null
+  },
+  "Element Location": {
+    "Storeys Map": {
+      "00_Betonplatte": {
+        "Elevation": -0.54,
+        "Unit": "meters"
+      },
+      "00_Eingang": {
+        "Elevation": 0.0,
+        "Unit": "meters"
+      },
+      "01_Galerie": {
+        "Elevation": 2.92,
+        "Unit": "meters"
+      }
+    },
+    "Element Located in Storey": "00_Eingang",
+    "Spatial Relationship": [
+      {
+        "name": "1072",
+        "type": "IfcProject"
+      },
+      {
+        "name": "Default",
+        "type": "IfcSite"
+      },
+      {
+        "name": "",
+        "type": "IfcBuilding"
+      },
+      {
+        "name": "00_Eingang",
+        "type": "IfcBuildingStorey"
+      }
+    ]
+  }
+}

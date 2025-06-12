@@ -1,0 +1,2265 @@
+name,parent,depth,is_category
+Beschichtungen,01_OBD-database,2,True
+Dämmstoffe,01_OBD-database,2,True
+End_of_Life,01_OBD-database,2,True
+Gebäudetechnik,01_OBD-database,2,True
+Holz,01_OBD-database,2,True
+Komponenten_von_Fenstern_und_Vorhangfassaden,01_OBD-database,2,True
+Komposite,01_OBD-database,2,True
+Kunststoffe,01_OBD-database,2,True
+Metalle,01_OBD-database,2,True
+Mineralische_Baustoffe,01_OBD-database,2,True
+Sonstige,01_OBD-database,2,True
+Bituminöse_Anstriche,Beschichtungen,3,True
+Fassadenfarben,Beschichtungen,3,True
+Grundierungen,Beschichtungen,3,True
+Innenbeschichtungen,Beschichtungen,3,True
+Lacke_und_Lasuren,Beschichtungen,3,True
+Reaktionsharze,Beschichtungen,3,True
+Baumwolle,Dämmstoffe,3,True
+Blähperlit,Dämmstoffe,3,True
+Calciumsilikat,Dämmstoffe,3,True
+Dämmelemente,Dämmstoffe,3,True
+Expandierter_Kork,Dämmstoffe,3,True
+Expandiertes_Polystyrol_(EPS),Dämmstoffe,3,True
+Extrudiertes_Polystyrol_(XPS),Dämmstoffe,3,True
+Flachsfaser,Dämmstoffe,3,True
+Hanffaser,Dämmstoffe,3,True
+Harnstoff-Formaldehydharz,Dämmstoffe,3,True
+Holzfasern,Dämmstoffe,3,True
+Holzwolleplatten,Dämmstoffe,3,True
+Kautschuk,Dämmstoffe,3,True
+Melaminharz,Dämmstoffe,3,True
+Mineralwolle,Dämmstoffe,3,True
+Ortschaum,Dämmstoffe,3,True
+Phenolharz-Hartschaum_(PF),Dämmstoffe,3,True
+Polyethylen,Dämmstoffe,3,True
+Polyurethan-Hartschaum_(PU),Dämmstoffe,3,True
+Schaumbeton,Dämmstoffe,3,True
+Schaumglas,Dämmstoffe,3,True
+Siliziumdioxid-basiert,Dämmstoffe,3,True
+Stroh,Dämmstoffe,3,True
+Wärmedämmverbundsystem,Dämmstoffe,3,True
+Zellulosefaser,Dämmstoffe,3,True
+Generisch,End_of_Life,3,True
+Beförderung,Gebäudetechnik,3,True
+Brandschutz,Gebäudetechnik,3,True
+Elektro,Gebäudetechnik,3,True
+Heizung,Gebäudetechnik,3,True
+Klimatisierung_und_Lüftung,Gebäudetechnik,3,True
+Nutzung,Gebäudetechnik,3,True
+Sanitär,Gebäudetechnik,3,True
+Holzböden,Holz,3,True
+Holzwerkstoffe,Holz,3,True
+Modifiziertes_Holz,Holz,3,True
+Vollholz,Holz,3,True
+Antriebssysteme,Komponenten_von_Fenstern_und_Vorhangfassaden,3,True
+Beschläge,Komponenten_von_Fenstern_und_Vorhangfassaden,3,True
+Dichtungskomponenten,Komponenten_von_Fenstern_und_Vorhangfassaden,3,True
+Fassaden,Komponenten_von_Fenstern_und_Vorhangfassaden,3,True
+Fenster,Komponenten_von_Fenstern_und_Vorhangfassaden,3,True
+Füllungen,Komponenten_von_Fenstern_und_Vorhangfassaden,3,True
+Rahmen,Komponenten_von_Fenstern_und_Vorhangfassaden,3,True
+Tageslichtsysteme_und_Rauch-,Komponenten_von_Fenstern_und_Vorhangfassaden,3,True
+Türen_und_Tore,Komponenten_von_Fenstern_und_Vorhangfassaden,3,True
+Zubehör_für_Fenster_Fassaden_Türen_und_Tore,Komponenten_von_Fenstern_und_Vorhangfassaden,3,True
+Systembauteile,Komposite,3,True
+Bodenbeläge,Kunststoffe,3,True
+Dachbahnen,Kunststoffe,3,True
+Dichtmassen,Kunststoffe,3,True
+Folien_und_Vliese,Kunststoffe,3,True
+Kunststoffprofile_elastisch,Kunststoffe,3,True
+Profile,Kunststoffe,3,True
+Rohre,Kunststoffe,3,True
+Aluminium,Metalle,3,True
+Blei,Metalle,3,True
+Edelstahl,Metalle,3,True
+Kupfer,Metalle,3,True
+Oberflächenbehandlung_und_Beschichtung_von_Metallen,Metalle,3,True
+Stahl_und_Eisen,Metalle,3,True
+Zink,Metalle,3,True
+Asphalt,Mineralische_Baustoffe,3,True
+Bindemittel,Mineralische_Baustoffe,3,True
+Mörtel_und_Beton,Mineralische_Baustoffe,3,True
+Steine_und_Elemente,Mineralische_Baustoffe,3,True
+Zuschläge,Mineralische_Baustoffe,3,True
+Baustellenprozesse,Sonstige,3,True
+Energieträger_-_Bereitstellung_frei_Verbraucher,Sonstige,3,True
+Güter_-_Transporte[t_km],Sonstige,3,True
+Personen_-_Transporte[Personen_km],Sonstige,3,True
+Aluminiumbleche,Aluminium,4,True
+Aluminiumfolie,Aluminium,4,True
+Aluminiumprofil,Aluminium,4,True
+Gussteile_aus_Aluminium,Aluminium,4,True
+elektrisch,Antriebssysteme,4,True
+mechanisch,Antriebssysteme,4,True
+Asphaltbinder,Asphalt,4,True
+Gussassphalt,Asphalt,4,True
+Splittmastixasphalt,Asphalt,4,True
+Tragschichten,Asphalt,4,True
+Baumwolle_konventionell,Baumwolle,4,True
+Baumwolle_ökologisch,Baumwolle,4,True
+Bagger_Aushub,Baustellenprozesse,4,True
+Betonieren,Baustellenprozesse,4,True
+Fahrstuhl,Beförderung,4,True
+Fahrtreppe,Beförderung,4,True
+Aluminiumbeschläge,Beschläge,4,True
+Befestigungen,Beschläge,4,True
+Edelstahlbeschläge,Beschläge,4,True
+Fenstergriffe,Beschläge,4,True
+Kunststoffbeschläge,Beschläge,4,True
+Messingbeschläge,Beschläge,4,True
+Stahlbeschläge,Beschläge,4,True
+Zinkbeschläge,Beschläge,4,True
+Gips,Bindemittel,4,True
+Kalk,Bindemittel,4,True
+Lehm,Bindemittel,4,True
+Zement,Bindemittel,4,True
+Bitumenbeschichtungen,Bituminöse_Anstriche,4,True
+Bleibleche,Blei,4,True
+Platten,Blähperlit,4,True
+Gummi-_Kautschuk-Bodenbeläge,Bodenbeläge,4,True
+Linoleum-Bodenbeläge,Bodenbeläge,4,True
+Mehrschichtig_modulare_Bodenbeläge,Bodenbeläge,4,True
+PVC-Bodenbeläge,Bodenbeläge,4,True
+Textile_Bodenbeläge,Bodenbeläge,4,True
+Schutzsysteme_zur_Kabel-_und_Rohrabschottung,Brandschutz,4,True
+Calcium-Silikathydrat,Calciumsilikat,4,True
+Bitumen-Dachbahnen,Dachbahnen,4,True
+ECB-Dachbahnen_(Ethylen-Copolymer-Bitumen),Dachbahnen,4,True
+EVA-Dachbahnen_(Etylen-Vinylacetat),Dachbahnen,4,True
+Elastomer-Dachbahnen,Dachbahnen,4,True
+PIB-Dachbahnen_(Polyisobutylen),Dachbahnen,4,True
+PVC-Dachbahnen,Dachbahnen,4,True
+TPO-Dachbahnen_(FPO),Dachbahnen,4,True
+Acrylat,Dichtmassen,4,True
+Bitumen,Dichtmassen,4,True
+Kautschuk,Dichtmassen,4,True
+PUR,Dichtmassen,4,True
+PVC,Dichtmassen,4,True
+Polysulfid,Dichtmassen,4,True
+Silikon,Dichtmassen,4,True
+-materialien,Dichtungskomponenten,4,True
+Isokörbe,Dämmelemente,4,True
+Tragende_Wärmedämmelemente,Dämmelemente,4,True
+Befestigungsmittel,Edelstahl,4,True
+Edelstahl_Trinkwasserrohre,Edelstahl,4,True
+Edelstahlbleche,Edelstahl,4,True
+Edelstahlprofile,Edelstahl,4,True
+Batteriespeicher,Elektro,4,True
+Beleuchtung,Elektro,4,True
+Kabel,Elektro,4,True
+Schalter_und_Steckdosen,Elektro,4,True
+Sicherungs-_und_Schaltschränke,Elektro,4,True
+Biogas,Energieträger_-_Bereitstellung_frei_Verbraucher,4,True
+Erdgas,Energieträger_-_Bereitstellung_frei_Verbraucher,4,True
+Fernwärme,Energieträger_-_Bereitstellung_frei_Verbraucher,4,True
+Flüssiggas,Energieträger_-_Bereitstellung_frei_Verbraucher,4,True
+Heizöl,Energieträger_-_Bereitstellung_frei_Verbraucher,4,True
+Holz-Pellets,Energieträger_-_Bereitstellung_frei_Verbraucher,4,True
+Pflanzenölkraftstoff,Energieträger_-_Bereitstellung_frei_Verbraucher,4,True
+Strom,Energieträger_-_Bereitstellung_frei_Verbraucher,4,True
+Trinkwasser,Energieträger_-_Bereitstellung_frei_Verbraucher,4,True
+Expandierter_Kork,Expandierter_Kork,4,True
+EPS_grau,Expandiertes_Polystyrol_(EPS),4,True
+EPS_grau-weiß,Expandiertes_Polystyrol_(EPS),4,True
+EPS_weiß,Expandiertes_Polystyrol_(EPS),4,True
+XPS_weiß,Extrudiertes_Polystyrol_(XPS),4,True
+Sonstige_Fassaden,Fassaden,4,True
+Vorhangfassade_-_Element-Fassaden,Fassaden,4,True
+Vorhangfassade_-_Pfosten-Riegel-Fassaden,Fassaden,4,True
+Dispersion,Fassadenfarben,4,True
+Silikat-Dispersion,Fassadenfarben,4,True
+Silikonharz,Fassadenfarben,4,True
+Holz-Metallfenster,Fenster,4,True
+Holzfenster,Fenster,4,True
+Kunststofffenster,Fenster,4,True
+Metallfenster,Fenster,4,True
+Sonstige_Fenster,Fenster,4,True
+Vlies,Flachsfaser,4,True
+Baupappen,Folien_und_Vliese,4,True
+Dampfbremse,Folien_und_Vliese,4,True
+Folien_zur_Abdichtung,Folien_und_Vliese,4,True
+Technische_Textilien,Folien_und_Vliese,4,True
+Unterspannbahn,Folien_und_Vliese,4,True
+Vliese,Folien_und_Vliese,4,True
+Opake_Füllungen,Füllungen,4,True
+Transparente_Füllungen,Füllungen,4,True
+Bauschutt,Generisch,4,True
+Gebäudetechnik,Generisch,4,True
+Hausmüll,Generisch,4,True
+Holz,Generisch,4,True
+Kunststoffe,Generisch,4,True
+Metalle,Generisch,4,True
+Grundierungen_Farben_und_Putze,Grundierungen,4,True
+Bahn,Güter_-_Transporte[t_km],4,True
+Binnenschiff,Güter_-_Transporte[t_km],4,True
+LKW,Güter_-_Transporte[t_km],4,True
+Seeschiff,Güter_-_Transporte[t_km],4,True
+Vlies,Hanffaser,4,True
+Ortschaum,Harnstoff-Formaldehydharz,4,True
+Speicher,Heizung,4,True
+Wärmeerzeuger,Heizung,4,True
+Wärmeverteilung_und_Abgabe,Heizung,4,True
+Kork,Holzböden,4,True
+Laminat,Holzböden,4,True
+Mehrschichtig modulare Bodenbeläge,Holzböden,4,True
+Parkett,Holzböden,4,True
+Holzfaserdämmplatte,Holzfasern,4,True
+Holzfasern_und_Holzspäne_lose,Holzfasern,4,True
+3-_und_5-Schichtplatten,Holzwerkstoffe,4,True
+Elemente_aus_Holzwerkstoffen,Holzwerkstoffe,4,True
+Funierschichtholz,Holzwerkstoffe,4,True
+Holzfaserplatten,Holzwerkstoffe,4,True
+OSB-Platte,Holzwerkstoffe,4,True
+Spanplatten,Holzwerkstoffe,4,True
+Sperrholz,Holzwerkstoffe,4,True
+Wood-Plastic-Composites,Holzwerkstoffe,4,True
+Holzwolleleichtbauplatten,Holzwolleplatten,4,True
+Dispersionsklebstoffe,Innenbeschichtungen,4,True
+Innenfarben,Innenbeschichtungen,4,True
+Wand-_und_Deckenbeläge,Innenbeschichtungen,4,True
+Schaum,Kautschuk,4,True
+Klimatisierung_Kältemaschinen,Klimatisierung_und_Lüftung,4,True
+Kältemittel,Klimatisierung_und_Lüftung,4,True
+Lüftungsanlagen,Klimatisierung_und_Lüftung,4,True
+Zubehör,Klimatisierung_und_Lüftung,4,True
+Harz-Komposit_Fassadenplatten,Kunststoffprofile_elastisch,4,True
+Transparente_Platten,Kunststoffprofile_elastisch,4,True
+Kupferbleche,Kupfer,4,True
+Kupferrohre,Kupfer,4,True
+Schmiede-_und_Gussteile_aus_Kupfer_und_Messing,Kupfer,4,True
+Lacksysteme_Holzfassade,Lacke_und_Lasuren,4,True
+Lacksysteme_Holzfenster,Lacke_und_Lasuren,4,True
+Lacksysteme_Metall,Lacke_und_Lasuren,4,True
+Parkettlack,Lacke_und_Lasuren,4,True
+Schaum,Melaminharz,4,True
+Glaswolle,Mineralwolle,4,True
+Mineralwolle,Mineralwolle,4,True
+Steinwolle,Mineralwolle,4,True
+Acetyliertes_Holz,Modifiziertes_Holz,4,True
+Thermisch_behandeltes_Holz,Modifiziertes_Holz,4,True
+Beton,Mörtel_und_Beton,4,True
+Betonzusatzmittel,Mörtel_und_Beton,4,True
+Estrich_trocken,Mörtel_und_Beton,4,True
+Kleber_und_Klebemo╠êrtel,Mörtel_und_Beton,4,True
+Mauermörtel,Mörtel_und_Beton,4,True
+Putz_und_Putzmörtel,Mörtel_und_Beton,4,True
+Nutzung_Beförderungstechnik,Nutzung,4,True
+Nutzung_Beleuchtung,Nutzung,4,True
+Nutzung_Lüftung_und_Klimatechnik,Nutzung,4,True
+Nutzung_Wärmeerzeuger_(EnEV),Nutzung,4,True
+(Nass-)_Lackieren_von_Metallen,Oberflächenbehandlung_und_Beschichtung_von_Metallen,4,True
+Anodisieren_von_Aluminium,Oberflächenbehandlung_und_Beschichtung_von_Metallen,4,True
+Pulverbeschichten,Oberflächenbehandlung_und_Beschichtung_von_Metallen,4,True
+Mineralisch,Ortschaum,4,True
+PKW,Personen_-_Transporte[Personen_km],4,True
+PF-Platten,Phenolharz-Hartschaum_(PF),4,True
+Schaum,Polyethylen,4,True
+PIR-Hartschaum,Polyurethan-Hartschaum_(PU),4,True
+PU_Blockschaum,Polyurethan-Hartschaum_(PU),4,True
+PU_mit_Aluminium,Polyurethan-Hartschaum_(PU),4,True
+PU_mit_Mineralvlies,Polyurethan-Hartschaum_(PU),4,True
+Kunststoffprofile_elastisch,Profile,4,True
+Kunststoffprofile_hart,Profile,4,True
+Profile,Rahmen,4,True
+Reaktionsharze_auf_Epoxidharzbasis,Reaktionsharze,4,True
+Reaktionsharze_auf_Methacrylatbasis,Reaktionsharze,4,True
+Reaktionsharze_auf_PU-Basis,Reaktionsharze,4,True
+Abwasserrohre,Rohre,4,True
+Regen-_Grauwasserrohre,Rohre,4,True
+Trinkwasserrohre,Rohre,4,True
+Armaturen,Sanitär,4,True
+Dusch-_und_Badewannen,Sanitär,4,True
+Sanitärkeramik,Sanitär,4,True
+Schaumbeton_Dämmplatten,Schaumbeton,4,True
+Granulat,Schaumglas,4,True
+Platten,Schaumglas,4,True
+Hydrophobe_Platten,Siliziumdioxid-basiert,4,True
+Vakuumisolationspaneele,Siliziumdioxid-basiert,4,True
+Befestigungsmittel,Stahl_und_Eisen,4,True
+Betonstabstahl,Stahl_und_Eisen,4,True
+Betonstahlmatten,Stahl_und_Eisen,4,True
+Guss-_und_Schmiedeteile_aus_Stahl_und_Eisen,Stahl_und_Eisen,4,True
+Stahlbleche,Stahl_und_Eisen,4,True
+Stahlprofile,Stahl_und_Eisen,4,True
+Betonfertigteile_und_Betonwaren,Steine_und_Elemente,4,True
+Dachsteine,Steine_und_Elemente,4,True
+Dachziegel,Steine_und_Elemente,4,True
+Deckenplatten,Steine_und_Elemente,4,True
+Faserzement,Steine_und_Elemente,4,True
+Fliesen_und_Platten,Steine_und_Elemente,4,True
+Gipsplatten,Steine_und_Elemente,4,True
+Glasbausteine,Steine_und_Elemente,4,True
+Kalksandstein,Steine_und_Elemente,4,True
+Kunststein,Steine_und_Elemente,4,True
+Lehmsteine,Steine_und_Elemente,4,True
+Leichtbeton,Steine_und_Elemente,4,True
+Naturwerkstein,Steine_und_Elemente,4,True
+Porenbeton,Steine_und_Elemente,4,True
+Schiefer,Steine_und_Elemente,4,True
+Steinzeug,Steine_und_Elemente,4,True
+Substrate,Steine_und_Elemente,4,True
+Trockenestrich,Steine_und_Elemente,4,True
+Ziegel,Steine_und_Elemente,4,True
+Strohballen,Stroh,4,True
+Strohplatten,Stroh,4,True
+Aussenwände,Systembauteile,4,True
+Bewehrung,Systembauteile,4,True
+Böden,Systembauteile,4,True
+Dachaufbauten,Systembauteile,4,True
+Decken,Systembauteile,4,True
+Innenwände,Systembauteile,4,True
+Wärmeabzugsanlagen,Tageslichtsysteme_und_Rauch-,4,True
+Aluminium,Türen_und_Tore,4,True
+Holz,Türen_und_Tore,4,True
+Kunststoff,Türen_und_Tore,4,True
+Stahl,Türen_und_Tore,4,True
+Balkenschichtholz_(Duo-Triobalken),Vollholz,4,True
+Bau-Schnittholz,Vollholz,4,True
+Brettschichtholz_(BSH),Vollholz,4,True
+Brettschichtholzplatte,Vollholz,4,True
+Konstruktionsvollholz,Vollholz,4,True
+WDVS-Dübel,Wärmedämmverbundsystem,4,True
+Wärmedämmverbundsystem,Wärmedämmverbundsystem,4,True
+Zellulose-Einblas-Dämmstoff,Zellulosefaser,4,True
+Zelluloseplatten,Zellulosefaser,4,True
+Zinkbleche,Zink,4,True
+Feuer-_Rauchschutzsysteme,Zubehör_für_Fenster_Fassaden_Türen_und_Tore,4,True
+Fingerschutzsysteme,Zubehör_für_Fenster_Fassaden_Türen_und_Tore,4,True
+Sonnenschutzsysteme,Zubehör_für_Fenster_Fassaden_Türen_und_Tore,4,True
+Bims,Zuschläge,4,True
+Blähglas,Zuschläge,4,True
+Blähschiefer,Zuschläge,4,True
+Blähton,Zuschläge,4,True
+Kraftwerksnebenprodukte,Zuschläge,4,True
+Naturstein,Zuschläge,4,True
+Perlite,Zuschläge,4,True
+Sand_und_Kies,Zuschläge,4,True
+Trockenschüttung,Zuschläge,4,True
+Application top coat on metals (solvent based),(Nass-)_Lackieren_von_Metallen,5,False
+Application top coat on metals (water based),(Nass-)_Lackieren_von_Metallen,5,False
+Dichtprofile,-materialien,5,True
+Elastomer-Fugenbänder,-materialien,5,True
+Fugendichtungsbänder,-materialien,5,True
+3- and 5-layer solid wood panel (German average),3-_und_5-Schichtplatten,5,False
+Five-layer laminated timber board (generic),3-_und_5-Schichtplatten,5,False
+Nordpan ? Solid wood panels (Update),3-_und_5-Schichtplatten,5,False
+Three layer laminated timber board (generic),3-_und_5-Schichtplatten,5,False
+AWADUKT PP,Abwasserrohre,5,False
+AWASCHACHT nevoPP,Abwasserrohre,5,False
+Sewer pipe ABS,Abwasserrohre,5,False
+Sewer pipe GFK,Abwasserrohre,5,False
+Sewer pipe PE-HD,Abwasserrohre,5,False
+Sewer pipe PP,Abwasserrohre,5,False
+Sewer pipe PVC,Abwasserrohre,5,False
+"Acetylated wood (1 m3, 510 kg/m3)",Acetyliertes_Holz,5,False
+Acrylate sealing compound,Acrylat,5,False
+FFB-ES Plus,Acrylat,5,False
+FiAM Plus,Acrylat,5,False
+AL 401 Series Sliding Door Operator,Aluminium,5,False
+ARGUS AIR sensor barriers,Aluminium,5,False
+ARGUS V60,Aluminium,5,False
+Automatic Revolving Door KTV A,Aluminium,5,False
+Automatic Sliding Door ST FLEX,Aluminium,5,False
+Automatic Sliding Door ST FLEX Green,Aluminium,5,False
+Charon 20 - Half Height Swing Doors,Aluminium,5,False
+Crane Automatic Revolving Door - AL 1000/2000/3000,Aluminium,5,False
+Crane Manual Revolving Door - AL 1000/2000/3000,Aluminium,5,False
+Door - EFAFLEX Tor- und Sicherheitssysteme GmbH & Co. KG - High-speed spiral door aluminum,Aluminium,5,False
+Door - EFAFLEX Tor- und Sicherheitssysteme GmbH & Co. KG - High-speed turbo door aluminum,Aluminium,5,False
+Door - Hörmann KG Brockhagen - Industrial sectional doors in aluminium,Aluminium,5,False
+Door - Hörmann KG Eckelhausen - Fire protection door T30,Aluminium,5,False
+Door - Hörmann KG Eckelhausen - Fire protection door T90,Aluminium,5,False
+Door - Hörmann KG Eckelhausen - Smoke protection door,Aluminium,5,False
+Door - heroal-Johann Henkenjohann GmbH & Co. KG - Aluminium commercial door (EN 15804+A2),Aluminium,5,False
+Door - heroal-Johann Henkenjohann GmbH & Co. KG - Aluminium fire door (EN 15804+A2),Aluminium,5,False
+Door - heroal-Johann Henkenjohann GmbH & Co. KG - Front door door (EN 15804+A2),Aluminium,5,False
+Door- Hörmann KG Eckelhausen - Entrance door,Aluminium,5,False
+EL 301 Series Sliding Door Operator,Aluminium,5,False
+ESA 100-300 Automatic Sliding Door,Aluminium,5,False
+ESA 400 Automatic Sliding Door,Aluminium,5,False
+ESA 500 Automatic Sliding Door,Aluminium,5,False
+Exterior door - VFF - Aluminium exterior door with light cut-out,Aluminium,5,False
+Exterior door - VFF - Aluminium exterior door without light cut-out,Aluminium,5,False
+Folding door system 50 / 50E,Aluminium,5,False
+Folding door system FFT FLEX Green,Aluminium,5,False
+Geryon Security Revolving Door,Aluminium,5,False
+Geryon Security Revolving Door,Aluminium,5,False
+Industrial and garage doors - ConDoor Group B.V. - Aluminum panels,Aluminium,5,False
+Industrial and garage doors - ConDoor Group B.V. - Panel doors 80 mm,Aluminium,5,False
+Manual Revolving Door KTV M,Aluminium,5,False
+Rack and pinion door closer TS Match and TS Match X,Aluminium,5,False
+ST PRO Green,Aluminium,5,False
+Sectional door - Lindab A/S - Sectional door LDP,Aluminium,5,False
+Security Revolving Door Geryon K9,Aluminium,5,False
+Sliding Door 30 / 30E / 30T / 30ET / 30L / 30 LT / 60 / 60L,Aluminium,5,False
+Sliding Door 50 / 50E / 50T / 50ET / 50L / 50 LT,Aluminium,5,False
+Windows - Sky-Frame AG - Frameless sliding windows Classic anodized,Aluminium,5,False
+Windows - Sky-Frame AG - Frameless sliding windows Classic powder-coated,Aluminium,5,False
+Windows - Sky-Frame AG - Frameless sliding windows Plain anodized,Aluminium,5,False
+Windows - Sky-Frame AG - Frameless sliding windows Plain powder-coated,Aluminium,5,False
+Window fitting for double sash window,Aluminiumbeschläge,5,False
+Window fitting for horizontal sliding window,Aluminiumbeschläge,5,False
+Window fitting for tilt and turn window,Aluminiumbeschläge,5,False
+Window fitting for vertical sliding window,Aluminiumbeschläge,5,False
+ALPOLIC?  Composites,Aluminiumbleche,5,False
+Aluminium sheet,Aluminiumbleche,5,False
+Perforated aluminum sheet with surface finish (Dillinger Fabrik Gelochter Bleche GmbH),Aluminiumbleche,5,False
+"Profiled sheets made of aluminium for roof, wall and ceiling constructions",Aluminiumbleche,5,False
+Aluminium foil (d=0.1 mm),Aluminiumfolie,5,False
+Aluminium FC Facade System - Kalzip®,Aluminiumprofil,5,False
+Aluminium Standing Seam Roofing and Wall Cladding System - Kalzip®,Aluminiumprofil,5,False
+Aluminium profiles,Aluminiumprofil,5,False
+Aluminium section,Aluminiumprofil,5,False
+"Aluminum profile, mill finish",Aluminiumprofil,5,False
+Metawall® A2,Aluminiumprofil,5,False
+Metawall® B1,Aluminiumprofil,5,False
+Metawell® ceiling/wall panel,Aluminiumprofil,5,False
+Schüco Aluminium Profile,Aluminiumprofil,5,False
+Schüco Low Carbon Aluminium Profile,Aluminiumprofil,5,False
+Schüco Ultra Low Carbon Aluminium Profile,Aluminiumprofil,5,False
+Semi-finished products - EMERUS d.o.o. -  EMERUS ultra low-carbon aluminium profile (Anodized),Aluminiumprofil,5,False
+Semi-finished products - EMERUS d.o.o. -  EMERUS ultra low-carbon aluminium profile (Electrostatically powder-coated),Aluminiumprofil,5,False
+Semi-finished products - EMERUS d.o.o. -  EMERUS ultra low-carbon aluminium profile (raw),Aluminiumprofil,5,False
+semi-finished products - EMERUS d.o.o. - aluminium profile (blank),Aluminiumprofil,5,False
+semi-finished products - EMERUS d.o.o. - anodized aluminium profile,Aluminiumprofil,5,False
+semi-finished products - EMERUS d.o.o. - electrostatic powder-coated aluminium profile,Aluminiumprofil,5,False
+Anodization of aluminium,Anodisieren_von_Aluminium,5,False
+Basic Sets,Armaturen,5,False
+Basin Faucets,Armaturen,5,False
+Drainage technology - Viega GmbH & Co. KG - Accessories,Armaturen,5,False
+Drainage technology - Viega GmbH & Co. KG - Backwater valves,Armaturen,5,False
+Drainage technology - Viega GmbH & Co. KG - Bathroom and balcony drains,Armaturen,5,False
+Drainage technology - Viega GmbH & Co. KG - Drains for bathtubs and shower trays,Armaturen,5,False
+"Drainage technology - Viega GmbH & Co. KG - Drains for sinks, spouts and appliances",Armaturen,5,False
+Drainage technology - Viega GmbH & Co. KG - Drains for urinals,Armaturen,5,False
+Drainage technology - Viega GmbH & Co. KG - Drains for washbasins and bidets,Armaturen,5,False
+Drainage technology - Viega GmbH & Co. KG - Electronic mixing unit,Armaturen,5,False
+Drainage technology - Viega GmbH & Co. KG - Floor and cellar drains,Armaturen,5,False
+Drainage technology - Viega GmbH & Co. KG - Grates for shower channels,Armaturen,5,False
+Drainage technology - Viega GmbH & Co. KG - Shower channels,Armaturen,5,False
+E3 Valve,Armaturen,5,False
+Hand Showers,Armaturen,5,False
+Kitchen Faucets,Armaturen,5,False
+Overhead Showers,Armaturen,5,False
+Shower and Bath Faucets,Armaturen,5,False
+Shower hoses,Armaturen,5,False
+Showerpipes,Armaturen,5,False
+Thermostats,Armaturen,5,False
+Asphalt binder,Asphaltbinder,5,False
+AQUAPANEL® Cement Board Outdoor - Site Volos,Aussenwände,5,False
+Duripanel A2,Aussenwände,5,False
+Duripanel B1,Aussenwände,5,False
+QuadCore insulating panels (ems-isolier QuadCore EM and KS EM QuadCore),Aussenwände,5,False
+QuadCore insulating panels (ems-isolier QuadCore EMV and KS AWP-C),Aussenwände,5,False
+StoVentec Carrier Board S,Aussenwände,5,False
+StoVentec Glass A,Aussenwände,5,False
+Texlon®-System,Aussenwände,5,False
+Excavator 100kW,Bagger_Aushub,5,False
+Excavator15 kW,Bagger_Aushub,5,False
+Rail transport,Bahn,5,False
+Glued solid timber (German average),Balkenschichtholz_(Duo-Triobalken),5,False
+Laminated wood beam softwood (generic),Balkenschichtholz_(Duo-Triobalken),5,False
+Lithium iron phosphate (LiFePO4) battery (per 1kWh storage),Batteriespeicher,5,False
+Coniferous lumber - fresh (German average),Bau-Schnittholz,5,False
+Coniferous lumber - kiln dried (German average),Bau-Schnittholz,5,False
+EGGER timber,Bau-Schnittholz,5,False
+Hardwood lumber - kiln dried (German average),Bau-Schnittholz,5,False
+Planed coniferous lumber (German average),Bau-Schnittholz,5,False
+"Rubner Sawn Timber, Rubner Sawn Timber kiln dried, Rubner Sawn Timber machine graded",Bau-Schnittholz,5,False
+Sapelli Kiln Dried Timber,Bau-Schnittholz,5,False
+"Timber beech (generic, 12% moisture / 10.7% H2O content)",Bau-Schnittholz,5,False
+"Timber cedar (generic, 12% moisture / 10.7% H2O content)",Bau-Schnittholz,5,False
+"Timber larch (generic, 12% moisture / 10.7% H2O content)",Bau-Schnittholz,5,False
+"Timber oak (generic, 12% moisture / 10.7% H2O content)",Bau-Schnittholz,5,False
+"Timber pine (generic, 12% moisture / 10.7% H2O content)",Bau-Schnittholz,5,False
+"Timber spruce (generic, 12% moisture / 10.7% H2O content)",Bau-Schnittholz,5,False
+"Cotton, conventional",Baumwolle_konventionell,5,False
+"Cotton, organic",Baumwolle_ökologisch,5,False
+Kraft paper,Baupappen,5,False
+Construction rubble landfill,Bauschutt,5,False
+Construction rubble processing,Bauschutt,5,False
+Inert matter landfill,Bauschutt,5,False
+8600 and 8900 Series door closers,Befestigungen,5,False
+BEST 1C Series,Befestigungen,5,False
+BEST 1E Series,Befestigungen,5,False
+BEST 45H Mortise Series,Befestigungen,5,False
+BEST 47H Mortise Series,Befestigungen,5,False
+BEST 9K Cylindrical Series,Befestigungen,5,False
+BEST T Deadbolt Series,Befestigungen,5,False
+Fastening solutions for external thermal insulation composite systems,Befestigungen,5,False
+Fastening systems for rear-ventilated curtain wall facades,Befestigungen,5,False
+Flat roof fastening systems,Befestigungen,5,False
+Galvanized steel screws,Befestigungen,5,False
+ITS 915/ITS 900,Befestigungen,5,False
+LA GARD 700,Befestigungen,5,False
+Ladder Pull TG138 Series,Befestigungen,5,False
+Precision 2000 Series,Befestigungen,5,False
+Remote reader 91 15,Befestigungen,5,False
+Remote reader 91 25,Befestigungen,5,False
+"Reversible Single Cylinder - ace JP, ace APAC",Befestigungen,5,False
+Stainless steel screws,Befestigungen,5,False
+TS 68/TS 69,Befestigungen,5,False
+TS 71/TS 72,Befestigungen,5,False
+TS 73 V,Befestigungen,5,False
+TS 83,Befestigungen,5,False
+TS 90 Impulse,Befestigungen,5,False
+TS 91,Befestigungen,5,False
+TS 92 XEA,Befestigungen,5,False
+Terminal 96 00,Befestigungen,5,False
+Terminal 97 00,Befestigungen,5,False
+c-lever compact,Befestigungen,5,False
+Combar®,Befestigungsmittel,5,False
+KRINNER Ground Screws,Befestigungsmittel,5,False
+Knauf Ceiling Solutions Suspension System & Accessories,Befestigungsmittel,5,False
+Stainless Steel screws,Befestigungsmittel,5,False
+Steel Screws,Befestigungsmittel,5,False
+APOLLO G2 (PRACHT Industry GmbH),Beleuchtung,5,False
+Compact fluorescent lamp 18W (excluding control gear),Beleuchtung,5,False
+Coray CMR,Beleuchtung,5,False
+Diffuser (damp room) T8-36W (LFL),Beleuchtung,5,False
+"Downlight cabinet 18W (CFL, G24D))",Beleuchtung,5,False
+Electronic control gear,Beleuchtung,5,False
+Fluorescent lamp T5-14W,Beleuchtung,5,False
+Fluorescent lamp T5-28W,Beleuchtung,5,False
+Fluorescent lamp T8-18W,Beleuchtung,5,False
+Fluorescent lamp T8-36W,Beleuchtung,5,False
+Fluorescent lamp socket T8-18W (LFL),Beleuchtung,5,False
+Fluorescent lamp socket T8-36W (LFL) (LFL),Beleuchtung,5,False
+Iqona IMT,Beleuchtung,5,False
+LED office luminaire,Beleuchtung,5,False
+LUNA BL (PRACHT Industry GmbH),Beleuchtung,5,False
+Louvrelight 2x T8-36W (LFL),Beleuchtung,5,False
+Louvrelight integrated into ceiling 2x T5-28W (LFL),Beleuchtung,5,False
+Louvrelight integrated into ceiling 3x T5-14W (LFL),Beleuchtung,5,False
+Louvrelight integrated into ceiling 3x T8-18W (LFL),Beleuchtung,5,False
+ORN 500,Beleuchtung,5,False
+Piatello A,Beleuchtung,5,False
+Punta PXR,Beleuchtung,5,False
+RS PRO 5100/5150 C (Steinel GmbH),Beleuchtung,5,False
+RS PRO 5100/5150 SC (Steinel GmbH),Beleuchtung,5,False
+RS PRO R-Series (Steinel GmbH),Beleuchtung,5,False
+RS PRO S-Series (Steinel GmbH),Beleuchtung,5,False
+Reactive (low-loss) control gear,Beleuchtung,5,False
+Tarus 400,Beleuchtung,5,False
+Autoclaved Aerated Concrete Reinforced Panel,Beton,5,False
+Betonrezeptur C45/55 selbstverdichtend (Concrete recipe C45/55 self-compacting),Beton,5,False
+Betonrezeptur C50/60 nicht selbstverdichtend (Concrete recipe C50/60 not self-compacting),Beton,5,False
+Betonrezeptur C50/60 selbstverdichtend (Concrete recipe C50/60 self-compacting),Beton,5,False
+Betonsorte 16345450,Beton,5,False
+Building products made of concrete and concrete elements - Firmengruppe Max Bögl - Concrete C30/37,Beton,5,False
+Building products made of concrete and concrete elements - Firmengruppe Max Bögl - Concrete C30/37 blast furnace cement,Beton,5,False
+Building products made of concrete and concrete elements - Firmengruppe Max Bögl - Concrete C30/37 fly ash,Beton,5,False
+Building products made of concrete and concrete elements - Firmengruppe Max Bögl - Concrete C30/37 ground granulated blast furnace slag,Beton,5,False
+Cement light mortar: T MIM,Beton,5,False
+"Concrete - 118 C25/30 XC4, XF1",Beton,5,False
+Concrete C12/15,Beton,5,False
+Concrete C16/20,Beton,5,False
+Concrete C20/25,Beton,5,False
+Concrete C25/30,Beton,5,False
+Concrete C30/37,Beton,5,False
+"Concrete C30/37, Type number 988899192",Beton,5,False
+Concrete C35/45,Beton,5,False
+"Concrete C40/50, Type number 988429091",Beton,5,False
+"Concrete C40/50, Type number 988429096",Beton,5,False
+"Concrete C40/50, Type number 988429196",Beton,5,False
+Concrete C45/55,Beton,5,False
+Concrete C50/60,Beton,5,False
+Concrete C55/67,Beton,5,False
+Concrete C60/75,Beton,5,False
+Concrete C8/10,Beton,5,False
+Concrete paving stone,Beton,5,False
+Concrete paving stone Stonecycle® with over 40% recycled aggregates,Beton,5,False
+Concrete pipe and concrete shaft C40/50 - Bundesfachverband Betonkanalsysteme,Beton,5,False
+"Concrete turnout sleeper, TSF-A",Beton,5,False
+"Concrete turnout sleeper, voestalpine",Beton,5,False
+FIS EM Plus,Beton,5,False
+FIS V Zero,Beton,5,False
+Paving stone of 100% FCN-Klimabeton®,Beton,5,False
+Paving stone of 85% FCN-Klimabeton®,Beton,5,False
+R-concrete (Betonwerk Büscher),Beton,5,False
+Ready-mix concrete C20/25,Beton,5,False
+Ready-mix concrete C25/30,Beton,5,False
+Ready-mix concrete C30/37,Beton,5,False
+Ready-mix concrete C50/60,Beton,5,False
+Recycling ready- mix concrete C25/30,Beton,5,False
+Recycling ready- mix concrete C50/60,Beton,5,False
+Recycling ready-mix concrete C20/25,Beton,5,False
+Recycling ready-mix concrete C30/37,Beton,5,False
+Reinforced concrete pipe and reinforced concrete shaft C40/50 - Bundesfachverband Betonkanalsysteme,Beton,5,False
+"Structural concrete M6582A09 (C30/37, F4, 16, XC4, XF1, XA1, XD1, WA, slow)",Beton,5,False
+A2-Betonpflaster- Standardstein grau mit Vorsatz,Betonfertigteile_und_Betonwaren,5,False
+Beton-Pflastersteine,Betonfertigteile_und_Betonwaren,5,False
+Beton-Pflastersteine mit bis zu  40 % Recyclinganteil,Betonfertigteile_und_Betonwaren,5,False
+Büscher wall (Betonwerk Büscher),Betonfertigteile_und_Betonwaren,5,False
+Concrete masonry brick,Betonfertigteile_und_Betonwaren,5,False
+Concrete paving stone,Betonfertigteile_und_Betonwaren,5,False
+Concrete paving stone,Betonfertigteile_und_Betonwaren,5,False
+Concrete paving stone 6 cm anthracite,Betonfertigteile_und_Betonwaren,5,False
+Concrete paving stone 6 cm multicoloured,Betonfertigteile_und_Betonwaren,5,False
+Concrete paving stone 8 cm anthracite,Betonfertigteile_und_Betonwaren,5,False
+Concrete paving stone 8 cm grey,Betonfertigteile_und_Betonwaren,5,False
+Concrete paving stone 8 cm multi-coloured,Betonfertigteile_und_Betonwaren,5,False
+Concrete paving stones/ slabs (average product) (Baustoffwerk LIMEX-VENUSBERG GmbH),Betonfertigteile_und_Betonwaren,5,False
+Concrete paving stones/slabs,Betonfertigteile_und_Betonwaren,5,False
+"Concrete pipe, non-reinforced",Betonfertigteile_und_Betonwaren,5,False
+"Concrete pipe, reinforced",Betonfertigteile_und_Betonwaren,5,False
+"Concrete products, multicolored with a surface layer",Betonfertigteile_und_Betonwaren,5,False
+"Isospan 1 GaBi Wood-chip concrete shuttering blocks ÖKOPUR and Öko-Expert with integrated wood fibre insulation 36,5/16,5",Betonfertigteile_und_Betonwaren,5,False
+Isospan 1 GaBi Wood-chip concrete shuttering blocks ÖKOPUR and Öko-Expert with integrated wood fibre insulation 43/20,Betonfertigteile_und_Betonwaren,5,False
+Isospan 1 GaBi Wood-chip concrete shuttering blocks ÖKOPUR and Öko-Expert with integrated wood fibre insulation 43/23,Betonfertigteile_und_Betonwaren,5,False
+Isospan 2 GaBi Wood-chip concrete shuttering blocks Expert 43/15 with integrated EPS insulation,Betonfertigteile_und_Betonwaren,5,False
+"Isospan 2 GaBi Wood-chip concrete shuttering blocks Expert 43/16,5 with integrated EPS insulation",Betonfertigteile_und_Betonwaren,5,False
+Isospan 2 GaBi Wood-chip concrete shuttering blocks Expert 43/20 with integrated EPS insulation,Betonfertigteile_und_Betonwaren,5,False
+Isospan 2 GaBi Wood-chip concrete shuttering blocks Expert 43/23 with integrated EPS insulation,Betonfertigteile_und_Betonwaren,5,False
+Isospan 2 GaBi Wood-chip concrete shuttering blocks SILVER S 25/6 with integrated EPS insulation,Betonfertigteile_und_Betonwaren,5,False
+Isospan 2 GaBi Wood-chip concrete shuttering blocks SILVER S 30/5 with integrated EPS insulation,Betonfertigteile_und_Betonwaren,5,False
+Isospan 2 GaBi Wood-chip concrete shuttering blocks SILVER S 30/7 with integrated EPS insulation,Betonfertigteile_und_Betonwaren,5,False
+Isospan 2 GaBi Wood-chip concrete shuttering blocks SILVER S 30/9 with integrated EPS insulation,Betonfertigteile_und_Betonwaren,5,False
+"Isospan 2 GaBi Wood-chip concrete shuttering blocks SILVER S 36,5/10,5 with integrated EPS insulation",Betonfertigteile_und_Betonwaren,5,False
+"Isospan 2 GaBi Wood-chip concrete shuttering blocks SILVER S 36,5/13,5 with integrated EPS insulation",Betonfertigteile_und_Betonwaren,5,False
+"Isospan 2 GaBi Wood-chip concrete shuttering blocks SILVER S 36,5/16,5 with integrated EPS insulation",Betonfertigteile_und_Betonwaren,5,False
+"Isospan 2 GaBi Wood-chip concrete shuttering blocks SILVER S 36,5/5 with integrated EPS insulation",Betonfertigteile_und_Betonwaren,5,False
+"Isospan 3 GaBi Wood-chip concrete shuttering blocks ISOPUR with integrated PU insulation 36,5/16,5",Betonfertigteile_und_Betonwaren,5,False
+"Isospan 3 GaBi Wood-chip concrete shuttering blocks ISOPUR with integrated PU insulation 36,5/16,5",Betonfertigteile_und_Betonwaren,5,False
+Isospan 4 GaBi Wood-chip concrete shuttering blocks Normalstein IW 25,Betonfertigteile_und_Betonwaren,5,False
+Isospan 4 GaBi Wood-chip concrete shuttering blocks Normalstein IW 30,Betonfertigteile_und_Betonwaren,5,False
+Isospan 4 GaBi Wood-chip concrete shuttering blocks Normalstein N15,Betonfertigteile_und_Betonwaren,5,False
+Isospan 4 GaBi Wood-chip concrete shuttering blocks Normalstein N18,Betonfertigteile_und_Betonwaren,5,False
+Isospan 4 GaBi Wood-chip concrete shuttering blocks Normalstein N20,Betonfertigteile_und_Betonwaren,5,False
+Isospan 4 GaBi Wood-chip concrete shuttering blocks Normalstein N22,Betonfertigteile_und_Betonwaren,5,False
+Isospan 4 GaBi Wood-chip concrete shuttering blocks Normalstein N25,Betonfertigteile_und_Betonwaren,5,False
+Isospan 4 GaBi Wood-chip concrete shuttering blocks Normalstein TW30,Betonfertigteile_und_Betonwaren,5,False
+Pre-stressed carbon fibre-reinforced concrete element CPC 40-2-2,Betonfertigteile_und_Betonwaren,5,False
+Pre-stressed carbon fibre-reinforced concrete element CPC 70-4-4,Betonfertigteile_und_Betonwaren,5,False
+"Precast concrete elements for walls, pillars and beams (Based on the concrete recipe type 44)",Betonfertigteile_und_Betonwaren,5,False
+"Precast concrete elements for walls, pillars and beams (Based on the concrete recipe type 44b)",Betonfertigteile_und_Betonwaren,5,False
+"Precast concrete elements for walls, pillars and beams (Based on the concrete recipe type 5)",Betonfertigteile_und_Betonwaren,5,False
+"Precast concrete elements for walls, pillars and beams Based on the concrete recipe Type 66b",Betonfertigteile_und_Betonwaren,5,False
+"Precast concrete part, stairs, (1,1 m wide, 9 steps each 16 cm)",Betonfertigteile_und_Betonwaren,5,False
+"Precast concrete slab, ceiling, thickness 20cm",Betonfertigteile_und_Betonwaren,5,False
+"Precast concrete wall, thickness 12cm",Betonfertigteile_und_Betonwaren,5,False
+"Shafts and pipes, unreinforced, compressive strength class C40/50",Betonfertigteile_und_Betonwaren,5,False
+Pumping of 1 m3 concrete,Betonieren,5,False
+COMAX Reinforcement Continuity System,Betonstabstahl,5,False
+Hot Rolled Concrete Reinforcing Coils,Betonstabstahl,5,False
+Hot Rolled concrete reinforcing bars,Betonstabstahl,5,False
+Hot Rolled concrete reinforcing coils,Betonstabstahl,5,False
+Hot rolled concrete reinforcing stretched coils,Betonstabstahl,5,False
+Reinforcing Steel Coils & Bars,Betonstabstahl,5,False
+Reinforcing stabilized three and seven-wire strands with and without dents with a nominal tensile strength of 1670÷1860 N /mm2 with a diameter of 6.5÷15.7 mm (PC-strand),Betonstabstahl,5,False
+Reinforcing steel bars,Betonstabstahl,5,False
+Reinforcing steel in bars,Betonstabstahl,5,False
+Reinforcing steel in coils,Betonstabstahl,5,False
+SAS 835/1035,Betonstabstahl,5,False
+"SAS thread bar (SAS 500/550, SAS 500/600 ULTS, SAS 500/700, SAS 550/620, SAS 555/700, SAS 670/800, SAS 800/950 FL, SAS 900/1050 FC, SAS 900/1050 SN)",Betonstabstahl,5,False
+"SAS thread bar (SAS E360, SAS 450/700, SAS 650/800, SAS 670/800, SAS 750/875 FS, SAS 900/1100 FA, SAS 900/1100 FX, SAS 950/1050, SAS 1100/1320)",Betonstabstahl,5,False
+"Steel fiber: waved(undulated), with hooked ends, with flattened ends",Betonstabstahl,5,False
+Steel rebar B500B/ K500C-T/ K500B-T/ B500NC,Betonstabstahl,5,False
+Weldable hot rolled reinforcing steel bars,Betonstabstahl,5,False
+Wire Rod,Betonstabstahl,5,False
+Wire Rods,Betonstabstahl,5,False
+Wire rod,Betonstabstahl,5,False
+Wire rod,Betonstabstahl,5,False
+Meshes,Betonstahlmatten,5,False
+Reinforcement steel wire,Betonstahlmatten,5,False
+Reinforcing steel mesh,Betonstahlmatten,5,False
+Steel Welded Fabrics & Lattice Girders,Betonstahlmatten,5,False
+Welded Mesh,Betonstahlmatten,5,False
+Welded Mesh,Betonstahlmatten,5,False
+Microsit®10,Betonzusatzmittel,5,False
+Microsit®20,Betonzusatzmittel,5,False
+"Mixed-in-Place (MIP) Construction material, class 150-230",Betonzusatzmittel,5,False
+"Mixed-in-Place (MIP) Construction material, class 230-360",Betonzusatzmittel,5,False
+"Mixed-in-Place (MIP) Construction material, class 360-520",Betonzusatzmittel,5,False
+"Mixed-in-Place (MIP) Construction material, class 520-600",Betonzusatzmittel,5,False
+EPD reinforcing and fastening systems  - solidian GmbH - solidian ANTICRACK,Bewehrung,5,False
+Reinforcement and fastening system - solidian GmbH - solidian GRID Q85-CCE-21-E5 (2022),Bewehrung,5,False
+Reinforcement and fastening system - solidian GmbH - solidian REBAR,Bewehrung,5,False
+Dry leveling fill - Dr. Carl Riffer Baustoffe GmbH & Co. KG - Rotocell,Bims,5,False
+Dry leveling fill - Dr. Carl Riffer Baustoffe GmbH & Co. KG - Rotocell PLUS,Bims,5,False
+Lava granulate,Bims,5,False
+Pumice gravel,Bims,5,False
+Pumice sand,Bims,5,False
+Washed pumice,Bims,5,False
+Barge (average),Binnenschiff,5,False
+Biogas (1 kg),Biogas,5,False
+"Bitumen cold adhesive (60% bitumen, 23% solvent, 17% water)",Bitumen,5,False
+"Bitumen emulsion (40% bitumen, 60% water)",Bitumen,5,False
+Bitumen sheets G 200 S4,Bitumen-Dachbahnen,5,False
+Bitumen sheets PYE PV 200 S5 (non-slated),Bitumen-Dachbahnen,5,False
+Bitumen sheets PYE-PV 200 S5 ns (slated),Bitumen-Dachbahnen,5,False
+Bitumen sheets V 60,Bitumen-Dachbahnen,5,False
+RESITRIX® MB und CL,Bitumen-Dachbahnen,5,False
+"RESITRIX® SK W Full Bond, RESITRIX® SW und RESITRIX® SK Partial Bond",Bitumen-Dachbahnen,5,False
+5.3.01. Plastic-modified bitumen thick coating,Bitumenbeschichtungen,5,False
+Lead sheets,Bleibleche,5,False
+Expanded glass granulate,Blähglas,5,False
+Expanded shale,Blähschiefer,5,False
+1.2.04Expanded clay sand,Blähton,5,False
+Expanded clay granulate,Blähton,5,False
+Glued laminated timber,Brettschichtholz_(BSH),5,False
+Glued laminated timber,Brettschichtholz_(BSH),5,False
+Glued laminated timber - special shapes (German average),Brettschichtholz_(BSH),5,False
+Glued laminated timber - straight shapes (German average),Brettschichtholz_(BSH),5,False
+"Glued laminated timber, glued solid timber, block glued glulam, special components",Brettschichtholz_(BSH),5,False
+HASSLACHER CROSS LAMINATED TIMBER,Brettschichtholz_(BSH),5,False
+Laminated timber planks coniferous wood (generic),Brettschichtholz_(BSH),5,False
+Schilliger Glued Laminated Timber according to EN 14080,Brettschichtholz_(BSH),5,False
+best wood BSH,Brettschichtholz_(BSH),5,False
+Cross laminated timber,Brettschichtholzplatte,5,False
+Cross laminated timber (German average),Brettschichtholzplatte,5,False
+TILLY solid wood panel,Brettschichtholzplatte,5,False
+Green Roof System,Böden,5,False
+Calciumsilikat,Calcium-Silikathydrat,5,True
+Porenbeton,Calcium-Silikathydrat,5,True
+Green roof extensive (without stainless steel railing),Dachaufbauten,5,False
+Green roof extensive with stainless steel railing,Dachaufbauten,5,False
+Green roof intensive with stainless steel railing,Dachaufbauten,5,False
+1.3.11. Roof tiles (concrete),Dachsteine,5,False
+Roof tile,Dachziegel,5,False
+Roofing tiles (including accessories),Dachziegel,5,False
+Dampfsperre,Dampfbremse,5,True
+"AQUAPANEL® Cement Board Rooftop 12,5 mm",Decken,5,False
+AQUAPANEL® Cement Board Rooftop 6 mm,Decken,5,False
+BRESPA-Decke Typ A15B,Decken,5,False
+BRESPA-Decke Typ A20B,Decken,5,False
+BRESPA-Decke Typ A20Q,Decken,5,False
+BRESPA-Decke Typ A22B,Decken,5,False
+BRESPA-Decke Typ A26B,Decken,5,False
+BRESPA-Decke Typ A26Q,Decken,5,False
+BRESPA-Decke Typ A32V,Decken,5,False
+BRESPA-Decke Typ A40V,Decken,5,False
+"Ceiling system - HT Labor + Hospitaltechnik GmbH - Ceiling for wet room steel sheet, galvanized, powder-coated",Decken,5,False
+"Ceiling system - HT Labor + Hospitaltechnik GmbH - Ceiling for wet room steel sheet, galvanized, powder-coated acoustics",Decken,5,False
+ETFE-Membrane,Decken,5,False
+"AMF ECOMIN & ARMSTRONG Basic Range, AMF THERMATEX & ARMSTRONG Standard Range (Pontalier)",Deckenplatten,5,False
+AMF THERMATEX & ARMSTRONG Acoustic Range (Pontarlier),Deckenplatten,5,False
+"Bioguard Acoustic, Ultima",Deckenplatten,5,False
+"Bioguard Plain, ANF",Deckenplatten,5,False
+Classic Max,Deckenplatten,5,False
+Dune Max,Deckenplatten,5,False
+Fine Fissured Hi NRC,Deckenplatten,5,False
+HUMID Module,Deckenplatten,5,False
+Mineral fibre ceiling board (15 mm),Deckenplatten,5,False
+THERMATEX Acoustic,Deckenplatten,5,False
+"THERMATEX Acoustic Medical, THERMATEX Acoustic",Deckenplatten,5,False
+THERMATEX Basic & Standard,Deckenplatten,5,False
+TOPIQ Efficient pro,Deckenplatten,5,False
+TOPIQ Efficient pro Hygena,Deckenplatten,5,False
+TOPIQ Prime ? Board,Deckenplatten,5,False
+TOPIQ Prime ? Tegular,Deckenplatten,5,False
+TOPIQ Prime Hygena ? Board,Deckenplatten,5,False
+TOPIQ Prime Hygena ? Tegular,Deckenplatten,5,False
+WEM Climate Panel,Deckenplatten,5,False
+Wet Felt Laminated Mineral Ceiling Tiles (GR),Deckenplatten,5,False
+Wet Felt Laminated Mineral Ceiling Tiles (PT),Deckenplatten,5,False
+Wet Felt Mineral Ceiling Tiles (GR),Deckenplatten,5,False
+Wet Felt Mineral Ceiling Tiles (PT),Deckenplatten,5,False
+"Applicationpaint emulsion, dispersion paint",Dispersion,5,False
+StoColor Lotusan®,Dispersion,5,False
+"Dispersion-based products, group 1",Dispersionsklebstoffe,5,False
+"Dispersion-based products, group 2",Dispersionsklebstoffe,5,False
+"Dispersion-based products, group 3",Dispersionsklebstoffe,5,False
+"Dispersion-based products, group 4",Dispersionsklebstoffe,5,False
+Fabric Tape,Dispersionsklebstoffe,5,False
+Film Tapes,Dispersionsklebstoffe,5,False
+Skirting Tapes,Dispersionsklebstoffe,5,False
+Acrylic bath and shower tub,Dusch-_und_Badewannen,5,False
+"Acrylic bathtubs, shower trays and bath panels",Dusch-_und_Badewannen,5,False
+ECB roofing membrane according to DIN 16729 (with PES fleece),ECB-Dachbahnen_(Ethylen-Copolymer-Bitumen),5,False
+"Expanded Polystyrene (EPS) Foam Insulation (grey, density 15 kg/m³)",EPS_grau,5,False
+"Expanded Polystyrene (EPS) Foam Insulation (grey, density 20 to 25 kg/m³)",EPS_grau,5,False
+VARTDAL BIOPOR® GRÅ,EPS_grau,5,False
+VARTDAL BIOPOR® HVIT,EPS_grau,5,False
+blaugelb Triotherm+ Profiles,EPS_grau,5,False
+blaugelb insulation panel EPS,EPS_grau,5,False
+blaugelb insulation panel MultiPro EPS,EPS_grau,5,False
+blaugelb plinth thermal insulation profile EPS,EPS_grau,5,False
+blaugelb sill connection profile EPS,EPS_grau,5,False
+Dalmatiner EPS Boards 032,EPS_grau-weiß,5,False
+Dalmatiner EPS Boards 034,EPS_grau-weiß,5,False
+SAGEX expanded polystyrene,EPS_grau-weiß,5,False
+2.2.01. EPS rigid foam insulation,EPS_weiß,5,False
+Expanded Polystyrene (EPS) Foam Insulation (density 15 kg/m³),EPS_weiß,5,False
+Expanded Polystyrene (EPS) Foam Insulation (density 20 kg/m³),EPS_weiß,5,False
+Expanded Polystyrene (EPS) Foam Insulation (density 25 kg/m³),EPS_weiß,5,False
+Expanded Polystyrene (EPS) Foam Insulation (density 30 kg/m³),EPS_weiß,5,False
+Polystyrene foam filling (cement bound),EPS_weiß,5,False
+Polystyrene foam filling (without binder),EPS_weiß,5,False
+EVA roof sheets,EVA-Dachbahnen_(Etylen-Vinylacetat),5,False
+NiroSan® & NiroTherm® | Stainless Steel Fittings (SANHA GmbH),Edelstahl_Trinkwasserrohre,5,False
+Stainless steel drinking water pipe,Edelstahl_Trinkwasserrohre,5,False
+connecting technology - Viega - Prestabo,Edelstahl_Trinkwasserrohre,5,False
+connecting technology - Viega - Prestabo pipe,Edelstahl_Trinkwasserrohre,5,False
+connecting technology - Viega - Sanpress Inox G press connector,Edelstahl_Trinkwasserrohre,5,False
+connecting technology - Viega - Sanpress Inox LF press connector,Edelstahl_Trinkwasserrohre,5,False
+connecting technology - Viega - Sanpress Inox pipe,Edelstahl_Trinkwasserrohre,5,False
+connecting technology - Viega - Sanpress Inox press connector,Edelstahl_Trinkwasserrohre,5,False
+connecting technology - Viega - Sanpress pipe,Edelstahl_Trinkwasserrohre,5,False
+connecting technology - Viega - Temponox pipe,Edelstahl_Trinkwasserrohre,5,False
+connecting technology - Viega - Temponox press connector,Edelstahl_Trinkwasserrohre,5,False
+Extension module 90 43,Edelstahlbeschläge,5,False
+Object fittings - HAFI Beschläge GmbH - Door handle sets,Edelstahlbeschläge,5,False
+Panic and deadbolt locking device,Edelstahlbeschläge,5,False
+Stainless steel sheet,Edelstahlbleche,5,False
+"Stainless steel floor drains: Furo 142 (includes Furo 006, Furo 007, Furo 008, Furo 104, Furo 105, Furo 139, Furo 141, Furo 170)",Edelstahlprofile,5,False
+"Stainless steel floor drains: Furo 165 (includes Furo 152, Furo 140)",Edelstahlprofile,5,False
+EPDM roof sheets,Elastomer-Dachbahnen,5,False
+Majrex 200 and Majpell 5,Elastomer-Dachbahnen,5,False
+Sarnafil TG 76 FSA,Elastomer-Dachbahnen,5,False
+Kielsteg Elemente aus Holz mit innerem Fachwerk PLY 158 kg/m³,Elemente_aus_Holzwerkstoffen,5,False
+Kielsteg elements made of wood with inner framework OSB 158.3 kg/m³,Elemente_aus_Holzwerkstoffen,5,False
+Thermal energy from natural gas,Erdgas,5,False
+CALCIUM SULPHATE FLOWING SCREED AND CONVENTIONAL CALCIUM SULPHATE SCREED,Estrich_trocken,5,False
+Calcium sulfate screed,Estrich_trocken,5,False
+Cement screed,Estrich_trocken,5,False
+Light screed floor: PAVI LIGHT,Estrich_trocken,5,False
+Screed Mortar - Calcium Sulphate Screed,Estrich_trocken,5,False
+Synthetic resin screed,Estrich_trocken,5,False
+Expanded cork,Expandierter_Kork,5,False
+Elevator basic component (dependent of floor),Fahrstuhl,5,False
+Elevator basic component (independent of floor),Fahrstuhl,5,False
+Escalator basic component (dependent on lifting height),Fahrtreppe,5,False
+Escalator basic component (independent of lifting height),Fahrtreppe,5,False
+Cedral Sidings,Faserzement,5,False
+Cementex/Cementex Extreme,Faserzement,5,False
+Fibre cement facade panel,Faserzement,5,False
+Door and window hardware S 111/162 Polyamide,Fenstergriffe,5,False
+Electromechanical accessories - SIEGENIA-AUBI KG - Smart window handle,Fenstergriffe,5,False
+Object fittings - HAFI Beschläge GmbH - Window handles with ball catches,Fenstergriffe,5,False
+Window handle,Fenstergriffe,5,False
+District heating from biogas,Fernwärme,5,False
+District heating from biomass (solid),Fernwärme,5,False
+District heating from hard coal,Fernwärme,5,False
+District heating from light fuel oil,Fernwärme,5,False
+District heating from lignite,Fernwärme,5,False
+District heating from natural gas,Fernwärme,5,False
+District heating from waste,Fernwärme,5,False
+District heating mix Germany,Fernwärme,5,False
+Fire resistant glass F30,Feuer-_Rauchschutzsysteme,5,False
+Finger protection systems - athmer oHG - Finger protection roller blind,Fingerschutzsysteme,5,False
+Finger protection systems - athmer oHG - Integrated finger protection system,Fingerschutzsysteme,5,False
+Finger protection systems - athmer oHG - Protective profiles on the hinge side,Fingerschutzsysteme,5,False
+Italian Ceramic Tiles,Fliesen_und_Platten,5,False
+Slates,Fliesen_und_Platten,5,False
+Stoneware tiles glazed,Fliesen_und_Platten,5,False
+Stoneware tiles unglazed,Fliesen_und_Platten,5,False
+Liquefied petroleum gas (LPG),Flüssiggas,5,False
+Bostik Tätskiktsfolie Pro LX,Folien_zur_Abdichtung,5,False
+LIP Folie G3,Folien_zur_Abdichtung,5,False
+"PE foil, dimpled",Folien_zur_Abdichtung,5,False
+PE-HD with PP fleece for sealing,Folien_zur_Abdichtung,5,False
+PVB film (Trosifol®),Folien_zur_Abdichtung,5,False
+Polyfleece SX® 100,Folien_zur_Abdichtung,5,False
+Polyfleece SX® 1000,Folien_zur_Abdichtung,5,False
+Polyfleece SX® 1000 Radon,Folien_zur_Abdichtung,5,False
+Polyfleece SX® 1000 Wall,Folien_zur_Abdichtung,5,False
+Radon barrier,Folien_zur_Abdichtung,5,False
+Radon barrier_Alpha Fugt og Radonspærre,Folien_zur_Abdichtung,5,False
+Tyvek® 2506B,Folien_zur_Abdichtung,5,False
+Tyvek® 2507B,Folien_zur_Abdichtung,5,False
+Tyvek® 2508B,Folien_zur_Abdichtung,5,False
+Tyvek® 2524B,Folien_zur_Abdichtung,5,False
+"Tyvek® Monolayer 60 (1060B, 1560B, 2460B)",Folien_zur_Abdichtung,5,False
+Tyvek® Monolayer 70 (1570B),Folien_zur_Abdichtung,5,False
+"Tyvek® Monolayer 80 (1580B, 2480B)",Folien_zur_Abdichtung,5,False
+BauBuche,Funierschichtholz,5,False
+Laminated veneer board (generic),Funierschichtholz,5,False
+Pollmeier LVL,Funierschichtholz,5,False
+End of life copper pipes (blank),Gebäudetechnik,5,False
+End of life copper pipes (sheathed),Gebäudetechnik,5,False
+End of life stoneware pipe,Gebäudetechnik,5,False
+Anhydrite (CaSO4),Gips,5,False
+Gypsum (CaSO4 alpha semihydrate),Gips,5,False
+Gypsum (CaSO4 beta hemihydrate),Gips,5,False
+Gypsum stone (CaSO4-Dihydrate),Gips,5,False
+"Mixed inert NHL-based mortar: T LIVEL ECO, STONE COVER",Gips,5,False
+flooring elements,Gips,5,False
+gypsum fibre board,Gips,5,False
+FIRE-RESISTANT PLASTERBOARD / Tool,Gipsplatten,5,False
+GRG board EN / Tool,Gipsplatten,5,False
+Gypsum fibre board (10 mm),Gipsplatten,5,False
+"Gypsum plaster board (fire protection, 12.5 mm)",Gipsplatten,5,False
+"Gypsum plaster board (impregnated, 12.5 mm)",Gipsplatten,5,False
+"Gypsum plaster board (perforated, 12.5 mm)",Gipsplatten,5,False
+Gypsum wallboard (100 mm),Gipsplatten,5,False
+Hartgipsplatte EN / Tool,Gipsplatten,5,False
+IMPREGNATED PLASTERBOARD / Tool,Gipsplatten,5,False
+Knauf GIFAfloor DB 30 green,Gipsplatten,5,False
+Knauf GIFAfloor DB 36 green,Gipsplatten,5,False
+Knauf GIFAfloor DB 40 green,Gipsplatten,5,False
+Knauf Safeboard GKF,Gipsplatten,5,False
+Knauf Silentboard GKF,Gipsplatten,5,False
+Massive gypsum blocks according to DIN EN 12859 / Tool,Gipsplatten,5,False
+PERFORATED PLASTERBOARD / Tool,Gipsplatten,5,False
+PLASTERBOARD / Tool,Gipsplatten,5,False
+gypsum fibre board,Gipsplatten,5,False
+1.3.16. Glass reinforcement grid,Glasbausteine,5,False
+Glass bricks,Glasbausteine,5,False
+PIPELANE pipe sections +A2,Glaswolle,5,False
+"SAGLAN glass wool, bonded with bio-based adhesive +A2",Glaswolle,5,False
+"SAGLAN glass wool, bonded with phenolic resin +A2",Glaswolle,5,False
+GLAPOR cellular glass gravel,Granulat,5,False
+5.1.01. Dispersion plaster,Grundierungen_Farben_und_Putze,5,False
+"Application primer emulsion, dispersion paint",Grundierungen_Farben_und_Putze,5,False
+"Application primer emulsion, silicate dispersion paint",Grundierungen_Farben_und_Putze,5,False
+Dr. Schutz® PU Anticolor,Grundierungen_Farben_und_Putze,5,False
+Dr. Schutz® PU Color,Grundierungen_Farben_und_Putze,5,False
+Dr. Schutz® PU Resin Sealer,Grundierungen_Farben_und_Putze,5,False
+Dr. Schutz® PU Sealer,Grundierungen_Farben_und_Putze,5,False
+Dr. Schutz® UV PU Sealer,Grundierungen_Farben_und_Putze,5,False
+Passive Purple,Grundierungen_Farben_und_Putze,5,False
+"Waterproof, flexible protective layer under ceramic coverings",Grundierungen_Farben_und_Putze,5,False
+"6.2.02. Tufted carpet tiles (PA 6), LC3",Gummi-_Kautschuk-Bodenbeläge,5,False
+REGUPOL rolls and sheets,Gummi-_Kautschuk-Bodenbeläge,5,False
+"Rubber floor covering profiled EN 12199 (3,55 mm)",Gummi-_Kautschuk-Bodenbeläge,5,False
+Rubber floor covering with foam coating EN 1816 (4 mm),Gummi-_Kautschuk-Bodenbeläge,5,False
+norament® 928 ed,Gummi-_Kautschuk-Bodenbeläge,5,False
+noraplan® acoustic,Gummi-_Kautschuk-Bodenbeläge,5,False
+noraplan® ed,Gummi-_Kautschuk-Bodenbeläge,5,False
+noraplan® ultra grip,Gummi-_Kautschuk-Bodenbeläge,5,False
+noraplan® uni,Gummi-_Kautschuk-Bodenbeläge,5,False
+Connecting technology - Viega GmbH & Co. KG - Easytop system faucets,Guss-_und_Schmiedeteile_aus_Stahl_und_Eisen,5,False
+Connecting technology - Viega GmbH & Co. KG - Gas valves,Guss-_und_Schmiedeteile_aus_Stahl_und_Eisen,5,False
+Connecting technology - Viega GmbH & Co. KG - Valves (US),Guss-_und_Schmiedeteile_aus_Stahl_und_Eisen,5,False
+Ductile iron pipes,Guss-_und_Schmiedeteile_aus_Stahl_und_Eisen,5,False
+EEW Structural pipe,Guss-_und_Schmiedeteile_aus_Stahl_und_Eisen,5,False
+Grey cast iron part,Guss-_und_Schmiedeteile_aus_Stahl_und_Eisen,5,False
+Rain drain pipe SML,Guss-_und_Schmiedeteile_aus_Stahl_und_Eisen,5,False
+Seamless steel tubes of voestalpine Tubulars GmbH & Co KG,Guss-_und_Schmiedeteile_aus_Stahl_und_Eisen,5,False
+Steel forging part,Guss-_und_Schmiedeteile_aus_Stahl_und_Eisen,5,False
+TRM-Tiroler Rohre Piling systems Typ 118 - 10.6,Guss-_und_Schmiedeteile_aus_Stahl_und_Eisen,5,False
+TRM-Tiroler Rohre Piling systems Typ 118 - 10.6,Guss-_und_Schmiedeteile_aus_Stahl_und_Eisen,5,False
+TRM-Tiroler Rohre Piling systems Typ 118 - 10.6,Guss-_und_Schmiedeteile_aus_Stahl_und_Eisen,5,False
+TRM-Tiroler Rohre Piling systems Typ 118 - 10.6,Guss-_und_Schmiedeteile_aus_Stahl_und_Eisen,5,False
+TRM-Tiroler Rohre Piling systems Typ 118 - 10.6,Guss-_und_Schmiedeteile_aus_Stahl_und_Eisen,5,False
+TRM-Tiroler Rohre Piling systems Typ 118 - 10.6,Guss-_und_Schmiedeteile_aus_Stahl_und_Eisen,5,False
+TRM-Tiroler Rohre Piling systems Typ 118 - 10.6,Guss-_und_Schmiedeteile_aus_Stahl_und_Eisen,5,False
+TRM-Tiroler Rohre Piling systems Typ 118 - 10.6,Guss-_und_Schmiedeteile_aus_Stahl_und_Eisen,5,False
+TRM-Tiroler Rohre Piling systems Typ 118 - 10.6,Guss-_und_Schmiedeteile_aus_Stahl_und_Eisen,5,False
+connecting technology - Viega - MegaPress (USA),Guss-_und_Schmiedeteile_aus_Stahl_und_Eisen,5,False
+connecting technology - Viega - MegaPress 304 FKM (USA),Guss-_und_Schmiedeteile_aus_Stahl_und_Eisen,5,False
+connecting technology - Viega - MegaPress 316 (USA),Guss-_und_Schmiedeteile_aus_Stahl_und_Eisen,5,False
+connecting technology - Viega - MegaPress 316 FKM (USA),Guss-_und_Schmiedeteile_aus_Stahl_und_Eisen,5,False
+connecting technology - Viega - MegaPress CuNiFe (USA),Guss-_und_Schmiedeteile_aus_Stahl_und_Eisen,5,False
+connecting technology - Viega - MegaPress FKM (USA),Guss-_und_Schmiedeteile_aus_Stahl_und_Eisen,5,False
+connecting technology - Viega - MegaPress G (USA),Guss-_und_Schmiedeteile_aus_Stahl_und_Eisen,5,False
+connecting technology - Viega - Megapress,Guss-_und_Schmiedeteile_aus_Stahl_und_Eisen,5,False
+connecting technology - Viega - Megapress G,Guss-_und_Schmiedeteile_aus_Stahl_und_Eisen,5,False
+connecting technology - Viega - Megapress S,Guss-_und_Schmiedeteile_aus_Stahl_und_Eisen,5,False
+connecting technology - Viega - Megapress Stainless 316,Guss-_und_Schmiedeteile_aus_Stahl_und_Eisen,5,False
+connecting technology - Viega - Prestabo LF,Guss-_und_Schmiedeteile_aus_Stahl_und_Eisen,5,False
+Mastic asphalt,Gussassphalt,5,False
+Mastic asphalt screed,Gussassphalt,5,False
+4.3.03 Aluminium die-cast parts,Gussteile_aus_Aluminium,5,False
+Aluminium billets,Gussteile_aus_Aluminium,5,False
+Aluminium extrusion billets,Gussteile_aus_Aluminium,5,False
+Aluminum slugs,Gussteile_aus_Aluminium,5,False
+Aluminum slugs from circuit boards,Gussteile_aus_Aluminium,5,False
+Components (profiles processed),Gussteile_aus_Aluminium,5,False
+Forging stock,Gussteile_aus_Aluminium,5,False
+"Semi-finished products in the form of bars, tubes and profiles (unprocessed)",Gussteile_aus_Aluminium,5,False
+connecting technology - Viega - PureFlow Press,Gussteile_aus_Aluminium,5,False
+HPL board,Harz-Komposit_Fassadenplatten,5,False
+Incineration domestic waste,Hausmüll,5,False
+Municipal waste landfill,Hausmüll,5,False
+Heavy fuel oil,Heizöl,5,False
+Light fuel oil,Heizöl,5,False
+Thermal energy from light fuel oil,Heizöl,5,False
+76/105 Group door wooden with 17.5 kg wood frame,Holz,5,False
+76/105 Group door wooden with 17.5 kg wood frame with aluminium cladding,Holz,5,False
+76/105 Group door wooden with 22.5 kg wood frame,Holz,5,False
+76/105 Group door wooden with 22.5 kg wood frame with aluminium cladding,Holz,5,False
+Aluminium covered balcony doors and entrance doors outward / inward opened 55 mm sash (BYKO ? DA55),Holz,5,False
+Balcony doors and entrance doors / block doors outward / inward opened 75 mm sash (BYKO ? DA75),Holz,5,False
+Balcony doors and entrance doors / block doors outward / inward opened 75mm sash (BYKO ? D75),Holz,5,False
+Balcony doors and entrance doors outward / inward opened 55 mm sash (BYKO-D55),Holz,5,False
+Balcony doors and entrance doors outward / inward opened 65 mm sash (BYKO ? D65),Holz,5,False
+Balcony doors and entrance doors outward / inward opened 65 mm sash (BYKO ? DA65),Holz,5,False
+Door - Rubner Türen GmbH - Wood front door,Holz,5,False
+Door - Rubner Türen GmbH - Wood interior door,Holz,5,False
+EPD - doors - HUGA - PG1 multipurpose doors,Holz,5,False
+EPD - doors - HUGA - PG2 Standard doors,Holz,5,False
+EPD - doors - HUGA - PG3 special doors,Holz,5,False
+EPD - doors - HUGA - PG4 Sliding and folding elements,Holz,5,False
+Exterior door - VFF - Wood exterior door with light cut-out,Holz,5,False
+Exterior door - VFF - Wood exterior door without light cut-out,Holz,5,False
+Exterior door - VFF - Wood-aluminium exterior door with light cut-out,Holz,5,False
+Exterior door - VFF - Wood-aluminium exterior door with light cut-out,Holz,5,False
+Group 76/105 Panel Door wood,Holz,5,False
+Group Folding door wooden,Holz,5,False
+Group Folding door wooden with aluminium cladding,Holz,5,False
+Group Sliding Door Scandinavian wooden,Holz,5,False
+Group Sliding Door Scandinavian wooden with aluminium cladding,Holz,5,False
+IV Group Exterior door wooden with 42.5 kg frame,Holz,5,False
+IV Group Exterior door wooden with 42.5 kg frame with aluminium cladding,Holz,5,False
+IV Group Exterior door wooden with 52.5 kg frame,Holz,5,False
+IV Group Exterior door wooden with 52.5 kg frame with aluminium cladding,Holz,5,False
+IV Group Sliding door wooden with 18.75 kg wood frame,Holz,5,False
+IV Group Sliding door wooden with 22.5 kg wood frame,Holz,5,False
+IV Group Sliding door wooden with aluminium cladding with 18.75 kg wood frame,Holz,5,False
+IV Group Sliding door wooden with aluminium cladding with 22.5 kg wood frame,Holz,5,False
+Natural wood incineration in municipal solid waste plant,Holz,5,False
+Wood-based products incineration in municipal solid waste plant,Holz,5,False
+76/105 Group window wooden with aluminium cladding with 15 kg wood frame,Holz-Metallfenster,5,False
+76/105 Group window wooden with aluminium cladding with 25 kg wood frame,Holz-Metallfenster,5,False
+Aluminium covered windows / fixed windows outward opened 75 mm sash (BYKO ? WA75),Holz-Metallfenster,5,False
+Aluminium covered windows outward opened 55 mm sash (BYKO ? WA55),Holz-Metallfenster,5,False
+Aluminium covered windows outward opened 65 mm sash (BYKO ? WA65),Holz-Metallfenster,5,False
+Group IV Windows and Balcony Doors wooden with aluminium cladding with 20 kg wood frame,Holz-Metallfenster,5,False
+Group IV Windows and Balcony Doors wooden with aluminium cladding with 30 kg wood frame,Holz-Metallfenster,5,False
+Lift and slide element - VFF - Wood-aluminium lift and slide element,Holz-Metallfenster,5,False
+Windows - VFF - Wood-aluminium windows,Holz-Metallfenster,5,False
+"Wood pellets (6,2% moisture / 5,8% H2O content)",Holz-Pellets,5,False
+2.10.01 Loose wood-fiber insulation,Holzfaserdämmplatte,5,False
+PAVATEX Dry process wood fibre insulation 110-200 kg/m³,Holzfaserdämmplatte,5,False
+Wood fiber insulation - dry process (German average),Holzfaserdämmplatte,5,False
+Wood fiber insulation - dry process (German average),Holzfaserdämmplatte,5,False
+Wood fiber insulation - dry process (German average),Holzfaserdämmplatte,5,False
+Wood fibre board (wet process),Holzfaserdämmplatte,5,False
+best wood wood fibre insulation boards,Holzfaserdämmplatte,5,False
+best wood wood fibre insulation boards,Holzfaserdämmplatte,5,False
+best wood FIBRE,Holzfasern_und_Holzspäne_lose,5,False
+EGGER DHF,Holzfaserplatten,5,False
+EGGER Eurodekor - Laminated MDF boards,Holzfaserplatten,5,False
+High Density Fibreboard (HDF),Holzfaserplatten,5,False
+High density fibreboard (German average),Holzfaserplatten,5,False
+Medium Density Fibreboard (MDF),Holzfaserplatten,5,False
+Medium density fibreboard (German average),Holzfaserplatten,5,False
+PerfectSense Lacquered Chipboards,Holzfaserplatten,5,False
+PerfectSense lacquered boards,Holzfaserplatten,5,False
+Unilin Medium Density Fiberboard,Holzfaserplatten,5,False
+best wood FLEX 50,Holzfaserplatten,5,False
+76/105 Group window wooden with 15 kg wood frame,Holzfenster,5,False
+76/105 Group window wooden with 25 kg wood frame,Holzfenster,5,False
+EPD timber roof window - Roto Frank DST - Designo acoustic glazing,Holzfenster,5,False
+EPD timber roof window - Roto Frank DST - Designo double glazing,Holzfenster,5,False
+EPD timber roof window - Roto Frank DST - Designo triple glazing,Holzfenster,5,False
+EPD timber roof window - Roto Frank DST - RotoQ acoustic glazing,Holzfenster,5,False
+EPD timber roof window - Roto Frank DST - RotoQ double glazing,Holzfenster,5,False
+EPD timber roof window - Roto Frank DST - RotoQ triple glazing,Holzfenster,5,False
+Group IV Windows and Balcony Doors wooden with 20 kg wood frame,Holzfenster,5,False
+Group IV Windows and Balcony Doors wooden with 30 kg wood frame,Holzfenster,5,False
+"Group Wooden windows IV90: IV90 side-hung, tilt and turn window of overlapping design",Holzfenster,5,False
+Group Wooden windows IV90: IV90 tilt and turn window and (or) fixed window,Holzfenster,5,False
+Lift and slide element - VFF - Wooden lift and slide element,Holzfenster,5,False
+VELUX roof balcony and terrace window,Holzfenster,5,False
+VELUX wooden roof windows (double glazing configuration),Holzfenster,5,False
+VELUX wooden roof windows (triple glazing configuration),Holzfenster,5,False
+VELUX wooden roof windows with glazing configuration 62 and 62D,Holzfenster,5,False
+Windows - VFF - Wooden windows,Holzfenster,5,False
+Windows / fixed windows outward opened 75 mm sash (BYKO ? W75),Holzfenster,5,False
+Windows outward opened 55 mm sash (BYKO-W55),Holzfenster,5,False
+Windows outward opened 55 mm sash (BYKO-W55) (Bitus Latvia SIA),Holzfenster,5,False
+Windows outward opened 65 mm sash (BYKO ? W65),Holzfenster,5,False
+2.7.01. Melamine-coated lightweight board,Holzwolleleichtbauplatten,5,False
+Fibrolith® 2-layer panels made of mineral-bonded wood wool and mineral wool insulation,Holzwolleleichtbauplatten,5,False
+Fibrolith® lightweight panels/stable ventilation panels,Holzwolleleichtbauplatten,5,False
+Fibrolith® mineral-bonded wood wool panels (mono-panels of building materials class A2),Holzwolleleichtbauplatten,5,False
+Fibrolith® mineral-bonded wood wool panels (mono-panels of building materials class B1),Holzwolleleichtbauplatten,5,False
+Heradesign acoustic panels Euroclass A2,Holzwolleleichtbauplatten,5,False
+Lightweight wood fibre panel,Holzwolleleichtbauplatten,5,False
+"MICROTHERM® Flexible panels range: (Semi-)Overstitched Panels, (Semi-)Quilted Panels, Slatted Panels, Aeroguard (>160 kg/m3) and Slimflex",Hydrophobe_Platten,5,False
+"Application paint emulsion, interior, wear resistant",Innenfarben,5,False
+Lime colour,Innenfarben,5,False
+Fundermax m.look high pressure laminate panels,Innenwände,5,False
+KSC Broadline,Innenwände,5,False
+PROMATECT®-100 / PROMATECT®-200 / PROMATECT®-250 / PROMAXON® Typ A,Innenwände,5,False
+PROMATECT®-L / PROMATECT®-L500 / PROMATECT®-AD / VERMICULUX-S,Innenwände,5,False
+PROMATECT®-LS,Innenwände,5,False
+PURE Sonos,Innenwände,5,False
+Soft Cells Tracks 25mm (aluminium frame),Innenwände,5,False
+Wall system - HT Labor + Hospitaltechnik GmbH - Glass wall panel with galvanized support panel,Innenwände,5,False
+Wall system - HT Labor + Hospitaltechnik GmbH - Stainless steel wall panel,Innenwände,5,False
+"Wall system - HT Labor + Hospitaltechnik GmbH - Steel sheet wall panel, galvanized, powder-coated",Innenwände,5,False
+Wall system - HT Labor + Hospitaltechnik GmbH - Tile wall panel with galvanized support panel,Innenwände,5,False
+"Wall system - HT Labor + Hospitaltechnik GmbH -Steel sheet wall panel, galvanized, coated with foil",Innenwände,5,False
+HALFEN Iso-ElemenT HIT-HP/SP,Isokörbe,5,False
+Schöck Isokorb® (X)T Typ Q,Isokörbe,5,False
+Cable 1-wire,Kabel,5,False
+Cable 3-wire,Kabel,5,False
+Cable 5-wire,Kabel,5,False
+Cable CAT 7,Kabel,5,False
+Cable support systems - OBO Bettermann - cable ladder,Kabel,5,False
+Cable support systems - OBO Bettermann - cable tray,Kabel,5,False
+Cable support systems - OBO Bettermann - mesh cable tray,Kabel,5,False
+Cable support systems - OBO Bettermann - wide-span systems,Kabel,5,False
+"Calcium hydroxide (Ca(OH)2, dry, slaked lime)",Kalk,5,False
+"Lime (CaO, Finelime)",Kalk,5,False
+"NHL light plaster: PAVI ECO LIGHT, TERMOARENINO, VOLCALITE",Kalk,5,False
+"NHL-based light plaster: INTOCALX LIGHT, FORTE LIGHT",Kalk,5,False
+Natural Hydraulic Lime (NHL): FENIX,Kalk,5,False
+Sand-lime brick,Kalksandstein,5,False
+Sand-lime brick,Kalksandstein,5,False
+Steam-hardened building material - UNIKA GmbH - UNIKA ecobluu plane elements,Kalksandstein,5,False
+Rubber sealing compound,Kautschuk,5,False
+1.4.05. Dispersion-based tile adhesives,Kleber_und_Klebemo╠êrtel,5,False
+1.4.05. Epoxy resin mortar,Kleber_und_Klebemo╠êrtel,5,False
+1.4.05. Fibre-reinforced filling compound,Kleber_und_Klebemo╠êrtel,5,False
+ARDEX K 22 F,Kleber_und_Klebemo╠êrtel,5,False
+ARDEX X 90,Kleber_und_Klebemo╠êrtel,5,False
+Adhesive for gypsum board,Kleber_und_Klebemo╠êrtel,5,False
+HIT-FP 700-R,Kleber_und_Klebemo╠êrtel,5,False
+HIT-HY 170,Kleber_und_Klebemo╠êrtel,5,False
+HIT-HY 200-R V3,Kleber_und_Klebemo╠êrtel,5,False
+HIT-HY 270,Kleber_und_Klebemo╠êrtel,5,False
+HIT-RE 500 V4,Kleber_und_Klebemo╠êrtel,5,False
+"Mixed inert NHL mortar: T A00, T FIX ECO",Kleber_und_Klebemo╠êrtel,5,False
+Ready-mixed compounds,Kleber_und_Klebemo╠êrtel,5,False
+Reinforcement (synthetic resin trowel),Kleber_und_Klebemo╠êrtel,5,False
+Tile adhesive,Kleber_und_Klebemo╠êrtel,5,False
+Air conditioning system (per 1 kW),Klimatisierung_Kältemaschinen,5,False
+"Blue e+S, 1 kW",Klimatisierung_Kältemaschinen,5,False
+"Blue e, 1 kW",Klimatisierung_Kältemaschinen,5,False
+Chiller (500kW),Klimatisierung_Kältemaschinen,5,False
+Cross-laminated timber,Konstruktionsvollholz,5,False
+KVH structural timber (German average),Konstruktionsvollholz,5,False
+"Solid construction timber (generic, 15% moisture / 13% H2O content)",Konstruktionsvollholz,5,False
+Structural finger jointed solid timber,Konstruktionsvollholz,5,False
+Structural finger jointed solid timber & GLT® ? Girder Longitudinally Tensiletested,Konstruktionsvollholz,5,False
+holzius ? solid wood slab elements,Konstruktionsvollholz,5,False
+"Cork slab, 4 mm (generic)",Kork,5,False
+"Cork slab, 6 mm (generic)",Kork,5,False
+"Cork slab, 8 mm (generic)",Kork,5,False
+Crane® Spheres 10,Kraftwerksnebenprodukte,5,False
+Crane® Spheres 20,Kraftwerksnebenprodukte,5,False
+EFA-Füller®,Kraftwerksnebenprodukte,5,False
+EFA-Füller® S-MA,Kraftwerksnebenprodukte,5,False
+Furnace bottom ash,Kraftwerksnebenprodukte,5,False
+Grobalith®,Kraftwerksnebenprodukte,5,False
+Hard coal fly ash,Kraftwerksnebenprodukte,5,False
+Slag-tap granulate,Kraftwerksnebenprodukte,5,False
+Artificial stone slab (epoxy-resin bound),Kunststein,5,False
+Door - Hörmann KG Brockhagen - Industrial sectional doors in polyurethane,Kunststoff,5,False
+Exterior door - VFF - PVC exterior door with light cut-out,Kunststoff,5,False
+Exterior door - VFF - PVC exterior door without light cut-out,Kunststoff,5,False
+Access manager 92 00,Kunststoffbeschläge,5,False
+Access manager 92 30,Kunststoffbeschläge,5,False
+Incineration plastics in municipal solid waste plant (incl. credits),Kunststoffe,5,False
+Incineration polystyrene (PS) in municipal solid waste plant (incl. credits),Kunststoffe,5,False
+Incineration used carpet in municipal solid waste plant (incl. credits),Kunststoffe,5,False
+EPD plastic roof window - Roto Frank DST - Designo acoustic glazing,Kunststofffenster,5,False
+EPD plastic roof window - Roto Frank DST - Designo double glazing,Kunststofffenster,5,False
+EPD plastic roof window - Roto Frank DST - Designo triple glazing,Kunststofffenster,5,False
+EPD plastic roof window - Roto Frank DST - RotoQ acoustic glazing,Kunststofffenster,5,False
+EPD plastic roof window - Roto Frank DST - RotoQ double glazing,Kunststofffenster,5,False
+EPD plastic roof window - Roto Frank DST - RotoQ triple glazing,Kunststofffenster,5,False
+Lift and slide element - VFF - PVC lift and slide element,Kunststofffenster,5,False
+Lift and slide element - VFF - PVC-aluminium lift and slide element,Kunststofffenster,5,False
+Plastic window with double insulating gass unit,Kunststofffenster,5,False
+Plastic window with triple insulating glass unit,Kunststofffenster,5,False
+SYNEGO,Kunststofffenster,5,False
+VELUX Modular Skylight (double glazing configuration),Kunststofffenster,5,False
+VELUX Modular Skylight (triple glazing configuration),Kunststofffenster,5,False
+VELUX PUR roof windows (62 triple glazing configuration),Kunststofffenster,5,False
+VELUX PUR roof windows (double glazing configuration),Kunststofffenster,5,False
+VELUX PUR roof windows (triple glazing configuration),Kunststofffenster,5,False
+VELUX lining LSB,Kunststofffenster,5,False
+Windows - TMP Fenster+Türen GmbH- plastic french doors,Kunststofffenster,5,False
+Windows - TMP Fenster+Türen GmbH- plastic windows,Kunststofffenster,5,False
+Windows - VFF - PVC windows,Kunststofffenster,5,False
+Windows - VFF - PVC-aluminium window,Kunststofffenster,5,False
+6.4.02. Polypropylene plastic profile with glass fibre components,Kunststoffprofile_elastisch,5,False
+Injection moulded polypropylene products,Kunststoffprofile_elastisch,5,False
+Plastic profile CR (chloroprene-rubber),Kunststoffprofile_elastisch,5,False
+Plastic profile EPDM,Kunststoffprofile_elastisch,5,False
+Plastic profile SBR,Kunststoffprofile_elastisch,5,False
+Plastic profile silicone,Kunststoffprofile_elastisch,5,False
+semi-finished products - Kunststoffwerke Katzbach GmbH & Co. KG - EPE molded part,Kunststoffprofile_elastisch,5,False
+semi-finished products - Kunststoffwerke Katzbach GmbH & Co. KG - EPP molded part,Kunststoffprofile_elastisch,5,False
+semi-finished products - Kunststoffwerke Katzbach GmbH & Co. KG - EPS molded part,Kunststoffprofile_elastisch,5,False
+"Cable duct PVC, rigid",Kunststoffprofile_hart,5,False
+Nylon part (PA 6.6),Kunststoffprofile_hart,5,False
+Polycarbonate slab,Kunststoffprofile_hart,5,False
+"Polyester resin laminated part (GFRP, 30% glass fibres)",Kunststoffprofile_hart,5,False
+RAUKANTEX PP,Kunststoffprofile_hart,5,False
+RAUKANTEX PP eco,Kunststoffprofile_hart,5,False
+Copper sheet,Kupferbleche,5,False
+Connecting technology - Viega GmbH & Co. KG - Profipress/ProPress,Kupferrohre,5,False
+Copper tubes,Kupferrohre,5,False
+"PURAPRESS® & PURAFIT®, Lead Free Silicon Bronze Fittings (SANHA GmbH)",Kupferrohre,5,False
+SANCO-tube semi hard,Kupferrohre,5,False
+SANHA®-Press | Copper Press Fittings,Kupferrohre,5,False
+Ammonia (R717),Kältemittel,5,False
+Carbon dioxide (R744),Kältemittel,5,False
+Chlorodifluoromethane (R22),Kältemittel,5,False
+Difluoromethane (R32),Kältemittel,5,False
+Lithium bromide,Kältemittel,5,False
+Propane (R290),Kältemittel,5,False
+Refrigerant R404a,Kältemittel,5,False
+Refrigerant R407c,Kältemittel,5,False
+Refrigerant R410a,Kältemittel,5,False
+Tetrafluoroethane (R134a),Kältemittel,5,False
+Tetrafluoropropene (R1234ze),Kältemittel,5,False
+Delivery Van,LKW,5,False
+Small truck,LKW,5,False
+Truck,LKW,5,False
+Truck-trailer,LKW,5,False
+Application coating water based glaze (facade),Lacksysteme_Holzfassade,5,False
+Application top coating water based (facade),Lacksysteme_Holzfassade,5,False
+"Application intermediate coating water based (windows, white)",Lacksysteme_Holzfenster,5,False
+"Application primer water based (windows, white)",Lacksysteme_Holzfenster,5,False
+"Application top-coating water based (windows, white)",Lacksysteme_Holzfenster,5,False
+Intelligent Protect,Lacksysteme_Holzfenster,5,False
+Coating powder IGP-DURA@xal 4201,Lacksysteme_Metall,5,False
+"Coating powder IGP-DURA®face, series 58",Lacksysteme_Metall,5,False
+Epoxy Powder Coating,Lacksysteme_Metall,5,False
+Hybrid Powder Coating,Lacksysteme_Metall,5,False
+"Powder coating (outdoor use, white)",Lacksysteme_Metall,5,False
+"Solvent based lacquer, white",Lacksysteme_Metall,5,False
+"Water based lacquer, white",Lacksysteme_Metall,5,False
+3.3.01. Laminate (DPL),Laminat,5,False
+DPL laminate flooring,Laminat,5,False
+Kronospan Laminate Flooring,Laminat,5,False
+Clay powder,Lehm,5,False
+Adobe,Lehmsteine,5,False
+Clay panel,Lehmsteine,5,False
+Rammed earth wall,Lehmsteine,5,False
+Expanded clay concrete block inner wall,Leichtbeton,5,False
+Expanded clay concrete block outer wall,Leichtbeton,5,False
+Expanded clay hollow concrete block partition wall,Leichtbeton,5,False
+Granulated slag brick,Leichtbeton,5,False
+Lightweight concrete block from 100% natural pumice,Leichtbeton,5,False
+Pumice stone (SFK-4),Leichtbeton,5,False
+klimaVER lightweight concrete wall,Leichtbeton,5,False
+Cork linoleum floor covering,Linoleum-Bodenbeläge,5,False
+Linoleum,Linoleum-Bodenbeläge,5,False
+BKP-EN,Lüftungsanlagen,5,False
+Decentralized ventilation units - SIEGENIA-AUBI KG - AEROMAT VT system (2 fans),Lüftungsanlagen,5,False
+Fire Damper BSK-RPR,Lüftungsanlagen,5,False
+MultiWeave textile-based ventilation duct,Lüftungsanlagen,5,False
+Ventilation centralized per 10000 m3/h,Lüftungsanlagen,5,False
+Ventilation centralized per 30000 m3/h,Lüftungsanlagen,5,False
+Ventilation centralized per 5000 m3/h,Lüftungsanlagen,5,False
+Ventilation centralized with heat recovery per 1000 m3/h,Lüftungsanlagen,5,False
+Ventilation centralized with heat recovery per 10000 m3/h,Lüftungsanlagen,5,False
+Ventilation centralized with heat recovery per 5000 m3/h,Lüftungsanlagen,5,False
+"Ventilation decentralized (wall, ceiling) 60 m3/h",Lüftungsanlagen,5,False
+"Ventilation decentralized with heat recovery (wall, ceiling) 60 m3/h",Lüftungsanlagen,5,False
+Cement mortar,Mauermörtel,5,False
+"Cement mortar: RENOVA TIXO, T LIVEL MAX, RENOVA FLUID, GUNITASS, TRAV, FORTE BETON, T FLASH COR, BETONTASS, T POWER, FUGASASS",Mauermörtel,5,False
+"Heavy cement mortar: PAVI RAPID, PAVI RAPID LOW, PAVI PRONTO, T BLOCK, T SPAN, T CREAM, PAVI TEKNO, DRAINMASS, BETONTASS DE",Mauermörtel,5,False
+Lime cement mortar,Mauermörtel,5,False
+Masonry Mortar - Standard Masonry Mortar,Mauermörtel,5,False
+Masonry Mortar - Thin-bed Mortar/Mortar With Special Properties,Mauermörtel,5,False
+"NHL heavy mortar: T A01, T A02, T A04, T A FIBRO, DUOMO RINOVA, OPUS RIN, T 20V, FORTE CALCE, COCCIO VIVO, CALCE FINE, CALCE MEDIA, CALCE DILAVATO, ECO BUILD, OPUS, OPUS MEC, NURAGHE, DUOMO, DRY RIN, DRY IDRO, PAVI ECO, ÖKOFAST",Mauermörtel,5,False
+"NHL injection mortar: FORTE FLUID, DUOMO FLUID",Mauermörtel,5,False
+"NHL light mortar: DRY SOFT, ARMIS BFLUID CONNECT",Mauermörtel,5,False
+"NHL mortar: CALCE SETA, OPUS COCCIO, FORTE RASO, PAVI COCCIO, DOMUS PAN",Mauermörtel,5,False
+StoLevell Evo,Mauermörtel,5,False
+Waterproof NHL mortar: NURAGHE RASO,Mauermörtel,5,False
+Admonter solid timber multi-layer products,Mehrschichtig modulare Bodenbeläge,5,False
+Amorim Wise Cork Pure PU PF,Mehrschichtig modulare Bodenbeläge,5,False
+Amorim Wise Cork Pure UV,Mehrschichtig modulare Bodenbeläge,5,False
+DISANO design floor,Mehrschichtig modulare Bodenbeläge,5,False
+EGGER Comfort Flooring,Mehrschichtig modulare Bodenbeläge,5,False
+EGGER Design Flooring,Mehrschichtig modulare Bodenbeläge,5,False
+Jumpax® Basic / Heat-Pak®,Mehrschichtig modulare Bodenbeläge,5,False
+Jumpax® Classic,Mehrschichtig modulare Bodenbeläge,5,False
+Jumpax® HD,Mehrschichtig modulare Bodenbeläge,5,False
+Jumpax® ME,Mehrschichtig modulare Bodenbeläge,5,False
+Jumpax® Nature,Mehrschichtig modulare Bodenbeläge,5,False
+Jumpax® Solid / Heat-Pak® Plus,Mehrschichtig modulare Bodenbeläge,5,False
+Jumpax® Strong,Mehrschichtig modulare Bodenbeläge,5,False
+Jumpax® Top,Mehrschichtig modulare Bodenbeläge,5,False
+Lindura® wood flooring,Mehrschichtig modulare Bodenbeläge,5,False
+Marathon Premium®,Mehrschichtig modulare Bodenbeläge,5,False
+Modular ONE design flooring,Mehrschichtig modulare Bodenbeläge,5,False
+Twinpanel® Acoustic / Jumpax® Acoustic,Mehrschichtig modulare Bodenbeläge,5,False
+"Veneered, wood flooring with HDF carrier (10 mm)",Mehrschichtig modulare Bodenbeläge,5,False
+"Veneered, wood flooring with HDF carrier and cork backing (10-12 mm)",Mehrschichtig modulare Bodenbeläge,5,False
+"ComfortWorx® Carpet Tile with EcoSolution Q®, Solution Q®, or Solution Q Extreme® Face Fibre",Mehrschichtig_modulare_Bodenbeläge,5,False
+EcoWorx S? Carpet Tile with EcoSolution Q100? Face Fibre,Mehrschichtig_modulare_Bodenbeläge,5,False
+"EcoWorx S? Carpet Tile with EcoSolution Q®, Solution Q®, or Solution Q Extreme® Face Fibre",Mehrschichtig_modulare_Bodenbeläge,5,False
+Gradus Carpet Tile with Nylon Face Fibre,Mehrschichtig_modulare_Bodenbeläge,5,False
+Micodur - Resilient Floor Covering,Mehrschichtig_modulare_Bodenbeläge,5,False
+STS Carpet Tile with Nylon Face Fibre,Mehrschichtig_modulare_Bodenbeläge,5,False
+"TaskWorx® Carpet Tile with EcoSolution Q®, Solution Q®, or Solution Q Extreme® Face Fibre",Mehrschichtig_modulare_Bodenbeläge,5,False
+TaskWorx® Carpet Tile with Polyamide 6 (Aquafil) Face Fibre,Mehrschichtig_modulare_Bodenbeläge,5,False
+Vinyl design flooring with HDF core board,Mehrschichtig_modulare_Bodenbeläge,5,False
+Digital cylinder,Messingbeschläge,5,False
+"Double cylinder - star cross, star, 20 and 8",Messingbeschläge,5,False
+"Reversible Double Cylinder - penta, quattro, gemini, expert, matrix",Messingbeschläge,5,False
+"Reversible Single Cylinder - star plus, neo, primo",Messingbeschläge,5,False
+"Serrated Double Cylinder - pextra Q, pextra+, pextra, AP 2000",Messingbeschläge,5,False
+End of Life of Aluminium,Metalle,5,False
+End of Life stainless steel,Metalle,5,False
+End of Life steel profile,Metalle,5,False
+End of Life steel sheet galvanized,Metalle,5,False
+Janisol Arte 66 window width x height: 1230mm x 1480mm,Metallfenster,5,False
+Janisol HI window width x height: 1230 mm x 1480 mm,Metallfenster,5,False
+Janisol window width x height: 1230mm x 1480mm,Metallfenster,5,False
+Lift and slide element - VFF - Aluminium lift and slide element,Metallfenster,5,False
+Windows - Solarlux GmbH - All-glass system (SL23) Proline S mega,Metallfenster,5,False
+Windows - Solarlux GmbH - Glass folding wall system (SL320) Highline,Metallfenster,5,False
+Windows - Solarlux GmbH - Sliding door system (SL200a) Cero IIIa,Metallfenster,5,False
+Windows - VFF - Aluminium windows,Metallfenster,5,False
+Windows - VFF - Steel windows,Metallfenster,5,False
+Windows - heroal-Johann Henkenjohann GmbH & Co. KG - Aluminium lifting-sliding door / -PSK (EN 15804+A2),Metallfenster,5,False
+Windows - heroal-Johann Henkenjohann GmbH & Co. KG - Aluminium sliding doors (EN 15804+A2),Metallfenster,5,False
+Windows - heroal-Johann Henkenjohann GmbH & Co. KG - W72 / W65 Aluminium windows (EN 15804+A2),Metallfenster,5,False
+Windows - heroal-Johann Henkenjohann GmbH & Co. KG - W72 Aluminium window-additional systems (EN 15804+A2),Metallfenster,5,False
+Windows - heroal-Johann Henkenjohann GmbH & Co. KG - W77 Aluminium window (EN 15804+A2),Metallfenster,5,False
+Airium cement-based insulation foam,Mineralisch,5,False
+Double skin steel faced sandwich panels with a core made of mineral wool,Mineralwolle,5,False
+FFB-VS,Mineralwolle,5,False
+Mineral wool (blowable),Mineralwolle,5,False
+Mineral wool (facade insulation),Mineralwolle,5,False
+Mineral wool (flat roof insulation),Mineralwolle,5,False
+Mineral wool (floor insulation),Mineralwolle,5,False
+Mineral wool (partition walls insulation),Mineralwolle,5,False
+Mineral wool (pitched roof insulation),Mineralwolle,5,False
+Mineral wool insulation (high bulk density range),Mineralwolle,5,False
+Mineral wool insulation (low bulk density range),Mineralwolle,5,False
+Mineral wool insulation (medium bulk density range),Mineralwolle,5,False
+Sandwich elements with a top layer of steel on both sides and a core of mineral wool,Mineralwolle,5,False
+Crushed stone 0/2,Naturstein,5,False
+Crushed stone 0/2 (dried),Naturstein,5,False
+Crushed stone 16/32,Naturstein,5,False
+Crushed stone 16/32 (dried),Naturstein,5,False
+Crushed stone 2/15,Naturstein,5,False
+Crushed stone 2/15 (dried),Naturstein,5,False
+Natural aggregates (Näppi T & N Oy),Naturstein,5,False
+magmatic rocks,Naturstein,5,False
+sedimentary rocks,Naturstein,5,False
+Marble slab,Naturwerkstein,5,False
+"Natural stone slab, flexible, facade (40 mm)",Naturwerkstein,5,False
+"Natural stone slab, flexible, indoor usage, thickness 20 mm",Naturwerkstein,5,False
+"Natural stone slab, rigid, facade (30 mm)",Naturwerkstein,5,False
+"Natural stone slab, rigid, indoor usage (20 mm)",Naturwerkstein,5,False
+"Natural stone slab, rigid, outdoor usage, thickness 80 mm",Naturwerkstein,5,False
+Kerberos Tripod Barrier-E01,Nutzung_Beförderungstechnik,5,False
+Usage - elevator average usage (200.000 rides/a),Nutzung_Beförderungstechnik,5,False
+Usage - elevator high usage (400.000 rides/a),Nutzung_Beförderungstechnik,5,False
+Usage - elevator low usage (100.000 rides/a),Nutzung_Beförderungstechnik,5,False
+Usage - lighting (1 kWh electricity consumption),Nutzung_Beleuchtung,5,False
+"Usage - multisplit air conditioner < 12 kW (SEER 3,2)",Nutzung_Lüftung_und_Klimatechnik,5,False
+Usage - room air conditioner> 12 kW (SEER 4.7),Nutzung_Lüftung_und_Klimatechnik,5,False
+"Usage - split air conditioner < 12 kW (SEER 3,5)",Nutzung_Lüftung_und_Klimatechnik,5,False
+Usage - ventilation (1kWh electricity consumption),Nutzung_Lüftung_und_Klimatechnik,5,False
+"Usage - district heating (120-400 kW, according to GEG)",Nutzung_Wärmeerzeuger_(EnEV),5,False
+"Usage - district heating (20-120 kW, acc. GEG)",Nutzung_Wärmeerzeuger_(EnEV),5,False
+"Usage - flat collector (1m² and year), acc. GEG",Nutzung_Wärmeerzeuger_(EnEV),5,False
+"Usage - gas heat pump air (20 kW, 0 °C, acc. GEG)",Nutzung_Wärmeerzeuger_(EnEV),5,False
+"Usage - gas heat pump air (20 kW, 7 °C, acc. GEG)",Nutzung_Wärmeerzeuger_(EnEV),5,False
+"Usage - gas heat pump air (70 kW, 0 °C, acc. GEG)",Nutzung_Wärmeerzeuger_(EnEV),5,False
+"Usage - gas heat pump air (70 kW, 7 °C, acc. GEG)",Nutzung_Wärmeerzeuger_(EnEV),5,False
+"Usage - tube collector (1m² and year), acc. GEG",Nutzung_Wärmeerzeuger_(EnEV),5,False
+Use - 1 kWh of final energy from gas calorific value (according to GEG),Nutzung_Wärmeerzeuger_(EnEV),5,False
+Use - 1 kWh of final energy from gas low-temperature (according to GEG),Nutzung_Wärmeerzeuger_(EnEV),5,False
+Use - 1 kWh of final energy from oil low temp. and calorific value (acc. GEG),Nutzung_Wärmeerzeuger_(EnEV),5,False
+Use - 1 kWh of final energy from wood chips (according to GEG),Nutzung_Wärmeerzeuger_(EnEV),5,False
+Use - 1 kWh of final energy from wood pellets (according to GEG),Nutzung_Wärmeerzeuger_(EnEV),5,False
+Oriented Strand Board,OSB-Platte,5,False
+Oriented Strand Board (German average),OSB-Platte,5,False
+Oriented Strand Board (OSB),OSB-Platte,5,False
+Glass ceramic -  MAGNA Glaskeramik GmbH - MAGNA glass ceramic (2022),Opake_Füllungen,5,False
+Rolling shutter (plastics),Opake_Füllungen,5,False
+Sun protection (metal blinds),Opake_Füllungen,5,False
+Urea formaldehyde resin in-situ foam,Ortschaum,5,False
+Austrotherm Resolution® Facade,PF-Platten,5,False
+Kooltherm® K10,PF-Platten,5,False
+Kooltherm® K12,PF-Platten,5,False
+Kooltherm® K15,PF-Platten,5,False
+Kooltherm® K15 C,PF-Platten,5,False
+Kooltherm® K17,PF-Platten,5,False
+Kooltherm® K20,PF-Platten,5,False
+Kooltherm® K3,PF-Platten,5,False
+Kooltherm® K8,PF-Platten,5,False
+Kooltherm® K8 D,PF-Platten,5,False
+Kooltherm® K8 D Plus,PF-Platten,5,False
+Kooltherm® K8 Plus,PF-Platten,5,False
+Phenolic resin foam,PF-Platten,5,False
+Bitumen-compatible polyisobutylene (PIB) synthetic roofing membrane,PIB-Dachbahnen_(Polyisobutylen),5,False
+Kingspan Sauna-Satu®,PIR-Hartschaum,5,False
+PIR high-density foam,PIR-Hartschaum,5,False
+Sandwich elements with a top layer of steel on both sides and a core of polyurethane foam,PIR-Hartschaum,5,False
+Stiferite CLASS SK average thick panel,PIR-Hartschaum,5,False
+Stiferite Class SK120,PIR-Hartschaum,5,False
+Stiferite FIRE B average thick panel,PIR-Hartschaum,5,False
+Therma? TF70,PIR-Hartschaum,5,False
+Therma? TP10,PIR-Hartschaum,5,False
+Therma? TR20 / Therma? TT40,PIR-Hartschaum,5,False
+Therma? TR24,PIR-Hartschaum,5,False
+Therma? TR27 / Therma? TT47,PIR-Hartschaum,5,False
+Therma? TW50 / Therma? TW50 EUR,PIR-Hartschaum,5,False
+Therma? TW55,PIR-Hartschaum,5,False
+Car (Diesel) EURO 3,PKW,5,False
+Car (Diesel) EURO 4,PKW,5,False
+Car (Gasoline) EURO 3,PKW,5,False
+Car (Gasoline) EURO 4,PKW,5,False
+PUR sealing compound,PUR,5,False
+Double skin steel faced sandwich panels with a core made of polyurethane,PU_Blockschaum,5,False
+PUR rigid foam,PU_Blockschaum,5,False
+Therma? TR29 / Therma? TT49,PU_Blockschaum,5,False
+Therma? TR26 / Therma? TT46,PU_mit_Aluminium,5,False
+Therma? TW56,PU_mit_Aluminium,5,False
+Therma? TW58,PU_mit_Aluminium,5,False
+Therma? TW55 R,PU_mit_Mineralvlies,5,False
+PVC Plastisol,PVC,5,False
+Design flooring Modular ONE Hydron,PVC-Bodenbeläge,5,False
+Luxury Vinyl Tiles (LVT),PVC-Bodenbeläge,5,False
+Luxury Vinyl Tiles (LVT) FlexForm?/FlexForm? Sound,PVC-Bodenbeläge,5,False
+PVC floor covering,PVC-Bodenbeläge,5,False
+"Vinyl design flooring with SPC core board, vinyl for gluing, vinyl made of solid material",PVC-Bodenbeläge,5,False
+BauderTHERMOFOL,PVC-Dachbahnen,5,False
+Cosmofin/Monarplan,PVC-Dachbahnen,5,False
+PVC roofing membrane,PVC-Dachbahnen,5,False
+Sikaplan G,PVC-Dachbahnen,5,False
+Sikaplan SGmA,PVC-Dachbahnen,5,False
+Sikaplan VGWT,PVC-Dachbahnen,5,False
+Tectofin RG,PVC-Dachbahnen,5,False
+"Tectofin RV plus, Tectofin SK",PVC-Dachbahnen,5,False
+Wolfin GWSK,PVC-Dachbahnen,5,False
+Wolfin IB,PVC-Dachbahnen,5,False
+Longlife parquet,Parkett,5,False
+Multi layer parquet (generic),Parkett,5,False
+Multi-layer parquet,Parkett,5,False
+Multi-layer parquet (German average),Parkett,5,False
+Multi-layered engineered wood flooring,Parkett,5,False
+Solid wood parquet (German average),Parkett,5,False
+Strip parquet (generic),Parkett,5,False
+Dr. Schutz® PU Wood Invisible,Parkettlack,5,False
+"Parquet primer, water diluted",Parkettlack,5,False
+Parquet top-coating transparent,Parkettlack,5,False
+eukula® strato nature 484,Parkettlack,5,False
+Perlites 0-1,Perlite,5,False
+Perlites 0-3,Perlite,5,False
+"Vegetable oil fuel (rapeseed, 1 kg)",Pflanzenölkraftstoff,5,False
+Expanded perlite insulation boards for interior use,Platten,5,False
+FOAMGLAS® F,Platten,5,False
+FOAMGLAS® S3,Platten,5,False
+FOAMGLAS® T3+,Platten,5,False
+FOAMGLAS® T3+,Platten,5,False
+FOAMGLAS® T4+,Platten,5,False
+Foam glass insulation material,Platten,5,False
+GLAPOR cellular glass boards,Platten,5,False
+"StoSilent Board 100 S, 105 C, 110 S",Platten,5,False
+StoSilent Board 205 C,Platten,5,False
+6.7.07. Polysulphide-based sealant,Polysulfid,5,False
+Aerated concrete P2 04 non-reinforced,Porenbeton,5,False
+Aerated concrete P4 05 non-reinforced,Porenbeton,5,False
+Aerated concrete P4 05 reinforced,Porenbeton,5,False
+Aerated concrete granulate,Porenbeton,5,False
+"Hebel autoclaved aerated concrete, reinforced",Porenbeton,5,False
+autoclaved aerated concrete units,Porenbeton,5,False
+partition kits made of autoclaved aerated concrete,Porenbeton,5,False
+reinforced elements made of autoclaved aerated concrete,Porenbeton,5,False
+Aluminium,Profile,5,True
+Aluminium_thermisch_getrennt,Profile,5,True
+Holz,Profile,5,True
+PVC,Profile,5,True
+Stahl,Profile,5,True
+Application top coat powder,Pulverbeschichten,5,False
+ARDEX A 828 COMFORT,Putz_und_Putzmörtel,5,False
+Asanto universal clay plaster,Putz_und_Putzmörtel,5,False
+Clay plaster,Putz_und_Putzmörtel,5,False
+"ClayTec clay plaster Mineral 20, dry",Putz_und_Putzmörtel,5,False
+"ClayTec clay plaster Mineral 20, earth-moist",Putz_und_Putzmörtel,5,False
+"ClayTec clay topcoat plaster fine 06, dry",Putz_und_Putzmörtel,5,False
+"ClayTec clay topcoat plaster with straw, dy",Putz_und_Putzmörtel,5,False
+"ClayTec clay topcoat plaster with straw, earth-moist",Putz_und_Putzmörtel,5,False
+"ClayTec clay undercoat plaster with straw, dry",Putz_und_Putzmörtel,5,False
+"ClayTec undercoat plaster with straw, earth-moist",Putz_und_Putzmörtel,5,False
+GYPSUM PLASTER/Tool,Putz_und_Putzmörtel,5,False
+Gypsum interior plaster,Putz_und_Putzmörtel,5,False
+Gypsum lime plaster,Putz_und_Putzmörtel,5,False
+"Gypsum plasters Bulgips Start, MP75, MP75 L, MP75 SL and Rotband",Putz_und_Putzmörtel,5,False
+LIME-GYPSUM PLASTER / Tool,Putz_und_Putzmörtel,5,False
+Levita clay plaster UP2,Putz_und_Putzmörtel,5,False
+Levita clay plaster Uni 1.8,Putz_und_Putzmörtel,5,False
+Levita topcoat plaster OP 1,Putz_und_Putzmörtel,5,False
+Lime gypsum interior plaster,Putz_und_Putzmörtel,5,False
+Lime interior plaster,Putz_und_Putzmörtel,5,False
+Lime plaster,Putz_und_Putzmörtel,5,False
+Lime-cement plaster,Putz_und_Putzmörtel,5,False
+"NHL-based heavy mortar: INTOCALX, INTOCALX IDRO, INTOCALX FIBRO, FORTE RIPARA, T FLASH",Putz_und_Putzmörtel,5,False
+"NHL-based mortar: T 200, T 300, FORTE MULTI, FORTE MEC, DRY PLUS, T RIN, STONE",Putz_und_Putzmörtel,5,False
+Primer (Silicate dispersion),Putz_und_Putzmörtel,5,False
+Primer (Silicone resin),Putz_und_Putzmörtel,5,False
+Rendering Mortar - Reinforcement Fibre Plaster,Putz_und_Putzmörtel,5,False
+Synthtic resin plaster,Putz_und_Putzmörtel,5,False
+VOLCALITE AIR PLUS,Putz_und_Putzmörtel,5,False
+HIT-RE 500 V3,Reaktionsharze_auf_Epoxidharzbasis,5,False
+HIT-RE 500 V4,Reaktionsharze_auf_Epoxidharzbasis,5,False
+"Products based on epoxy-resin, group 2",Reaktionsharze_auf_Epoxidharzbasis,5,False
+"Products based on epoxy-resin, group 3",Reaktionsharze_auf_Epoxidharzbasis,5,False
+"Products based on epoxy-resin, group 4",Reaktionsharze_auf_Epoxidharzbasis,5,False
+"Products based on epoxy-resin, group 5",Reaktionsharze_auf_Epoxidharzbasis,5,False
+"Reactive resin based on epoxy resin, filled",Reaktionsharze_auf_Epoxidharzbasis,5,False
+HIT-CT 100,Reaktionsharze_auf_Methacrylatbasis,5,False
+HIT-HY 200-A V3,Reaktionsharze_auf_Methacrylatbasis,5,False
+HIT-MM PLUS,Reaktionsharze_auf_Methacrylatbasis,5,False
+HUS4-MAX and KHC,Reaktionsharze_auf_Methacrylatbasis,5,False
+HVU2,Reaktionsharze_auf_Methacrylatbasis,5,False
+Reactive resin based on methacrylate resin,Reaktionsharze_auf_Methacrylatbasis,5,False
+"5.8.02. Polyurethane-based reactive resin, aqueous, solvent-free",Reaktionsharze_auf_PU-Basis,5,False
+Liquid plastics for waterproofing buildings based on silane-modified polymer,Reaktionsharze_auf_PU-Basis,5,False
+"Products based on polyurethane or silane-modified polymer, group 1",Reaktionsharze_auf_PU-Basis,5,False
+"Products based on polyurethane or silane-modified polymer, group 2",Reaktionsharze_auf_PU-Basis,5,False
+"Products based on polyurethane or silane-modified polymer, group 3",Reaktionsharze_auf_PU-Basis,5,False
+"Products based on polyurethane or silane-modified polymer, group 4",Reaktionsharze_auf_PU-Basis,5,False
+"Products based on polyurethane, group 5",Reaktionsharze_auf_PU-Basis,5,False
+"Products based on polyurethane, group 6",Reaktionsharze_auf_PU-Basis,5,False
+Rain drain pipe PVC,Regen-_Grauwasserrohre,5,False
+Gravel (Grain size 2/32),Sand_und_Kies,5,False
+Gravel 2/32 (dried),Sand_und_Kies,5,False
+Sand 0/2,Sand_und_Kies,5,False
+Sand 0/2 (dried),Sand_und_Kies,5,False
+Ceramic Fine Fireclay ISI,Sanitärkeramik,5,False
+Sanitary ceramic,Sanitärkeramik,5,False
+Sanitary ceramic,Sanitärkeramik,5,False
+Toilet seat/cover (Duroplast),Sanitärkeramik,5,False
+Electric socket,Schalter_und_Steckdosen,5,False
+EntriWorX Unit 92 40,Schalter_und_Steckdosen,5,False
+Rocker lightswitch,Schalter_und_Steckdosen,5,False
+AF/ArmaFlex Class O insulation for industrial and building installation,Schaum,5,False
+AF/ArmaFlex Evo insulation for industrial and building installation,Schaum,5,False
+AF/ArmaFlex insulation for industrial and building installation,Schaum,5,False
+ArmaFlex Ultima insulation for industrial and building installation,Schaum,5,False
+ArmaPET® Eco50,Schaum,5,False
+HT/ArmaFlex insulation for industrial and building installation,Schaum,5,False
+Hilti CFS-F FX,Schaum,5,False
+Melamin resin foam,Schaum,5,False
+NH/ArmaFlex Smart insulation for industrial and building installation,Schaum,5,False
+NH/ArmaFlex insulation for industrial and building installation,Schaum,5,False
+Polyethylene foam,Schaum,5,False
+SH/ArmaFlex insulation for industrial and building installation,Schaum,5,False
+flexen® Exzenterblock Compact,Schaum,5,False
+flexen® PE-Stabil,Schaum,5,False
+Foam concrete insulation boards,Schaumbeton_Dämmplatten,5,False
+Roof slate,Schiefer,5,False
+Brass component,Schmiede-_und_Gussteile_aus_Kupfer_und_Messing,5,False
+"Different brass valves family constituted by full bore ball valves, gate valves and fixed-orifice balancing valves",Schmiede-_und_Gussteile_aus_Kupfer_und_Messing,5,False
+Red brass part,Schmiede-_und_Gussteile_aus_Kupfer_und_Messing,5,False
+connecting technology - Viega - Geopress,Schmiede-_und_Gussteile_aus_Kupfer_und_Messing,5,False
+connecting technology - Viega - Geopress G,Schmiede-_und_Gussteile_aus_Kupfer_und_Messing,5,False
+connecting technology - Viega - Geopress K / K Gas,Schmiede-_und_Gussteile_aus_Kupfer_und_Messing,5,False
+connecting technology - Viega - Megapress,Schmiede-_und_Gussteile_aus_Kupfer_und_Messing,5,False
+connecting technology - Viega - PureFlow Crimp,Schmiede-_und_Gussteile_aus_Kupfer_und_Messing,5,False
+connecting technology - Viega - Raxofix press connector,Schmiede-_und_Gussteile_aus_Kupfer_und_Messing,5,False
+connecting technology - Viega - Sanpress,Schmiede-_und_Gussteile_aus_Kupfer_und_Messing,5,False
+connecting technology - Viega - SeaPress,Schmiede-_und_Gussteile_aus_Kupfer_und_Messing,5,False
+connecting technology - Viega - Viega Smartpress press connector,Schmiede-_und_Gussteile_aus_Kupfer_und_Messing,5,False
+Fire protection element - EAS Technischer Brandschutz GmbH - Fire protection housing,Schutzsysteme_zur_Kabel-_und_Rohrabschottung,5,False
+Fire protection element - EAS Technischer Brandschutz GmbH - Revision closures,Schutzsysteme_zur_Kabel-_und_Rohrabschottung,5,False
+Bulk carrier coast,Seeschiff,5,False
+Bulk carrier ocean,Seeschiff,5,False
+Container ship,Seeschiff,5,False
+Extension module 90 30 / 90 31,Sicherungs-_und_Schaltschränke,5,False
+"Application coating, silicate dispersion paint",Silikat-Dispersion,5,False
+Silicone sealing compound,Silikon,5,False
+"Silicone-based products, group 1",Silikon,5,False
+"Silicone-based products, group 2",Silikon,5,False
+"Silicone-based products, group 3",Silikon,5,False
+Application coating silicone paint,Silikonharz,5,False
+Roller Shutters,Sonnenschutzsysteme,5,False
+Shading device - Roto Frank - ZMA E_ of the Designo and RotoQ model range,Sonnenschutzsysteme,5,False
+Shading device - Roto Frank - ZMA F of the Designo and RotoQ model range,Sonnenschutzsysteme,5,False
+Shading device - Roto Frank - ZMA S of the Designo and RotoQ model range,Sonnenschutzsysteme,5,False
+Shading device - Roto Frank - ZRO E of the Designo and RotoQ model range,Sonnenschutzsysteme,5,False
+Shading device - Roto Frank - ZRO M of the Designo,Sonnenschutzsysteme,5,False
+Shading device - Roto Frank - ZRO S and ZRO F of the Designo,Sonnenschutzsysteme,5,False
+Textilscreens,Sonnenschutzsysteme,5,False
+VELUX Interior roller blinds,Sonnenschutzsysteme,5,False
+VELUX roller shutter - grid-conntected,Sonnenschutzsysteme,5,False
+VELUX roller shutter - solar powered,Sonnenschutzsysteme,5,False
+VELUX soft shutter - solar-powered,Sonnenschutzsysteme,5,False
+Ventetain Blinds,Sonnenschutzsysteme,5,False
+sun protection systems - D&M KG - raffstore,Sonnenschutzsysteme,5,False
+sun protection systems - D&M KG - roller shutter,Sonnenschutzsysteme,5,False
+sun protection systems - D&M KG - textile screen,Sonnenschutzsysteme,5,False
+Curtain walling - VFF - Curtain walling in aluminium profiles,Sonstige_Fassaden,5,False
+Curtain walling - VFF - Curtain walling in steel profiles,Sonstige_Fassaden,5,False
+Curtain walling - VFF - Curtain walling in wood-metall profiles,Sonstige_Fassaden,5,False
+Exterior wall cladding - AGROB Buchtal GmbH - KeraTwin ceramic facade system,Sonstige_Fassaden,5,False
+Float glass in construction: EUROFLOAT,Sonstige_Fenster,5,False
+Insulating glass,Sonstige_Fenster,5,False
+Laminated glass,Sonstige_Fenster,5,False
+Laminated safety glass EUROLAMEX,Sonstige_Fenster,5,False
+Modulares Glasdach MS78,Sonstige_Fenster,5,False
+VELUX flat roof window CFP,Sonstige_Fenster,5,False
+VELUX flat roof window CFU,Sonstige_Fenster,5,False
+VELUX flat roof window CSP - grid-connected,Sonstige_Fenster,5,False
+VELUX flat roof window CVP - grid-connected,Sonstige_Fenster,5,False
+VELUX flat roof window CVU - grid-connected,Sonstige_Fenster,5,False
+VELUX flat roof window CVU - solar-powered,Sonstige_Fenster,5,False
+VELUX flat roof window CXP,Sonstige_Fenster,5,False
+Cement bound particle board (generic),Spanplatten,5,False
+Chipboard (generic),Spanplatten,5,False
+EGGER Eurodekor - Melamine Faced Chipboard,Spanplatten,5,False
+Eurospan Raw Chipboard,Spanplatten,5,False
+"Medium density fibreboard (MDF), uncoated",Spanplatten,5,False
+Particle board - melamine coated (German average),Spanplatten,5,False
+Particle board - raw (German average),Spanplatten,5,False
+"Particleboard, coated",Spanplatten,5,False
+Tubular particle board (German average),Spanplatten,5,False
+Brick chimney double-duct,Speicher,5,False
+Brick chimney single-duct,Speicher,5,False
+Buffer storage (stainless steel),Speicher,5,False
+Buffer storage (steel),Speicher,5,False
+Chimney polypropylene (PP),Speicher,5,False
+Chimney stainless steel (single wall),Speicher,5,False
+Circulating pump 250-1000W,Speicher,5,False
+Circulating pump 50-250W,Speicher,5,False
+Circulating pump < 50W,Speicher,5,False
+"Liquefied gas tank 2700 l / 1,2 t (above ground)",Speicher,5,False
+"Liquefied gas tank 2700 l / 1,2 t (underground)",Speicher,5,False
+"Liquefied gas tank 4850 l / 2,1 t (above ground)",Speicher,5,False
+"Liquefied gas tank 4850 l / 2,1 t (underground)",Speicher,5,False
+"Liquefied gas tank 6400 l / 2,9 t (above ground)",Speicher,5,False
+"Liquefied gas tank 6400 l / 2,9 t (underground)",Speicher,5,False
+Oil tank PE-HD (1000l),Speicher,5,False
+Oil tank PE-HD (1500l),Speicher,5,False
+Oil tank PE-HD (750l),Speicher,5,False
+Oil tank polyamide (1000l),Speicher,5,False
+Oil tank polyamide (1500l),Speicher,5,False
+Oil tank polyamide (750l),Speicher,5,False
+"Oil tank steel/PE-HD (double wall tank, 1000l)",Speicher,5,False
+"Oil tank steel/PE-HD (double wall tank, 750l)",Speicher,5,False
+Plywood board (generic),Sperrholz,5,False
+Veneer plywood (German average),Sperrholz,5,False
+best wood CLT,Sperrholz,5,False
+best wood CLT BOX,Sperrholz,5,False
+Stone mastic asphalt (SMA),Splittmastixasphalt,5,False
+7.6.01. Sectional garage door,Stahl,5,False
+Access manager 92 90 Wall,Stahl,5,False
+Crane Manual Revolving Door - SS 2000/3000,Stahl,5,False
+Door - EFAFLEX Tor- und Sicherheitssysteme GmbH & Co. KG - High-speed spiral door steel,Stahl,5,False
+Door - Teckentrup GmbH & Co. KG - Folding door,Stahl,5,False
+Door - Teckentrup GmbH & Co. KG - Industrial sectional door,Stahl,5,False
+Door - Teckentrup GmbH & Co. KG - Multifunctional doors,Stahl,5,False
+Door - Teckentrup GmbH & Co. KG - Roller shutter,Stahl,5,False
+Door - Teckentrup GmbH & Co. KG - Sectional garage door,Stahl,5,False
+Door - Teckentrup GmbH & Co. KG - Sliding gate,Stahl,5,False
+Exterior door - VFF - Steel exterior door with light cut-out,Stahl,5,False
+Exterior door - VFF - Steel exterior door without light cut-out,Stahl,5,False
+Fire protection curtain - Effertz Tore GmbH - Fiberflam TR,Stahl,5,False
+Fire protection curtain - Effertz Tore GmbH - Fiberflam iso6 Sa,Stahl,5,False
+Fire protection curtain - Effertz Tore GmbH - SC420,Stahl,5,False
+Fire protection panel door - Effertz Tore GmbH - EI30 Firewall,Stahl,5,False
+Fire protection panel door - Effertz Tore GmbH - EI90 Firewall,Stahl,5,False
+Fire protection roller shutter door - Effertz Tore GmbH - Ferroflam RI319,Stahl,5,False
+Fire protection roller shutter door - Effertz Tore GmbH - Ferroflam RI921,Stahl,5,False
+Industrial and garage doors - ConDoor Group B.V. - Steel panels,Stahl,5,False
+Janisol 2 EI30 door width x height: 1230mm x 2180mm,Stahl,5,False
+Kentaur,Stahl,5,False
+Medallion Door,Stahl,5,False
+Optical Turnstile SU5000,Stahl,5,False
+Roller shutter,Stahl,5,False
+Rolling doors and rolling grilles - Hörmann KG Dissen - Steel or aluminum rolling doors,Stahl,5,False
+Rolling doors and rolling grilles - Hörmann KG Dissen - Steel or aluminum rolling grilles,Stahl,5,False
+Sectional door - Lindab A/S - Sectional door LDC,Stahl,5,False
+Sectional door - Lindab A/S - Sectional door LDI,Stahl,5,False
+Tubular frame door - Hörmann Legnica - Fire door,Stahl,5,False
+Tubular frame door - Hörmann Legnica - Smoke protection door,Stahl,5,False
+door - Hodapp GmbH und Co. KG - multifunctional door,Stahl,5,False
+door - Hodapp GmbH und Co. KG - safety door,Stahl,5,False
+door - Hodapp GmbH und Co. KG - smoke and fire protection closure,Stahl,5,False
+ASSA ABLOY PULSE,Stahlbeschläge,5,False
+BEST EHD9000,Stahlbeschläge,5,False
+BEST HD8000,Stahlbeschläge,5,False
+DL 200/300,Stahlbeschläge,5,False
+Door closer TS 92 Contur,Stahlbeschläge,5,False
+Electromechanical locks and striking plates - SIEGENIA-AUBI KG - Mechatronic drive unit for entrance doors and access control systems,Stahlbeschläge,5,False
+"Locks and fittings for windows, doors and gates - SIEGENIA-AUBI KG - Multi-point locks",Stahlbeschläge,5,False
+"Locks and hardware for windows, doors and gates - SIEGENIA-AUBI KG - Mechanical window hardware for aluminum tilt and turn windows",Stahlbeschläge,5,False
+Mortise Lock - DL Series 2xxx-9xxx,Stahlbeschläge,5,False
+Mortise Lock Saflok Quantum Pixel,Stahlbeschläge,5,False
+Steel window fitting,Stahlbeschläge,5,False
+"The lift & slide drives are installed in the timber, PVC and aluminum lift & slide elements.",Stahlbeschläge,5,False
+AquaproofX® 1,Stahlbleche,5,False
+Cold-rolled sheet made from scrap-based electrical steel,Stahlbleche,5,False
+EasyproofX® 1,Stahlbleche,5,False
+Electrical steel strip - fully processed,Stahlbleche,5,False
+Electrical steel strip - semi-processed,Stahlbleche,5,False
+Heavy Plate,Stahlbleche,5,False
+Heavy plates,Stahlbleche,5,False
+Hot dip galvanized steel sheet,Stahlbleche,5,False
+Hot-dip galvanised cold-rolled sheet incl. StronSal®,Stahlbleche,5,False
+Hot-dip galvanised cold-rolled sheet incl. StronSal® made from scrap-based electrical steel,Stahlbleche,5,False
+"Hot-formed press-hardened steel components (""phs-ultraform"")",Stahlbleche,5,False
+Hot-rolled coil,Stahlbleche,5,False
+Mesh Ceiling Membranes (1 mm),Stahlbleche,5,False
+Mesh Ceiling Membranes (1.5 mm),Stahlbleche,5,False
+"Metal Ceiling Membranes (0.5 mm, with acoustic fleece)",Stahlbleche,5,False
+"Metal Ceiling Membranes (0.5 mm, without acoustic infill)",Stahlbleche,5,False
+"Metal Ceiling Membranes (0.6 mm, with acoustic fleece)",Stahlbleche,5,False
+"Metal Ceiling Membranes (0.6 mm, without acoustic infill)",Stahlbleche,5,False
+"Metal Ceiling Membranes (0.7 mm, with acoustic fleece)",Stahlbleche,5,False
+"Metal Ceiling Membranes (0.7 mm, without acoustic infill)",Stahlbleche,5,False
+"Metal Ceiling Membranes (1 mm, with acoustic fleece)",Stahlbleche,5,False
+"Metal Ceiling Membranes (1 mm, without acoustic infill)",Stahlbleche,5,False
+Metal waterstop,Stahlbleche,5,False
+Organic-coated steel strip,Stahlbleche,5,False
+Pickled hot-rolled wide strip,Stahlbleche,5,False
+Primed and painted steel structures,Stahlbleche,5,False
+"Profiled sheets made of steel for roof, wall, deck and ceiling constructions",Stahlbleche,5,False
+SilicaproofX® 1,Stahlbleche,5,False
+Steel sheet (0.3-30mm),Stahlbleche,5,False
+Steel sheet (20µm hot dip galvanized),Stahlbleche,5,False
+Steel sheet hot dip galvanized (2-20mm),Stahlbleche,5,False
+"Steel structures, pallets and platform gratings + coating (optional)",Stahlbleche,5,False
+Structural Steel: Heavy Plates,Stahlbleche,5,False
+Unpickled hot-rolled wide strip,Stahlbleche,5,False
+Unpickled hot-rolled wide strip made from scrap-based electrical steel,Stahlbleche,5,False
+XCarb® Recycled and Renewably Produced hot dip galvanized steel with Magnelis® coating,Stahlbleche,5,False
+Zinc coated and painted steel structures,Stahlbleche,5,False
+Zinc coated steel structures,Stahlbleche,5,False
+Annealed wire rod,Stahlprofile,5,False
+Drawn Wire - Prestressing Wire and Strand,Stahlprofile,5,False
+Drawn Wire ? Cold Heading Wire,Stahlprofile,5,False
+Flanges and butt welded fittings,Stahlprofile,5,False
+Galvanized Structural Steel,Stahlprofile,5,False
+"Galvanized steel profile (electric arc furnace route, high scrap content)",Stahlprofile,5,False
+Hot-dip galvanised steel,Stahlprofile,5,False
+Painted Structural Steel,Stahlprofile,5,False
+Painted steel structures,Stahlprofile,5,False
+"PregyMetal - Z100 galvanized steel profiles 0,6 mm thickness",Stahlprofile,5,False
+PregyMetal - Z100 galvanized steel profiles 1mm thickness,Stahlprofile,5,False
+"PregyMetal AquaBoard - AZ150 galvanized steel profiles with 0,6mm thickness",Stahlprofile,5,False
+Profile - König GmbH & Co. KG - Ceiling profile corrosion resistant CD60/27 (EN 15804+A2),Stahlprofile,5,False
+Profile - König GmbH & Co. KG - Ceiling profile corrosion resistant Hutdecek 98 (EN 15804+A2),Stahlprofile,5,False
+Profile - König GmbH & Co. KG - Ceiling profile corrosion resistant UD28/48 (EN 15804+A2),Stahlprofile,5,False
+Profile - König GmbH & Co. KG - Ceiling profile galvanized CD60/27 (EN 15804+A2),Stahlprofile,5,False
+Profile - König GmbH & Co. KG - Ceiling profile galvanized UD28/48 (EN 15804+A2),Stahlprofile,5,False
+Profile - König GmbH & Co. KG - Wall profile corrosion resistant CW100 (EN 15804+A2),Stahlprofile,5,False
+Profile - König GmbH & Co. KG - Wall profile corrosion resistant CW125 (EN 15804+A2),Stahlprofile,5,False
+Profile - König GmbH & Co. KG - Wall profile corrosion resistant CW150 (EN 15804+A2),Stahlprofile,5,False
+Profile - König GmbH & Co. KG - Wall profile corrosion resistant CW50 (EN 15804+A2),Stahlprofile,5,False
+Profile - König GmbH & Co. KG - Wall profile corrosion resistant CW75 (EN 15804+A2),Stahlprofile,5,False
+Profile - König GmbH & Co. KG - Wall profile galvanized CW100 (EN 15804+A2),Stahlprofile,5,False
+Profile - König GmbH & Co. KG - Wall profile galvanized CW125 (EN 15804+A2),Stahlprofile,5,False
+Profile - König GmbH & Co. KG - Wall profile galvanized CW150 (EN 15804+A2),Stahlprofile,5,False
+Profile - König GmbH & Co. KG - Wall profile galvanized CW50 (EN 15804+A2),Stahlprofile,5,False
+Profile - König GmbH & Co. KG - Wall profile galvanized CW75 (EN 15804+A2),Stahlprofile,5,False
+Profile - König GmbH & Co. KG - ceiling profile galvanized Hutdecke 98 (EN 15804+A2),Stahlprofile,5,False
+"Profiled steel panels for roof, wall and ceiling structures",Stahlprofile,5,False
+Rail expansion joint - superstructure,Stahlprofile,5,False
+ReUse-Steel,Stahlprofile,5,False
+Refit-Steel,Stahlprofile,5,False
+Rolled wire rod,Stahlprofile,5,False
+Shaped Wire,Stahlprofile,5,False
+Steel section,Stahlprofile,5,False
+Structural Steel: Sections and merchant bars,Stahlprofile,5,False
+Surface treated wire rod,Stahlprofile,5,False
+Welded and painted steel structures - beams and box beams,Stahlprofile,5,False
+Welded and painted steel structures - other steel structures,Stahlprofile,5,False
+Welded and zinc coated steel structures,Stahlprofile,5,False
+XCarb® recycled and renewably produced organic coated steel coils Granite® and Estetic®,Stahlprofile,5,False
+Zinc coated steel structures,Stahlprofile,5,False
+anchor rail,Stahlprofile,5,False
+continuous cast steel bloom,Stahlprofile,5,False
+duroZINQ(R) hot-dip galvanized steel,Stahlprofile,5,False
+microZINQ(R) hot-dip galvanized steel,Stahlprofile,5,False
+voestalpine rails (update),Stahlprofile,5,False
+ROCKWOOL Mineral-wool insulation (high bulk density range),Steinwolle,5,False
+ROCKWOOL Mineral-wool insulation (low bulk density range),Steinwolle,5,False
+ROCKWOOL Mineral-wool insulation (medium bulk density range),Steinwolle,5,False
+Stoneware pipes DN 250,Steinzeug,5,False
+Stoneware pipes DN 400,Steinzeug,5,False
+2.23.01. Straw insulation,Strohballen,5,False
+FASBA e.V. Baustroh 100 kg/m³ GaBi - 2024,Strohballen,5,False
+Huppenberger-Maxit straw panels gross density 220 kg/m³,Strohplatten,5,False
+Electricity from biogas (1 kWh),Strom,5,False
+Electricity from biomass (1 kWh),Strom,5,False
+Electricity from hydropower,Strom,5,False
+Electricity from photovoltaik (1 kWh),Strom,5,False
+Electricity from wind power,Strom,5,False
+Electricity grid mix 2017,Strom,5,False
+Electricity grid mix 2018,Strom,5,False
+Electricity grid mix 2019,Strom,5,False
+Electricity grid mix 2020,Strom,5,False
+Electricity grid mix 2021,Strom,5,False
+Electricity grid mix scenario 2030,Strom,5,False
+Electricity grid mix scenario 2040,Strom,5,False
+Electricity grid mix scenario 2050,Strom,5,False
+"Electricity mix scenario 2030 (progressive, based on ""Angora KN2050"")",Strom,5,False
+"Electricity mix scenario 2040 (progressive, based on ""Angora KN2050"")",Strom,5,False
+"Electricity mix scenario 2050 (progressive, based on ""Angora KN2050"")",Strom,5,False
+Photovoltaic system 1000 kWh/m²*a,Strom,5,False
+Photovoltaic system 1000 kWh/m²*a (no electricity credits),Strom,5,False
+Photovoltaic system 1200 kWh/m²*a,Strom,5,False
+Photovoltaic system 1200 kWh/m²*a (no electricity credits),Strom,5,False
+"Residual electricity mix 2030 (based on ""EU Reference Scenario 2020"")",Strom,5,False
+"Residual electricity mix 2040 (based on ""EU Reference Scenario 2020"")",Strom,5,False
+"Residual electricity mix 2050 (based on ""EU Reference Scenario 2020"")",Strom,5,False
+Vegetation substrate,Substrate,5,False
+floor and path surfaces - GreenWorld Products - TerraWay 30mm,Substrate,5,False
+floor and path surfaces - GreenWorld Products - TerraWay 50mm,Substrate,5,False
+floor and path surfaces - GreenWorld Products - TerraWay organic 30mm,Substrate,5,False
+BauderTHERMOFIN,TPO-Dachbahnen_(FPO),5,False
+BauderTHERMOPLAN,TPO-Dachbahnen_(FPO),5,False
+BauderTHERMOPLEX,TPO-Dachbahnen_(FPO),5,False
+Polyfin® 3020 roofing and sealing membranes,TPO-Dachbahnen_(FPO),5,False
+TPO/FPO Dach-und Dichtungsbahn,TPO-Dachbahnen_(FPO),5,False
+1m² of Type II technical textile,Technische_Textilien,5,False
+ACEFormer?,Technische_Textilien,5,False
+ACEGrid®,Technische_Textilien,5,False
+ACEMat?,Technische_Textilien,5,False
+ACETex® PET,Technische_Textilien,5,False
+ACETex® PP,Technische_Textilien,5,False
+ACETube®,Technische_Textilien,5,False
+EnkaDrain® and Enka®Break,Technische_Textilien,5,False
+EnkaSolutions and XeroFlor vegetation carriers (Freudenberg Performance Materials B.V.),Technische_Textilien,5,False
+Enka®Grip,Technische_Textilien,5,False
+Enka®Grip&Drain,Technische_Textilien,5,False
+Geocomposite,Technische_Textilien,5,False
+Polytetrafluoroethylene foil (PTFE),Technische_Textilien,5,False
+Sun protection (textile),Technische_Textilien,5,False
+Tensar® TriAx® geogrid ? TX130S,Technische_Textilien,5,False
+Tensar® TriAx® geogrid ? TX140,Technische_Textilien,5,False
+Tensar® TriAx® geogrid ? TX150,Technische_Textilien,5,False
+Tensar® TriAx® geogrid ? TX160,Technische_Textilien,5,False
+Tensar® TriAx® geogrid ? TX170,Technische_Textilien,5,False
+Tensar® TriAx® geogrid ? TX180,Technische_Textilien,5,False
+Tensar® TriAx® geogrid ? TX190L,Technische_Textilien,5,False
+Tensar® TriAx® geogrid ? TX5,Technische_Textilien,5,False
+Tensar® TriAx® geogrid ? TX7,Technische_Textilien,5,False
+VOTEC PP Geosynthetics Vlies,Technische_Textilien,5,False
+Vinyplan 6319,Technische_Textilien,5,False
+Vinyplan 6813ECO,Technische_Textilien,5,False
+Vinyplan H900 6770,Technische_Textilien,5,False
+Carpet floor covering (1400 g/m²),Textile_Bodenbeläge,5,False
+"Continuously dyed tufted tiles, 100% rec PA 6, a CQuest Bio Sone backing",Textile_Bodenbeläge,5,False
+"EcoWorx® Carpet Tile (US Made UK Market) with EcoSolution Q®, Solution Q®, or Solution Q Extreme® Face Fibre",Textile_Bodenbeläge,5,False
+FRENCH COUTURE - tufted carpet,Textile_Bodenbeläge,5,False
+INFINI COLORS - tufted carpet tiles,Textile_Bodenbeläge,5,False
+MACRO MICRO HD / CARRE COUTURE - tufted carpet tiles,Textile_Bodenbeläge,5,False
+"Needled carpet tiles, yarn mixture of 80% polypropylene, 20% polyester and a bitumen heavy backing",Textile_Bodenbeläge,5,False
+"Needled carpet tiles, yarn mixture of 80% polypropylene, 20% polyester and an NSF foam backing",Textile_Bodenbeläge,5,False
+PILOTE 3D NRB - tufted carpet tiles,Textile_Bodenbeläge,5,False
+SERENITE - tufted carpet,Textile_Bodenbeläge,5,False
+"Superfloor II, Needled tiles with a total pile weight of 521 g/m2 and a CQuest Bio backing",Textile_Bodenbeläge,5,False
+"Superflor II, Needled tiles with a total pile weight of 521 g/m² and a CQuest Bio backing",Textile_Bodenbeläge,5,False
+TOP DESIGN 1100 ECO - tufted carpet,Textile_Bodenbeläge,5,False
+Tetile floor covering - Kugelgarn - Reval®,Textile_Bodenbeläge,5,False
+Tetile floor covering - Kugelgarn - Reval® Modul,Textile_Bodenbeläge,5,False
+"Tufted carpet tiles with 100% recycled PA6 pile material and bitumen-based heavy backing, LC1",Textile_Bodenbeläge,5,False
+"Tufted carpet tiles with 100% recycled PA6 pile material and bitumen-based heavy backing, LC2",Textile_Bodenbeläge,5,False
+"Tufted carpet tiles with 100% recycled PA6 pile material and bitumen-based heavy backing, LC3",Textile_Bodenbeläge,5,False
+"Tufted carpet tiles, total pile material max. 1010 g/m² PA 6 with 100% recycled content, print design, Comfort Lite®/Plus® recycled cushion back",Textile_Bodenbeläge,5,False
+"Tufted carpet tiles, total pile material max. 900 g/m² PA 6 with 20% recycled content, Comfort Lite®/Plus® recycled cushion back",Textile_Bodenbeläge,5,False
+"Tufted tiles, 100% rec. Polyamid 6, maximum total pile weight 1500 g/m2, CQuest Bio backing, Sone acoustic cover",Textile_Bodenbeläge,5,False
+"Tufted tiles, 100% recycled Polyamid 6 with a maximum total pile weight of 1500 g/m2, a CQuest Bio Sone+ backing",Textile_Bodenbeläge,5,False
+"Tufted tiles, 100% recycled Polyamid 6 with a maximum total pile weight of 1500 g/m2, a CQuest Bio Sone+ backing",Textile_Bodenbeläge,5,False
+"Tufted tiles, 100% recycled polyamide 6 with a maximum total pile weight of 1300 g/m2 back2back or comfortback backing",Textile_Bodenbeläge,5,False
+"Tufted tiles, 100% recycled polyamide 6 with a maximum total pile weight of 780 g/m2 , EcoFlex Echo backing",Textile_Bodenbeläge,5,False
+"Tufted tiles, 75% rec. PA 6.6 with a maximum total pile weight of 1000 g/m2 , CQuest Bio Sone+ backing",Textile_Bodenbeläge,5,False
+"Tufted tiles, 75% recycled Polyamid 6.6 with a maximum total pile weight of 1000 g/m2 , CQuest Bio backing, Sone acoustic cover",Textile_Bodenbeläge,5,False
+"Tufted tiles, Polyamid 6 with a maximum total pile weight 720 g/m2, EcoFlex Statera backing",Textile_Bodenbeläge,5,False
+"Tufted tiles, Polyamid 6 with a maximum total pile weight of 592 g/m2 , a CQuest Bio heavy backing and a PET acoustic cover Sone",Textile_Bodenbeläge,5,False
+"Tufted tiles, Polyamid 6 with a maximum total pile weight of 720 g/m2, EcoFlex Echo backing",Textile_Bodenbeläge,5,False
+"Tufted tiles, polyamide 6 with a maximum total pile weight of 1300 g/m2, back2back or comfortback",Textile_Bodenbeläge,5,False
+"Tufted wall-to-wall carpet with 100% recycled PA6 pile material and textile backing, LC1",Textile_Bodenbeläge,5,False
+"Tufted wall-to-wall carpet with 100% recycled PA6 pile material and textile backing, LC2",Textile_Bodenbeläge,5,False
+"Tufted wall-to-wall carpet with 100% recycled PA6 pile material and textile backing, LC3",Textile_Bodenbeläge,5,False
+"Tufted wall-to-wall carpet with 100% recycled PA6 pile material and textile backing, LC4",Textile_Bodenbeläge,5,False
+"Tufted wall-to-wall carpet with 100% recycled PA6 pile material and textile backing, LC5",Textile_Bodenbeläge,5,False
+"Tufted wall-to-wall carpet with PA6 pile material and textile backing, LC1",Textile_Bodenbeläge,5,False
+"Tufted wall-to-wall carpet with PA6 pile material and textile backing, LC2",Textile_Bodenbeläge,5,False
+"Tufted wall-to-wall carpet with PA6 pile material and textile backing, LC3",Textile_Bodenbeläge,5,False
+"Tufted wall-to-wall carpet with PA6 pile material and textile backing, LC4",Textile_Bodenbeläge,5,False
+Tufted wall-to-wall carpet with PP backing and a pile material of PA 6 Econyl® with 100% recycled content,Textile_Bodenbeläge,5,False
+"Tufted wall-to-wall carpet with PP pile material and textile backing, LC1",Textile_Bodenbeläge,5,False
+"Tufted wall-to-wall carpet with PP pile material and textile backing, LC2",Textile_Bodenbeläge,5,False
+"Tufted wall-to-wall carpet with PP pile material and textile backing, LC3",Textile_Bodenbeläge,5,False
+"Tufted wall-to-wall carpet with PP pile material and textile backing, LC5",Textile_Bodenbeläge,5,False
+Tufted wall-to-wall carpet with a pile material of PA 6 Econyl® with 100% recycled content and a felt backing of 120 g/m2 PET,Textile_Bodenbeläge,5,False
+Tufted wall-to-wall carpet with a pile material of PA 6 Econyl® with 100% recycled content and a felt backing of 280 g/m2 PET,Textile_Bodenbeläge,5,False
+Tufted wall-to-wall carpet with a pile material of PA 6 Econyl® with 100% recycled content and a felt backing of 550 g/m2 PET,Textile_Bodenbeläge,5,False
+Tufted wall-to-wall carpet with a pile material of PA 6 Econyl® with 100% recycled content and a felt backing of 600 g/m2 PET,Textile_Bodenbeläge,5,False
+"Tufted wall-to-wall carpet, 95% recycled polyamide 6 with a maximum total pile weight of 1215 g/m2 and a foam backing",Textile_Bodenbeläge,5,False
+"Tufted wall-to-wall carpet, 95% recycled polyamide 6 with a maximum total pile weight of 1215 g/m2 and a textile backing",Textile_Bodenbeläge,5,False
+"Tufted wall-to-wall carpet, polypropylene with a maximum total pile weight of 1275 g/m2 and a foam backing",Textile_Bodenbeläge,5,False
+"Woven broadloom carpet, pile material solution-dyed polyamide 6.0 with a woven textile or a ""Silent Bac"" backing, both backings with recycled content,  maximum total pile weight 400 g/m²",Textile_Bodenbeläge,5,False
+"Woven broadloom carpet, total pile material max. 800 g/m² PA 6.6, aqueous dyeing method",Textile_Bodenbeläge,5,False
+"Woven carpet tiles, pile material PET, print design, maximum total pile weight 700 g/m², TEXtile backing",Textile_Bodenbeläge,5,False
+"Woven carpet tiles, pile material solution-dyed polyamide 6.0 with a TEXtiles heavy backing with recycled content, maximum total pile weight 400 g/m²",Textile_Bodenbeläge,5,False
+"Thermally treated wood (1 m3, 409 kg/m3)",Thermisch_behandeltes_Holz,5,False
+2.25.01. Load-bearing thermal insulation elements,Tragende_Wärmedämmelemente,5,False
+Asphalt supporting layer,Tragschichten,5,False
+Asphalt surface layer,Tragschichten,5,False
+Flat glass - Bundesverband Flachglas e.V - Float glass,Transparente_Füllungen,5,False
+Flat glass - Bundesverband Flachglas e.V - Insulating glass unit double structure,Transparente_Füllungen,5,False
+Flat glass - Bundesverband Flachglas e.V - Insulating glass unit triple structure,Transparente_Füllungen,5,False
+Flat glass - Bundesverband Flachglas e.V - Laminated safety glass,Transparente_Füllungen,5,False
+"Flat glass - Bundesverband Flachglas e.V - Thermally toughened safety glass, heat soaked thermally toughened safety glass and heat strengthened glass",Transparente_Füllungen,5,False
+Flat glass - PRESS GLASS SA - laminated safety glass,Transparente_Füllungen,5,False
+Flat glass - PRESS GLASS SA - thermally toughened safety glass,Transparente_Füllungen,5,False
+Flat glass ? PRESS GLASS Holding SA ? Float glass,Transparente_Füllungen,5,False
+Glass - Guardian Europe S.à r.l. - Coated flat glass,Transparente_Füllungen,5,False
+Glass - Guardian Europe S.à r.l. - Laminated safety glass,Transparente_Füllungen,5,False
+Glass - Guardian Europe S.à r.l. - Uncoated flat glass,Transparente_Füllungen,5,False
+"Insulated glazing, double pane",Transparente_Füllungen,5,False
+"Insulated glazing, triple pane",Transparente_Füllungen,5,False
+"Multi- pane insulating glass (MIG, 3-pane structure) ? PRESS GLASS Holding SA ? Glass",Transparente_Füllungen,5,False
+"Multi- pane insulating glass (MIG, 3-pane structure) ? PRESS GLASS Holding SA ? Glass",Transparente_Füllungen,5,False
+Transparent building elements - Rodeca GmbH - Light building element 30mm,Transparente_Füllungen,5,False
+Transparent building elements - Rodeca GmbH - Light building element 40mm,Transparente_Füllungen,5,False
+Transparent building elements - Rodeca GmbH - Light building element 50mm,Transparente_Füllungen,5,False
+Transparent building elements - Rodeca GmbH - Light building element 60mm,Transparente_Füllungen,5,False
+"Window glass, single",Transparente_Füllungen,5,False
+Transparent board PC,Transparente_Platten,5,False
+"Transparent board PMMA, cast",Transparente_Platten,5,False
+"Transparent board PMMA, extruded",Transparente_Platten,5,False
+Transparent board PVC,Transparente_Platten,5,False
+Drinking water,Trinkwasser,5,False
+Drinking water pipe PB,Trinkwasserrohre,5,False
+Drinking water pipe PE X-Alu-PE X,Trinkwasserrohre,5,False
+Drinking water pipe PE-X,Trinkwasserrohre,5,False
+Drinking water pipe PE-X-Alu,Trinkwasserrohre,5,False
+"Polyethylene piping systems for supply and disposal, industrial applications and cable protection applications",Trinkwasserrohre,5,False
+RAUTITAN flex,Trinkwasserrohre,5,False
+connecting technology - Viega - ManaBloc (PureFlow),Trinkwasserrohre,5,False
+connecting technology - Viega - Pex pipe (PureFlow),Trinkwasserrohre,5,False
+connecting technology - Viega - Raxofix pipe,Trinkwasserrohre,5,False
+connecting technology - Viega - Viega Smartpress pipe,Trinkwasserrohre,5,False
+DRY SCREED PLASTERBOARD / Tool,Trockenestrich,5,False
+Dry Screed Fibreboard/Tool,Trockenestrich,5,False
+"Dry floor screed (gypsum fiber board, 25 mm)",Trockenestrich,5,False
+"Dry floor screed (gypsum plaster board, 25 mm)",Trockenestrich,5,False
+Dry fill - Cemwood GmbH - Leveling fill CW,Trockenschüttung,5,False
+Mineral-modified dry filling material,Trockenschüttung,5,False
+Divoroll Duo Maximum (BMI Group Holdings UK Limited),Unterspannbahn,5,False
+Divoroll Standard + (BMI Group Holdings UK Limited),Unterspannbahn,5,False
+DuPont? Tyvek® Firecurb? (2066B),Unterspannbahn,5,False
+DuPont? Tyvek® Firecurb? (2566B),Unterspannbahn,5,False
+DuPont? Tyvek® laminated (2523B),Unterspannbahn,5,False
+DuPont? Tyvek® laminated (2528B),Unterspannbahn,5,False
+Foil for green roof,Unterspannbahn,5,False
+Synwer® ? Head J 120,Unterspannbahn,5,False
+Synwer® ? Head J 135/ 135 FH,Unterspannbahn,5,False
+Synwer® ? Head J 150,Unterspannbahn,5,False
+Synwer® ? Head J 170,Unterspannbahn,5,False
+Synwer® ? Head J 185,Unterspannbahn,5,False
+Synwer® ? Head J 230,Unterspannbahn,5,False
+Synwer® ? Head J 235 NV,Unterspannbahn,5,False
+Synwer® ? Head K 230 NV,Unterspannbahn,5,False
+Synwer® ? Head K 280 NV,Unterspannbahn,5,False
+Synwer® ? Head Protector 200/FH200,Unterspannbahn,5,False
+Synwer® ? Head Protector FH 155,Unterspannbahn,5,False
+Synwer® ? Head Protector FH 170,Unterspannbahn,5,False
+Synwer® ? Head Protector FH 230,Unterspannbahn,5,False
+Synwer® ? Head Protector FH 330,Unterspannbahn,5,False
+Synwer® ? Head Protector Gold 330,Unterspannbahn,5,False
+Synwer® ? Head Protector Silver 230,Unterspannbahn,5,False
+Synwer® ? Head SL 155,Unterspannbahn,5,False
+Synwer® ? Head SL 185,Unterspannbahn,5,False
+Synwer® ? Head SL 230 NV,Unterspannbahn,5,False
+Synwer® ? Head SL 235,Unterspannbahn,5,False
+Underroof membrane PP,Unterspannbahn,5,False
+Underroof membrane PUR on PET fleece,Unterspannbahn,5,False
+Underroof membrane reinforced PE fabric,Unterspannbahn,5,False
+"2.24.01. Vacuum panel, unlaminated",Vakuumisolationspaneele,5,False
+Flax fibre fleece,Vlies,5,False
+Hemp fibre fleece,Vlies,5,False
+Glass fibre fleece,Vliese,5,False
+PE/PP fleece,Vliese,5,False
+designed acoustic ceiling 24 mm,Vliese,5,False
+Façades - Moeding Keramikfassaden GmbH - Alphaton,Vorhangfassade_-_Element-Fassaden,5,False
+Façades - Moeding Keramikfassaden GmbH - Longoton,Vorhangfassade_-_Element-Fassaden,5,False
+Façades - heroal-Johann Henkenjohann GmbH & Co. KG - C50 (EN 15804+A2),Vorhangfassade_-_Pfosten-Riegel-Fassaden,5,False
+JANSEN VISS façade width x height: 2500mm x 3200mm,Vorhangfassade_-_Pfosten-Riegel-Fassaden,5,False
+Fassadenanker Isolink®,WDVS-Dübel,5,False
+Blowerproof® Liquid,Wand-_und_Deckenbeläge,5,False
+EGGER Laminate,Wand-_und_Deckenbeläge,5,False
+EGGER Laminate Flammex,Wand-_und_Deckenbeläge,5,False
+EGGER Laminate Micro,Wand-_und_Deckenbeläge,5,False
+HPL (Decorative High-Pressure Laminates),Wand-_und_Deckenbeläge,5,False
+HPL Compact Laminates,Wand-_und_Deckenbeläge,5,False
+Nonwoven glass fibre wall covering,Wand-_und_Deckenbeläge,5,False
+Omniguard 110NP,Wand-_und_Deckenbeläge,5,False
+Vinyl wallcoverings on cellulose fibre base,Wand-_und_Deckenbeläge,5,False
+Vinyl wallcoverings on non-woven backing,Wand-_und_Deckenbeläge,5,False
+Vinyl wallcoverings on woven textile backing,Wand-_und_Deckenbeläge,5,False
+Wallcoverings on cellulose fibre base,Wand-_und_Deckenbeläge,5,False
+Wallcoverings on non-woven base,Wand-_und_Deckenbeläge,5,False
+Woven glass fibre wall covering,Wand-_und_Deckenbeläge,5,False
+3.2.09. Wood Plastic Composite (WPC) decking board,Wood-Plastic-Composites,5,False
+Oberlichter,Wärmeabzugsanlagen,5,True
+Rauch-_Wärmeabzugsanlagen,Wärmeabzugsanlagen,5,True
+ETICS gluing and coating mineral decor plaster,Wärmedämmverbundsystem,5,False
+ETICS gluing and coating mineral lightweight plaster,Wärmedämmverbundsystem,5,False
+ETICS gluing and coating scratched plaster,Wärmedämmverbundsystem,5,False
+ETICS gluing and coating silcate dispersion plaster,Wärmedämmverbundsystem,5,False
+ETICS gluing and coating silicate dispersion plaster,Wärmedämmverbundsystem,5,False
+ETICS gluing and coating synthetic resin plaster,Wärmedämmverbundsystem,5,False
+External thermal insulation composite system EPS with rail fastening,Wärmedämmverbundsystem,5,False
+SN 40.01 - Modified flour,Wärmedämmverbundsystem,5,False
+District heating transfer station,Wärmeerzeuger,5,False
+Electric continuous flow heater (21 kW),Wärmeerzeuger,5,False
+Electric heat pump (air-water) 10 kW,Wärmeerzeuger,5,False
+Electric heat pump (air-water) 14 kW,Wärmeerzeuger,5,False
+Electric heat pump (air-water) 7 kW,Wärmeerzeuger,5,False
+"Electric heat pump (brine-water, geothermal collector) 10 kW",Wärmeerzeuger,5,False
+"Electric heat pump (brine-water, geothermal collector) 20 kW",Wärmeerzeuger,5,False
+"Electric heat pump (brine-water, geothermal collector) 70 kW",Wärmeerzeuger,5,False
+"Electric heat pump (brine-water, geothermal probe) 10 kW",Wärmeerzeuger,5,False
+"Electric heat pump (brine-water, geothermal probe) 20 kW",Wärmeerzeuger,5,False
+"Electric heat pump (brine-water, geothermal probe) 70 kW",Wärmeerzeuger,5,False
+Electric heat pump (water-water) 10 kW,Wärmeerzeuger,5,False
+Electric heat pump (water-water) 20 kW,Wärmeerzeuger,5,False
+Electric heat pump (water-water) 70 kW,Wärmeerzeuger,5,False
+Flat solar collector,Wärmeerzeuger,5,False
+Gas Combined heat and power unit (500 kW),Wärmeerzeuger,5,False
+Gas condensing boiler 20-120 kW (upright unit),Wärmeerzeuger,5,False
+Gas condensing boiler < 20 kW (upright unit),Wärmeerzeuger,5,False
+Gas condensing boiler < 20 kW (wall unit),Wärmeerzeuger,5,False
+Gas condensing boiler120-400 kW (upright unit),Wärmeerzeuger,5,False
+Gas heat pump (air) 20-70 kW,Wärmeerzeuger,5,False
+Gas low temperature boiler 120-400 kW (upright unit),Wärmeerzeuger,5,False
+Gas low temperature boiler 20-120 kW (upright unit),Wärmeerzeuger,5,False
+Gas low temperature boiler < 20 kW (upright unit),Wärmeerzeuger,5,False
+Oil condensing boiler 120-400 kW (upright unit),Wärmeerzeuger,5,False
+Oil condensing boiler 20-120 kW (upright unit),Wärmeerzeuger,5,False
+Oil condensing boiler < 20 kW (upright unit),Wärmeerzeuger,5,False
+Oil condensing boiler < 20 kW (wall unit),Wärmeerzeuger,5,False
+Oil low temperature boiler 120-400 kW (upright unit),Wärmeerzeuger,5,False
+Oil low temperature boiler 20-120 kW (upright unit),Wärmeerzeuger,5,False
+Oil low temperature boiler < 20 kW (upright unit),Wärmeerzeuger,5,False
+Pellet boiler 20-120 kW,Wärmeerzeuger,5,False
+Pellet boiler < 20 kW,Wärmeerzeuger,5,False
+"Pipework for electric heat pump (brine-water, geothermal collector) 10 kW",Wärmeerzeuger,5,False
+"Pipework for electric heat pump (brine-water, geothermal collector) 20 kW",Wärmeerzeuger,5,False
+"Pipework for electric heat pump (brine-water, geothermal collector) 70 kW",Wärmeerzeuger,5,False
+"Pipework for electric heat pump (brine-water, geothermal probe) 10 kW",Wärmeerzeuger,5,False
+"Pipework for electric heat pump (brine-water, geothermal probe) 20 kW",Wärmeerzeuger,5,False
+"Pipework for electric heat pump (brine-water, geothermal probe) 70 kW",Wärmeerzeuger,5,False
+Pipework for electric heat pump (water-water) 10 kW,Wärmeerzeuger,5,False
+Pipework for electric heat pump (water-water) 20 kW,Wärmeerzeuger,5,False
+Pipework for electric heat pump (water-water) 70 kW,Wärmeerzeuger,5,False
+Vacuum solar tube,Wärmeerzeuger,5,False
+Woodchip boiler 120 - 400 kW,Wärmeerzeuger,5,False
+Woodchip boiler 20-120 kW,Wärmeerzeuger,5,False
+Woodchip boiler < 20 kW,Wärmeerzeuger,5,False
+"ALPHA2, ALPHA1, ALPHA2 L, ALPHA1.1, ALPHA2.1, ALPHA2.2 (Cast Iron)",Wärmeverteilung_und_Abgabe,5,False
+EPDM foam (pipe insulation),Wärmeverteilung_und_Abgabe,5,False
+MAGNA 3 D 100-40/60 (Cast Iron),Wärmeverteilung_und_Abgabe,5,False
+MAGNA 3 D 100-80/100/120 (Cast Iron),Wärmeverteilung_und_Abgabe,5,False
+MAGNA 3 D 40-120/150/180 (Cast Iron),Wärmeverteilung_und_Abgabe,5,False
+MAGNA 3 D 65-150 (Cast Iron),Wärmeverteilung_und_Abgabe,5,False
+MAGNA 3 D 65-40/60 (Cast Iron),Wärmeverteilung_und_Abgabe,5,False
+MAGNA 3 D 80-100/120 (Cast Iron),Wärmeverteilung_und_Abgabe,5,False
+MAGNA3 100-40/60 (Cast Iron),Wärmeverteilung_und_Abgabe,5,False
+MAGNA3 100-80/100/120 (Cast Iron),Wärmeverteilung_und_Abgabe,5,False
+MAGNA3 40-120/150/180 (Stainless Steel),Wärmeverteilung_und_Abgabe,5,False
+MAGNA3 40-80/100 (Stainless Steel),Wärmeverteilung_und_Abgabe,5,False
+MAGNA3 50-40/60/80/100/120 F (Stainless Steel) and MAGNA3 32-120 F (Stainless Steel),Wärmeverteilung_und_Abgabe,5,False
+MAGNA3 65-150 (Stainless Steel),Wärmeverteilung_und_Abgabe,5,False
+MAGNA3 65-40/60 (Stainless Steel),Wärmeverteilung_und_Abgabe,5,False
+MAGNA3 65-80/100/120 (Stainless Steel),Wärmeverteilung_und_Abgabe,5,False
+MAGNA3 80-100/120 (Cast Iron),Wärmeverteilung_und_Abgabe,5,False
+MAGNA3 D 40-80/100 (Cast Iron),Wärmeverteilung_und_Abgabe,5,False
+MAGNA3 D 50-40/60/80 (Cast Iron),Wärmeverteilung_und_Abgabe,5,False
+MAGNA3 D 65-80/100/120 (Cast Iron),Wärmeverteilung_und_Abgabe,5,False
+MAGNA3 D 80-40/60/80 (Cast Iron),Wärmeverteilung_und_Abgabe,5,False
+Mineral wool insulation panel,Wärmeverteilung_und_Abgabe,5,False
+Mineral wool pipe jacket,Wärmeverteilung_und_Abgabe,5,False
+Polybutadiene pipe,Wärmeverteilung_und_Abgabe,5,False
+Polypropylene pipe,Wärmeverteilung_und_Abgabe,5,False
+Radiator,Wärmeverteilung_und_Abgabe,5,False
+Steel pipe,Wärmeverteilung_und_Abgabe,5,False
+Steel radiator,Wärmeverteilung_und_Abgabe,5,False
+Underfloor heating system PEX (100mm distance),Wärmeverteilung_und_Abgabe,5,False
+Underfloor heating system PEX (200mm distance),Wärmeverteilung_und_Abgabe,5,False
+Underfloor heating system PP (100mm distance),Wärmeverteilung_und_Abgabe,5,False
+Underfloor heating system PP (200mm distance),Wärmeverteilung_und_Abgabe,5,False
+Underfloor heating system copper (100mm distance),Wärmeverteilung_und_Abgabe,5,False
+Underfloor heating system copper (200mm distance),Wärmeverteilung_und_Abgabe,5,False
+Zehnder Charleston Multicolumn Radiator,Wärmeverteilung_und_Abgabe,5,False
+Austrotherm UNIPLATTE®,XPS_weiß,5,False
+Bachl ReXPS - Extruded Polystyrene (XPS) foam board,XPS_weiß,5,False
+Bachl ReXPS - Extruded Polystyrene (XPS) foam board,XPS_weiß,5,False
+Extruded polystyrene (XPS),XPS_weiß,5,False
+JACKODUR EVO,XPS_weiß,5,False
+RAVATHERM XPS (X) PLUS/ULTRA,XPS_weiß,5,False
+RAVATHERM? XPS (X) extruded polystyrene foam insulation with non-halogenated blowing agents,XPS_weiß,5,False
+Cellulose fibre blowing insulation material,Zellulose-Einblas-Dämmstoff,5,False
+Cellulose fibre board,Zelluloseplatten,5,False
+"Blastfurnace cement CEM III/A 42,5 N (na)",Zement,5,False
+"Blastfurnace cement CEM III/B 42,5 L-LH/SR (na)",Zement,5,False
+"CEM I 42,5 N (st)",Zement,5,False
+"CEM I 42,5 R (na)",Zement,5,False
+"CEM I 52,5 R (ft)",Zement,5,False
+"CEM II/A-LL 32,5 R",Zement,5,False
+"CEM II/B-LL 32,5 R (Sackware)",Zement,5,False
+"CEM II/B-S 42,5 N",Zement,5,False
+"CEM II/C-M (S-LL) 42,5 N ""CZ""",Zement,5,False
+"CEM II/C-M (S-LL) 42,5 N-NA ""CZ""",Zement,5,False
+"CEM III/A 32,5 N-LH (na)",Zement,5,False
+"CEM III/B 42,5 L",Zement,5,False
+Cement,Zement,5,False
+"Cement (CEM II 32,5)",Zement,5,False
+"Cement (CEM II 42,5)",Zement,5,False
+"Cement (CEM II 52,5)",Zement,5,False
+Cement (CEM II/A),Zement,5,False
+Cement (CEM II/B),Zement,5,False
+"Cement (CEM III 42,5)",Zement,5,False
+"Cement (CEM III 52,5)",Zement,5,False
+"Cement (CEM IV 32,5)",Zement,5,False
+"Cement (CEM IV 42,5)",Zement,5,False
+"Mixed inert cement mortar: T FIX HP, T FIX HP FLEX, T LIVEL LOW",Zement,5,False
+"Mixed inert heavy cement mortar: T FIX, HYDRO STOP, RENOVA",Zement,5,False
+NEODUR HE 3 green,Zement,5,False
+"Portland Cement CEM I 52,5 R",Zement,5,False
+"Portland Composite Cement CEM II/A-M (T-L) 42,5 R",Zement,5,False
+Portland cement CEM I,Zement,5,False
+Siliceous inert cement mortar: RENOVA FINISH,Zement,5,False
+TECNIRAPID,Zement,5,False
+average cement D,Zement,5,False
+blast furnace cement CEM III/A,Zement,5,False
+1.3.02. Plan bricks (filled with polystyrene),Ziegel,5,False
+Brick (filled with insulating material),Ziegel,5,False
+Brick (unfilled),Ziegel,5,False
+Brick Slips,Ziegel,5,False
+Clinker,Ziegel,5,False
+Facade clinker,Ziegel,5,False
+Facing brick,Ziegel,5,False
+Facing bricks,Ziegel,5,False
+Pavers,Ziegel,5,False
+Recycling-clinker,Ziegel,5,False
+Urban cladding tile,Ziegel,5,False
+Wienerberger-02-Protected bricks and ceiling tiles,Ziegel,5,False
+Cencon ATM Cash Vault Security System,Zinkbeschläge,5,False
+c-lever pro,Zinkbeschläge,5,False
+"NedZink NOVA, NedZink NEO, NedZink NOIR",Zinkbleche,5,False
+NedZink Naturel,Zinkbleche,5,False
+RHEINZINK-CLASSIC® bright-rolled,Zinkbleche,5,False
+RHEINZINK-prePATINA® blue-grey and graphite-grey,Zinkbleche,5,False
+Zinc sheet,Zinkbleche,5,False
+Air ventilation duct (zinc coated steel plate),Zubehör,5,False
+EKM90 smoke control damper,Zubehör,5,False
+Electromechanical accessories - SIEGENIA-AUBI KG - Smarter Sensor,Zubehör,5,False
+GreenWeave textile-based ventilation duct,Zubehör,5,False
+Automatic Swing Door Operator ED 900,elektrisch,5,False
+Automatic revolving door KTC 2,elektrisch,5,False
+"Drives for window, door and/or gate systems - SIEGENIA-AUBI KG - Lift and slide drives",elektrisch,5,False
+ED 100/250,elektrisch,5,False
+ES 200,elektrisch,5,False
+ES 400 System - Sliding Door Operator,elektrisch,5,False
+FAAC A952 Drive for swing doors,elektrisch,5,False
+KTV Atrium Flex,elektrisch,5,False
+MTL Hybrid Lock Series,elektrisch,5,False
+Mortise Lock Saflok RT Plus,elektrisch,5,False
+Motor Locks SVx 2000(F),elektrisch,5,False
+Safe Lock Auditcon,elektrisch,5,False
+SafeRoute,elektrisch,5,False
+Saffire LX Series,elektrisch,5,False
+UniDrive 20,elektrisch,5,False
+UniSwing Compact / Robust / Fire,elektrisch,5,False
+"Window operator for VELUX GGL/GGU (KMG 100K) and control system (KUX 110), mains connected",elektrisch,5,False
+"Window operator for VELUX INTEGRA GGL/GGU, mains connected",elektrisch,5,False
+"Window operator for VELUX INTEGRA GPU, top-hung window",elektrisch,5,False
+"Window operator for VELUX pivot hinged windows and KSX 100K (for retrofitting), solar powered",elektrisch,5,False
+Floor spring BTS 65,mechanisch,5,False
+ALWI-S Profile System,Aluminium,6,False
+"Aluminium frame profile, powder coated",Aluminium,6,False
+"Aluminium profiles for windows, doors, and facades - FEAL d.o.o. - Aluminium profiles for doors (anodized)",Aluminium,6,False
+"Aluminium profiles for windows, doors, and facades - FEAL d.o.o. - Aluminium profiles for facades (anodized)",Aluminium,6,False
+"Aluminium profiles for windows, doors, and facades - FEAL d.o.o. - Aluminium profiles for facades (blank)",Aluminium,6,False
+"Aluminium profiles for windows, doors, and facades - FEAL d.o.o. - Aluminium profiles for windows (anodized)",Aluminium,6,False
+"Aluminium profiles for windows, doors, and facades - FEAL d.o.o. - Aluminium profiles for windows (blank)",Aluminium,6,False
+"Aluminium wing sash profile, powder coated",Aluminium,6,False
+Roof flashing - Roto Frank - Designo roof flashing for recessed installation,Aluminium,6,False
+Roof flashing - Roto Frank - Designo roof flashing for standard installation,Aluminium,6,False
+Roof flashing - Roto Frank - RotoQ roof flashing for recessed installation,Aluminium,6,False
+Roof flashing - Roto Frank - RotoQ roof flashing for standard installation,Aluminium,6,False
+ST PRO Green RC,Aluminium,6,False
+"Aluminium casement frame section, thermally separated, powder coated",Aluminium_thermisch_getrennt,6,False
+"Aluminium frame section, thermally separated, powder coated",Aluminium_thermisch_getrennt,6,False
+Aluminium mullion-transom system,Aluminium_thermisch_getrennt,6,False
+Aluminium mullion-transom system with triple glazing,Aluminium_thermisch_getrennt,6,False
+Frame Profiles for Doors - heroal-Johann Henkenjohann GmbH & Co. KG - door (EN 15804+A2),Aluminium_thermisch_getrennt,6,False
+Frame Profiles for Windows - heroal-Johann Henkenjohann GmbH & Co. KG - lifting-sliding elements (EN 15804+A2),Aluminium_thermisch_getrennt,6,False
+Frame Profiles for Windows - heroal-Johann Henkenjohann GmbH & Co. KG - windows (EN 15804+A2),Aluminium_thermisch_getrennt,6,False
+Frame profiles for façades - heroal-Johann Henkenjohann GmbH & Co. KG - C50 (EN 15804+A2),Aluminium_thermisch_getrennt,6,False
+Calcium silicate board,Calciumsilikat,6,False
+MASTERBOARD®,Calciumsilikat,6,False
+Microporous calcium silicate thermal insulation,Calciumsilikat,6,False
+PROMATECT®-H RWS/HCM,Calciumsilikat,6,False
+PROMATECT®?H,Calciumsilikat,6,False
+"Promatect-MST®, Promatect-MT®, Promarine 450T®, Promarine 640T®, Supalux M1®, Vermiculux T®, Promatect-MLT®, Promasil® 1100 Super and Promasil® 1000L",Calciumsilikat,6,False
+SUPALUX®,Calciumsilikat,6,False
+WINDPANEL Standard and WINDPANEL Premium,Calciumsilikat,6,False
+Damp insulation PA,Dampfsperre,6,False
+Damp insulation PE,Dampfsperre,6,False
+"Damp insulation, fence strenghtened PET",Dampfsperre,6,False
+DuPont? AirGuard® Air & Vapour Control Layers (5816X),Dampfsperre,6,False
+DuPont? Tyvek® Airguard® Smart (2009B),Dampfsperre,6,False
+Monarflex RUS 300 (BMI Group Holdings UK Limited),Dampfsperre,6,False
+Synwer® ? Syn J 230 Sd 2,Dampfsperre,6,False
+Synwer® ? Syn J 230 Sd 20,Dampfsperre,6,False
+Synwer® ? Syn Sd 2/100,Dampfsperre,6,False
+Synwer® ? Syn Sd 20/100,Dampfsperre,6,False
+Synwer® ? Syn Sd variabel 100,Dampfsperre,6,False
+Synwer® ? Syn Sd variabel 150,Dampfsperre,6,False
+Synwer® ? Syn U 120 Sd 2,Dampfsperre,6,False
+Wetguard 200 SA,Dampfsperre,6,False
+CR profile (chloroprene rubber),Dichtprofile,6,False
+Collar BBX,Dichtprofile,6,False
+Collar BDX,Dichtprofile,6,False
+Collar BFX,Dichtprofile,6,False
+EPDM sealing for aluminium section,Dichtprofile,6,False
+"EPDM sealing for aluminium section, thermally separated",Dichtprofile,6,False
+Flashing EDN,Dichtprofile,6,False
+Flashing EDW,Dichtprofile,6,False
+Insulating bar - Technoform Bautec Asia Pacific - Insulating bars made from PA66GF25,Dichtprofile,6,False
+Insulating profile - Ensinger GmbH - Coex sealing wire,Dichtprofile,6,False
+Insulating profile - Ensinger GmbH - insulbar ESP made of TECATHERM 66 ESP,Dichtprofile,6,False
+Insulating profile - Ensinger GmbH - insulbar LI made of TECATHERM 66 GF,Dichtprofile,6,False
+Insulating profile - Ensinger GmbH - insulbar LI-RE made of TECATHERM 66 GF RE,Dichtprofile,6,False
+Insulating profile - Ensinger GmbH - insulbar RE made of TECATHERM 66 GF RE,Dichtprofile,6,False
+Insulating profile - Ensinger GmbH - insulbar REG made of TECATHERM 6 GF,Dichtprofile,6,False
+Insulating profile - Technoform Bautec Kunststoffprodukte GmbH - Insulating profile PA 66 GF25,Dichtprofile,6,False
+Insulating profile - Technoform Bautec Kunststoffprodukte GmbH - Insulating profile made of Low Lambda PA 66 GF25,Dichtprofile,6,False
+Insulating profile - Technoform Bautec Kunststoffprodukte GmbH - Insulating profile made of PBT GF30,Dichtprofile,6,False
+Insulating profile - Technoform Bautec Kunststoffprodukte GmbH - Insulating profile made of recycled Low Lambda PA 66 GF25,Dichtprofile,6,False
+Insulating profile - Technoform Bautec Kunststoffprodukte GmbH - Insulating profile made of recycled PA 66 GF25,Dichtprofile,6,False
+Sealing profile - Deventer Profile GmbH - Sealing profiles made of TPE-S,Dichtprofile,6,False
+Sealing profile - Deventer Profile GmbH - Sealing profiles made of TPE-V,Dichtprofile,6,False
+Sealing profile - Deventer Profile GmbH - Sealing profiles made of soft PVC,Dichtprofile,6,False
+Sealing profile - M.O.L. Gummiverarbeitung - Extruded rubber profiles made of EPDM,Dichtprofile,6,False
+insulating bars - Gargiulo GmbH - insulating bars made of LC PA,Dichtprofile,6,False
+insulating bars - Gargiulo GmbH - insulating bars made of PA 66 GF25,Dichtprofile,6,False
+insulating bars - Gargiulo GmbH - insulating bars made of PA 66 GF40,Dichtprofile,6,False
+sealing systems - Polyschaum - Mixed fiber fleece 600 g/m² on both sides,Dichtprofile,6,False
+sealing systems - Polyschaum - Partition wall/nail sealing tape both sides,Dichtprofile,6,False
+sealing systems - Polyschaum - Trennfix,Dichtprofile,6,False
+"Elastomer joint tape, polysulfide",Elastomer-Fugenbänder,6,False
+"Elastomer joint tape, polyurethane",Elastomer-Fugenbänder,6,False
+"Elastomer joint tape, silicone rubber",Elastomer-Fugenbänder,6,False
+"Joint sealing strips, PE/PP foil",Fugendichtungsbänder,6,False
+"Joint sealing strips, butyl",Fugendichtungsbänder,6,False
+"Joint sealing strips, fabric",Fugendichtungsbänder,6,False
+"Joint sealing strips, polyisobutylene",Fugendichtungsbänder,6,False
+Window frame (spruce),Holz,6,False
+Window sash (spruce),Holz,6,False
+Continuous rooflights - LAMILUX Heinrich Strunz GmbH - Continuous rooflight B (2025),Oberlichter,6,False
+Continuous rooflights - LAMILUX Heinrich Strunz GmbH - Continuous rooflight S (2025),Oberlichter,6,False
+Glas architecture - LAMILUX Heinrich Strunz GmbH - Glas roof PR60 (2025),Oberlichter,6,False
+Glas architecture - LAMILUX Heinrich Strunz GmbH - smoke lift glas roof PR60 (2025),Oberlichter,6,False
+Glazing elements - LAMILUX Heinrich Strunz GmbH - Flat roof window FE F100G (2025),Oberlichter,6,False
+Glazing elements - LAMILUX Heinrich Strunz GmbH - Flat roof window FE F3 (2025),Oberlichter,6,False
+Glazing elements - LAMILUX Heinrich Strunz GmbH - Flat roof window FE passive house energysave (2025),Oberlichter,6,False
+Rooflight domes - LAMILUX Heinrich Strunz GmbH - Rooflight F100 PC (2025),Oberlichter,6,False
+Rooflight domes - LAMILUX Heinrich Strunz GmbH - Rooflight F100 PETG (2025),Oberlichter,6,False
+Rooflight domes - LAMILUX Heinrich Strunz GmbH - Rooflight F100 SAN (2025),Oberlichter,6,False
+VELUX frame extension LGI,PVC,6,False
+VELUX insulated installation frame BGX,PVC,6,False
+Window frame PVC-U,PVC,6,False
+Window sash PVC-U,PVC,6,False
+2.20.01. Aerated concrete mineral insulation board,Porenbeton,6,False
+Components for smoke and heat control systems - Verband Fensterautomation und Entrauchung e.V. - Alarm stations,Rauch-_Wärmeabzugsanlagen,6,False
+Components for smoke and heat control systems - Verband Fensterautomation und Entrauchung e.V. - Electrical control panels,Rauch-_Wärmeabzugsanlagen,6,False
+Components for smoke and heat control systems - Verband Fensterautomation und Entrauchung e.V. - Electrical drives,Rauch-_Wärmeabzugsanlagen,6,False
+Components for smoke and heat control systems - Verband Fensterautomation und Entrauchung e.V. - Pneumatic cylinders,Rauch-_Wärmeabzugsanlagen,6,False
+Components for smoke and heat control systems - Verband Fensterautomation und Entrauchung e.V. - Pneumatic valves,Rauch-_Wärmeabzugsanlagen,6,False
+Continuous rooflights - LAMILUX Heinrich Strunz GmbH - Continuous rooflight B smoke lift (2025),Rauch-_Wärmeabzugsanlagen,6,False
+Rooflight domes - LAMILUX Heinrich Strunz GmbH - Smoke lift rooflight F100 RWA PC (2025),Rauch-_Wärmeabzugsanlagen,6,False
+Rooflight domes - LAMILUX Heinrich Strunz GmbH - Smoke lift rooflight F100 RWA PETG (2025),Rauch-_Wärmeabzugsanlagen,6,False
+Rooflight domes - LAMILUX Heinrich Strunz GmbH - Smoke lift rooflight F100 RWA SAN (2025),Rauch-_Wärmeabzugsanlagen,6,False
+Steel mullion-transom system,Stahl,6,False
+Steel mullion-transom system with triple glazing,Stahl,6,False

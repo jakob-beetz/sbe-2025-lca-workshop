@@ -1,0 +1,66 @@
+{
+    "Element Metadata": {
+        "Name": "Basic Wall:Massivholz 24mm:6301160",
+        "Type": "IfcWallStandardCase",
+        "ObjectType": "Basic Wall:Massivholz 24mm"
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterialLayerSetUsage",
+            "Layer Set Name": "Basic Wall:Massivholz 24mm",
+            "Layers": [
+                {
+                    "Material Name": "Massivholz Fichte",
+                    "Thickness": 0.024,
+                    "Thickness unit": "METRE"
+                }
+            ]
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Width": 0.024,
+            "Width unit": "METRE",
+            "Length": 0.14,
+            "Length unit": "METRE",
+            "Height": 2.7,
+            "Height unit": "METRE",
+            "Gross Side Area": 0.378,
+            "Gross Side Area unit": "SQUARE_METRE",
+            "Net Side Area": 0.378,
+            "Net Side Area unit": "SQUARE_METRE",
+            "Gross Footprint Area": 0.0034,
+            "Gross Footprint Area unit": "SQUARE_METRE",
+            "Gross Volume": 0.0091,
+            "Gross Volume unit": "CUBIC_METRE",
+            "Net Volume": 0.0091,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.00907,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 0.89232,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        }
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Related to Mass": "False",
+            "Base Constraint": "Level: 00_Eingang",
+            "Location Line": "Core Face: Interior",
+            "Room Bounding": "False",
+            "Area": "0.378",
+            "Length": "140.0",
+            "Volume": "0.0091",
+            "Workset": "Innenausbau",
+            "Category": "Walls",
+            "Family": "Basic Wall: Massivholz 24mm",
+            "Family and Type": "Basic Wall: Massivholz 24mm",
+            "Type": "Basic Wall: Massivholz 24mm",
+            "Type Id": "Basic Wall: Massivholz 24mm",
+            "Phase Created": "Zu Bauen",
+            "Structural": "False",
+            "Structural Usage": "Non-bearing"
+        }
+    }
+}

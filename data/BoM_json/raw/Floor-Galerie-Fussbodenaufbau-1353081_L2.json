@@ -1,0 +1,160 @@
+{
+  "Target Layer of Material Inference": {
+    "Material Name": "Knauf - Vidiwall",
+    "Thickness": 0.015,
+    "Thickness Unit": "METRE",
+    "Layer Number": 2
+  },
+  "Building Element Context": {
+    "Element Metadata": {
+      "Name": "Floor:Galerie Fussbodenaufbau:1353081",
+      "UID": "30172",
+      "GlobalId": "1ToJR57Y16uvjKSTB4E_TQ",
+      "Type": "IfcSlab",
+      "ObjectType": "Floor:Galerie Fussbodenaufbau",
+      "Classification": "Not defined",
+      "Decomposes": {},
+      "Is Decomposed By": []
+    },
+    "Other Material Layers": [
+      {
+        "Material Name": "PU Bodenbelag - Sika PS23",
+        "Thickness": 0.004,
+        "Thickness Unit": "METRE",
+        "Layer Number": 1
+      },
+      {
+        "Material Name": "Knauf - Brio Heizboden 25",
+        "Thickness": 0.025,
+        "Thickness Unit": "METRE",
+        "Layer Number": 3
+      },
+      {
+        "Material Name": "Trittschalldämmung Flumroc 341",
+        "Thickness": 0.03,
+        "Thickness Unit": "METRE",
+        "Layer Number": 4
+      }
+    ],
+    "Layer Set Metadata": {
+      "IfcEntity": "IfcMaterialLayerSetUsage",
+      "Layer Set Name": "Floor:Galerie Fussbodenaufbau",
+      "Layer Set Description": "Unknown",
+      "Layer Set Total Thickness": "Unknown",
+      "Layer Direction and Growth description": "Layers are stacked vertically, defining the element’s buildup."
+    },
+    "Element Geometry Data": {
+      "Quantities (IFC)": {
+        "Net Volume": 4.9429,
+        "Net Volume unit": "CUBIC_METRE"
+      },
+      "Geometric Representation": [
+        "SweptSolid"
+      ],
+      "Quantities (COMPAS)": {
+        "Net Volume": 4.94288,
+        "Net Volume unit": "CUBIC_METRE",
+        "Entire Surface Area": 138.70794,
+        "Entire Surface Area unit": "SQUARE_METRE"
+      },
+      "Bounding Box Dimensions (OBB - local frame)": {
+        "X": 16.83,
+        "Y": 0.07,
+        "Z": 6.4,
+        "Bounding Box Dimensions Unit": "METRE"
+      },
+      "Bounding Box Volume": 7.5398,
+      "Real Volume to Bounding Box Volume Ratio": 0.65557,
+      "Face Count (tessellated element)": {
+        "Face Count": 34072
+      },
+      "Vertex Count (tessellated element)": {
+        "Vertex Count": 34206
+      },
+      "Edge Count (tessellated element)": {
+        "Edge Count": 68211
+      },
+      "Primary Object Axis (Cardinal Direction)": "Undefined"
+    },
+    "Element Property Sets": {
+      "Psets Element": {
+        "Related to Mass": "False",
+        "Room Bounding": "True",
+        "Level": "Level: 01_Galerie",
+        "Height Offset From Level": "6.0",
+        "Area": "66.7957309857548",
+        "Elevation at Bottom": "2851.99999999991",
+        "Elevation at Top": "2925.99999999991",
+        "Perimeter": "56030.7984840506",
+        "Thickness": "74.0",
+        "Volume": "4.94287965455297",
+        "Edited by": "",
+        "Workset": "Architecture",
+        "Category": "Floors",
+        "Family": "Floor: Galerie Fussbodenaufbau",
+        "Family and Type": "Floor: Galerie Fussbodenaufbau",
+        "Type": "Floor: Galerie Fussbodenaufbau",
+        "Type Id": "Floor: Galerie Fussbodenaufbau",
+        "Phase Created": "Zu Bauen",
+        "Enable Analytical Model": "False",
+        "Structural": "False"
+      },
+      "Psets Object Type": {
+        "Analytical Properties.Roughness": "3",
+        "Analytical Properties.Absorptance": "0.7",
+        "Analytical Properties.Heat Transfer Coefficient (U)": "1.10927255697783",
+        "Analytical Properties.Thermal Mass": "5.43817234944",
+        "Analytical Properties.Thermal Resistance (R)": "0.901491697157332",
+        "Construction.Function": "Interior",
+        "Construction.Default Thickness": "74.0",
+        "Data.Unternehmer": "Künzli",
+        "Graphics.Coarse Scale Fill Pattern": "<Solid fill",
+        "Graphics.Coarse Scale Fill Color": "8421504",
+        "Identity Data.Edited by": "",
+        "Identity Data.Assembly Code": "",
+        "Identity Data.Assembly Description": "",
+        "Identity Data.Workset": "Floor Types",
+        "Identity Data.Cost": "250.0",
+        "Identity Data.Type Name": "Galerie Fussbodenaufbau",
+        "Materials and Finishes.Structural Material": "Knauf - Brio Heizboden 25",
+        "Other.Category": "Floors",
+        "Other.Family Name": "Floor"
+      }
+    },
+    "Element Location": {
+      "Storeys Map": {
+        "00_Betonplatte": {
+          "Elevation": -0.54,
+          "Unit": "meters"
+        },
+        "00_Eingang": {
+          "Elevation": 0.0,
+          "Unit": "meters"
+        },
+        "01_Galerie": {
+          "Elevation": 2.92,
+          "Unit": "meters"
+        }
+      },
+      "Element Located in Storey": "01_Galerie",
+      "Spatial Relationship": [
+        {
+          "name": "1072",
+          "type": "IfcProject"
+        },
+        {
+          "name": "Default",
+          "type": "IfcSite"
+        },
+        {
+          "name": "",
+          "type": "IfcBuilding"
+        },
+        {
+          "name": "01_Galerie",
+          "type": "IfcBuildingStorey"
+        }
+      ]
+    }
+  }
+}

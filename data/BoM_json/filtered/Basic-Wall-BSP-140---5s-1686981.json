@@ -1,0 +1,47 @@
+{
+    "Element Metadata": {
+        "Name": "Basic Wall:BSP 140 - 5s:1686981",
+        "Type": "IfcWall",
+        "ObjectType": "Basic Wall:BSP 140 - 5s"
+    },
+    "Element Material Data": [
+        {
+            "Layers": [
+                {
+                    "IfcEntity": "IfcMaterialLayer",
+                    "Material Name": "Brettschichtholz C24",
+                    "Thickness": 0.14,
+                    "Thickness unit": "METRE"
+                }
+            ]
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (COMPAS)": {
+            "Net Volume": 1.13687,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 19.45218,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        }
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Related to Mass": "False",
+            "Room Bounding": "True",
+            "Base Constraint": "Level: 00_Betonplatte",
+            "Location Line": "Core Face: Exterior",
+            "Area": "8.1546",
+            "Length": "5705.4031",
+            "Volume": "1.1367",
+            "Workset": "Tragwerk",
+            "Category": "Walls",
+            "Family": "Basic Wall: BSP 140 - 5s",
+            "Family and Type": "Basic Wall: BSP 140 - 5s",
+            "Type": "Basic Wall: BSP 140 - 5s",
+            "Type Id": "Basic Wall: BSP 140 - 5s",
+            "Phase Created": "Zu Bauen",
+            "Structural": "True",
+            "Structural Usage": "Bearing"
+        }
+    }
+}

@@ -1,0 +1,158 @@
+{
+  "Element Metadata": {
+    "Name": "Basic Wall:BSP 140 - 5s:1686981",
+    "UID": "37277",
+    "GlobalId": "0P4ZzpAg98fhj_ztVf$AYc",
+    "Type": "IfcWall",
+    "ObjectType": "Basic Wall:BSP 140 - 5s",
+    "Classification": "Not defined",
+    "Decomposes": {},
+    "Is Decomposed By": []
+  },
+  "Element Material Data": [
+    {
+      "IfcEntity": "IfcMaterialLayerSet",
+      "Layers": [
+        {
+          "IfcEntity": "IfcMaterialLayer",
+          "Material Name": "Brettschichtholz C24",
+          "Description": "Unknown",
+          "Category": "Unknown",
+          "Thickness": 0.14,
+          "Thickness unit": "METRE"
+        }
+      ]
+    }
+  ],
+  "Element Geometry Data": {
+    "Quantities (IFC)": {},
+    "Geometric Representation": [
+      "Brep",
+      "Curve2D"
+    ],
+    "Quantities (COMPAS)": {
+      "Net Volume": 1.13687,
+      "Net Volume unit": "CUBIC_METRE",
+      "Entire Surface Area": 19.45218,
+      "Entire Surface Area unit": "SQUARE_METRE"
+    },
+    "Bounding Box Dimensions (OBB - local frame)": {
+      "X": 5.84,
+      "Y": 0.14,
+      "Z": 2.99,
+      "Bounding Box Dimensions Unit": "METRE"
+    },
+    "Bounding Box Volume": 2.4446,
+    "Real Volume to Bounding Box Volume Ratio": 0.46505,
+    "Face Count (tessellated element)": {
+      "Face Count": 152
+    },
+    "Vertex Count (tessellated element)": {
+      "Vertex Count": 372
+    },
+    "Edge Count (tessellated element)": {
+      "Edge Count": 414
+    },
+    "Primary Object Axis (Cardinal Direction)": "E"
+  },
+  "Element Property Sets": {
+    "Psets Element": {
+      "Related to Mass": "False",
+      "Room Bounding": "True",
+      "Base Constraint": "Level: 00_Betonplatte",
+      "Base Extension Distance": "0.0",
+      "Base is Attached": "False",
+      "Base Offset": "0.0",
+      "Cross-Section": "Vertical",
+      "Location Line": "Core Face: Exterior",
+      "Top Constraint": "Level: 01_Galerie",
+      "Top Extension Distance": "0.0",
+      "Top is Attached": "False",
+      "Top Offset": "-475.000000000006",
+      "Unconnected Height": "2984.9999999999",
+      "Area": "8.15460973343467",
+      "Length": "5705.40308100721",
+      "Volume": "1.13673634362601",
+      "Edited by": "",
+      "Workset": "Tragwerk",
+      "Category": "Walls",
+      "Family": "Basic Wall: BSP 140 - 5s",
+      "Family and Type": "Basic Wall: BSP 140 - 5s",
+      "Type": "Basic Wall: BSP 140 - 5s",
+      "Type Id": "Basic Wall: BSP 140 - 5s",
+      "Phase Created": "Zu Bauen",
+      "Enable Analytical Model": "False",
+      "Rebar Cover - Other Faces": "Rebar Cover Settings: Bewehrungsüberdeckung 1",
+      "Structural": "True",
+      "Rebar Cover - Exterior Face": "Rebar Cover Settings: Bewehrungsüberdeckung 1",
+      "Rebar Cover - Interior Face": "Rebar Cover Settings: Bewehrungsüberdeckung 1",
+      "Structural Usage": "Bearing"
+    },
+    "Psets Object Type": {
+      "Analytical Properties.Roughness": "3",
+      "Analytical Properties.Absorptance": "0.7",
+      "Construction.Function": "Exterior",
+      "Construction.Wrapping at Ends": "None",
+      "Construction.Wrapping at Inserts": "Do not wrap",
+      "Construction.Width": "140.0",
+      "Data.Unternehmer": "Künzli",
+      "Graphics.Coarse Scale Fill Pattern": "<Solid fill",
+      "Graphics.Coarse Scale Fill Color": "8421504",
+      "Identity Data.Edited by": "",
+      "Identity Data.Assembly Code": "",
+      "Identity Data.Assembly Description": "",
+      "Identity Data.Workset": "Wall Types",
+      "Identity Data.Cost": "0.0",
+      "Identity Data.Feuerwiderstandsklasse": "R30",
+      "Identity Data.Fire Rating": "R30",
+      "Identity Data.Type Name": "BSP 140 - 5s",
+      "Materials and Finishes.Structural Material": "Brettschichtholz C24",
+      "Other.Category": "Walls",
+      "Other.Family Name": "Basic Wall"
+    }
+  },
+  "Element Relationships": {
+    "Nests": null,
+    "Is Nested By": null,
+    "Covers": null,
+    "Is Covered By": null,
+    "Has Openings": null,
+    "Assigned Groups": null
+  },
+  "Element Location": {
+    "Storeys Map": {
+      "00_Betonplatte": {
+        "Elevation": -0.54,
+        "Unit": "meters"
+      },
+      "00_Eingang": {
+        "Elevation": 0.0,
+        "Unit": "meters"
+      },
+      "01_Galerie": {
+        "Elevation": 2.92,
+        "Unit": "meters"
+      }
+    },
+    "Element Located in Storey": "00_Betonplatte",
+    "Spatial Relationship": [
+      {
+        "name": "1072",
+        "type": "IfcProject"
+      },
+      {
+        "name": "Default",
+        "type": "IfcSite"
+      },
+      {
+        "name": "",
+        "type": "IfcBuilding"
+      },
+      {
+        "name": "00_Betonplatte",
+        "type": "IfcBuildingStorey"
+      }
+    ]
+  },
+  "CompilationGroupID": "65d0e0c8a6"
+}

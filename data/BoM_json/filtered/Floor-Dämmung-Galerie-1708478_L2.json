@@ -1,0 +1,59 @@
+{
+    "Target Layer of Material Inference": {
+        "Material Name": "Wärmedämmung Mineralwolle, 0.035 W/mK",
+        "Thickness": 0.1,
+        "Thickness Unit": "METRE",
+        "Layer Number": 2
+    },
+    "Building Element Context": {
+        "Element Metadata": {
+            "Name": "Floor:Dämmung Galerie:1708478",
+            "Type": "IfcSlab",
+            "ObjectType": "Floor:Dämmung Galerie"
+        },
+        "Other Material Layers": [
+            {
+                "Material Name": "Wärmedämmung Mineralwolle, 0.035 W/mK",
+                "Thickness": 0.1,
+                "Thickness Unit": "METRE",
+                "Layer Number": 1
+            }
+        ],
+        "Element Geometry Data": {
+            "Quantities (IFC)": {
+                "Width": 0.2,
+                "Width unit": "METRE",
+                "Gross Volume": 0.7629,
+                "Gross Volume unit": "CUBIC_METRE",
+                "Net Volume": 0.7629,
+                "Net Volume unit": "CUBIC_METRE"
+            },
+            "Quantities (COMPAS)": {
+                "Net Volume": 0.76294,
+                "Net Volume unit": "CUBIC_METRE",
+                "Entire Surface Area": 10.34338,
+                "Entire Surface Area unit": "SQUARE_METRE"
+            }
+        },
+        "Element Property Sets": {
+            "Psets Element": {
+                "Related to Mass": "False",
+                "Level": "Level: 01_Galerie",
+                "Room Bounding": "False",
+                "Area": "3.8147",
+                "Elevation at Bottom": "2445.0",
+                "Perimeter": "13569.7735",
+                "Thickness": "200.0",
+                "Volume": "0.7629",
+                "Workset": "Architecture",
+                "Category": "Floors",
+                "Family": "Floor: Dämmung Galerie",
+                "Family and Type": "Floor: Dämmung Galerie",
+                "Type": "Floor: Dämmung Galerie",
+                "Type Id": "Floor: Dämmung Galerie",
+                "Phase Created": "Zu Bauen",
+                "Structural": "False"
+            }
+        }
+    }
+}

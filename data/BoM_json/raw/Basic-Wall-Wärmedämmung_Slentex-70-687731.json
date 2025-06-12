@@ -1,0 +1,174 @@
+{
+  "Element Metadata": {
+    "Name": "Basic Wall:Wärmedämmung_Slentex 70:687731",
+    "UID": "5992",
+    "GlobalId": "3PSzbSor5DzehfFtR_jj_6",
+    "Type": "IfcWallStandardCase",
+    "ObjectType": "Basic Wall:Wärmedämmung_Slentex 70",
+    "Classification": "Not defined",
+    "Decomposes": {},
+    "Is Decomposed By": []
+  },
+  "Element Material Data": [
+    {
+      "IfcEntity": "IfcMaterialLayerSetUsage",
+      "Layer Set Name": "Basic Wall:Wärmedämmung_Slentex 70",
+      "Layer Set Description": "Unknown",
+      "Layer Set Total Thickness": "Unknown",
+      "Layers": [
+        {
+          "IfcEntity": "IfcMaterialLayer",
+          "Material Name": "Wärmedämmung Slentex Aerogel",
+          "Description": "Unknown",
+          "Category": "Unknown",
+          "Thickness": 0.07,
+          "Thickness unit": "METRE"
+        }
+      ]
+    }
+  ],
+  "Element Geometry Data": {
+    "Quantities (IFC)": {
+      "Width": 0.07,
+      "Width unit": "METRE",
+      "Length": 0.7241,
+      "Length unit": "METRE",
+      "Height": 3.1296,
+      "Height unit": "METRE",
+      "Gross Side Area": 2.2605,
+      "Gross Side Area unit": "SQUARE_METRE",
+      "Net Side Area": 2.2605,
+      "Net Side Area unit": "SQUARE_METRE",
+      "Gross Footprint Area": 0.0507,
+      "Gross Footprint Area unit": "SQUARE_METRE",
+      "Gross Volume": 0.1582,
+      "Gross Volume unit": "CUBIC_METRE",
+      "Net Volume": 0.1582,
+      "Net Volume unit": "CUBIC_METRE"
+    },
+    "Geometric Representation": [
+      "Clipping",
+      "Curve2D"
+    ],
+    "Quantities (COMPAS)": {
+      "Net Volume": 0.15822,
+      "Net Volume unit": "CUBIC_METRE",
+      "Entire Surface Area": 5.07045,
+      "Entire Surface Area unit": "SQUARE_METRE"
+    },
+    "Bounding Box Dimensions (OBB - local frame)": {
+      "X": 0.72,
+      "Y": 3.13,
+      "Z": 0.07,
+      "Bounding Box Dimensions Unit": "METRE"
+    },
+    "Bounding Box Volume": 0.1578,
+    "Real Volume to Bounding Box Volume Ratio": 1.00266,
+    "Face Count (tessellated element)": {
+      "Face Count": 20
+    },
+    "Vertex Count (tessellated element)": {
+      "Vertex Count": 48
+    },
+    "Edge Count (tessellated element)": {
+      "Edge Count": 54
+    },
+    "Primary Object Axis (Cardinal Direction)": "Undefined"
+  },
+  "Element Property Sets": {
+    "Psets Element": {
+      "Related to Mass": "False",
+      "Room Bounding": "True",
+      "Base Constraint": "Level: 00_Betonplatte",
+      "Base Extension Distance": "0.0",
+      "Base is Attached": "False",
+      "Cross-Section": "Vertical",
+      "Top Constraint": "Level: 01_Galerie",
+      "Top Extension Distance": "0.0",
+      "Top is Attached": "False",
+      "Base Offset": "40.0",
+      "Location Line": "Finish Face: Interior",
+      "Top Offset": "-275.0",
+      "Unconnected Height": "3144.99999999991",
+      "Area": "2.26050049220759",
+      "Length": "624.100001554702",
+      "Volume": "0.15822196962494",
+      "Edited by": "",
+      "Workset": "Architecture",
+      "Category": "Walls",
+      "Family": "Basic Wall: Wärmedämmung_Slentex 70",
+      "Family and Type": "Basic Wall: Wärmedämmung_Slentex 70",
+      "Type": "Basic Wall: Wärmedämmung_Slentex 70",
+      "Type Id": "Basic Wall: Wärmedämmung_Slentex 70",
+      "Phase Created": "Zu Bauen",
+      "Enable Analytical Model": "False",
+      "Structural": "False",
+      "Structural Usage": "Non-bearing"
+    },
+    "Psets Object Type": {
+      "Analytical Properties.Roughness": "3",
+      "Analytical Properties.Absorptance": "0.7",
+      "Analytical Properties.Heat Transfer Coefficient (U)": "0.142857142857143",
+      "Analytical Properties.Thermal Mass": "0.219873624768",
+      "Analytical Properties.Thermal Resistance (R)": "7.0",
+      "Construction.Function": "Exterior",
+      "Construction.Wrapping at Ends": "None",
+      "Construction.Wrapping at Inserts": "Do not wrap",
+      "Construction.Width": "70.0",
+      "Data.Unternehmer": "Künzli / Kaufmann",
+      "Graphics.Coarse Scale Fill Pattern": "<Solid fill",
+      "Graphics.Coarse Scale Fill Color": "12632256",
+      "Identity Data.Edited by": "",
+      "Identity Data.Assembly Code": "",
+      "Identity Data.Assembly Description": "",
+      "Identity Data.Workset": "Wall Types",
+      "Identity Data.Cost": "80.0",
+      "Identity Data.Type Name": "Wärmedämmung_Slentex 70",
+      "Other.Category": "Walls",
+      "Other.Family Name": "Basic Wall"
+    }
+  },
+  "Element Relationships": {
+    "Nests": null,
+    "Is Nested By": null,
+    "Covers": null,
+    "Is Covered By": null,
+    "Has Openings": null,
+    "Assigned Groups": null
+  },
+  "Element Location": {
+    "Storeys Map": {
+      "00_Betonplatte": {
+        "Elevation": -0.54,
+        "Unit": "meters"
+      },
+      "00_Eingang": {
+        "Elevation": 0.0,
+        "Unit": "meters"
+      },
+      "01_Galerie": {
+        "Elevation": 2.92,
+        "Unit": "meters"
+      }
+    },
+    "Element Located in Storey": "00_Betonplatte",
+    "Spatial Relationship": [
+      {
+        "name": "1072",
+        "type": "IfcProject"
+      },
+      {
+        "name": "Default",
+        "type": "IfcSite"
+      },
+      {
+        "name": "",
+        "type": "IfcBuilding"
+      },
+      {
+        "name": "00_Betonplatte",
+        "type": "IfcBuildingStorey"
+      }
+    ]
+  }
+}

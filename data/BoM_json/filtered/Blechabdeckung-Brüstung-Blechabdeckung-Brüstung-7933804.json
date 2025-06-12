@@ -1,0 +1,30 @@
+{
+    "Element Metadata": {
+        "Name": "Blechabdeckung Brüstung:Blechabdeckung Brüstung:7933804",
+        "Type": "IfcWall",
+        "ObjectType": "Blechabdeckung Brüstung:Blechabdeckung Brüstung"
+    },
+    "Element Material Data": "Not defined",
+    "Element Geometry Data": {
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.02213,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 22.28618,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        }
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Room Bounding": "True",
+            "Area": "7.4068",
+            "Volume": "0.0221",
+            "Workset": "Architecture",
+            "Category": "Walls",
+            "Family": "Blechabdeckung Brüstung: Blechabdeckung Brüstung",
+            "Family and Type": "Blechabdeckung Brüstung: Blechabdeckung Brüstung",
+            "Type": "Blechabdeckung Brüstung: Blechabdeckung Brüstung",
+            "Type Id": "Blechabdeckung Brüstung: Blechabdeckung Brüstung",
+            "Phase Created": "Zu Bauen"
+        }
+    }
+}

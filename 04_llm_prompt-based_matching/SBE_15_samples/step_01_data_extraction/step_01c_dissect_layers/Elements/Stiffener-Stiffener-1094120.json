@@ -1,0 +1,131 @@
+{
+  "Element Metadata": {
+    "Name": "Stiffener:Stiffener:1094120",
+    "UID": "267001",
+    "GlobalId": "0ZBO6J2ib94OVy391p4h7r",
+    "Type": "IfcBuildingElementProxy",
+    "ObjectType": "Stiffener",
+    "Classification": "Not defined",
+    "Decomposes": {},
+    "Is Decomposed By": []
+  },
+  "Element Material Data": [
+    {
+      "IfcEntity": "IfcMaterial",
+      "Material Name": "Steel - S355J2G3",
+      "Material Description": "Unknown",
+      "Material Category": "Unknown",
+      "Thickness": "Unknown",
+      "Thickness unit": "Unknown"
+    }
+  ],
+  "Element Geometry Data": {
+    "Quantities (IFC)": {},
+    "Geometric Representation": [
+      "MappedRepresentation"
+    ],
+    "Quantities (COMPAS)": {
+      "Net Volume": 0.00023,
+      "Net Volume unit": "CUBIC_METRE",
+      "Entire Surface Area": 0.05277,
+      "Entire Surface Area unit": "SQUARE_METRE"
+    },
+    "Bounding Box Dimensions (OBB - local frame)": {
+      "X": 0.21,
+      "Y": 0.01,
+      "Z": 0.12,
+      "Bounding Box Dimensions Unit": "METRE"
+    },
+    "Bounding Box Volume": 0.0003,
+    "Real Volume to Bounding Box Volume Ratio": 0.76667,
+    "Face Count (tessellated element)": {
+      "Face Count": 20
+    },
+    "Vertex Count (tessellated element)": {
+      "Vertex Count": 36
+    },
+    "Edge Count (tessellated element)": {
+      "Edge Count": 48
+    },
+    "Primary Object Axis (Cardinal Direction)": "N"
+  },
+  "Element Property Sets": {
+    "Psets Element": {
+      "Default Elevation": "0.0",
+      "Assembly Description": "",
+      "Workset": "Workset1",
+      "Assembly Code": "",
+      "OmniClass Title": "",
+      "OmniClass Number": "",
+      "Edited by": "",
+      "Structural Material": "Steel - S355J2G3",
+      "Host": "<not associated",
+      "Elevation": "0.0",
+      "Volume": "0.000232900000000003",
+      "Bredd": "115.0",
+      "Fas": "20.0",
+      "Tjocklek": "10.0",
+      "Längd": "206.000000000001",
+      "Phase Created": "New",
+      "Ytbehandling": "",
+      "Reference": "Stiffener"
+    },
+    "Psets Object Type": {}
+  },
+  "Element Relationships": {
+    "Nests": null,
+    "Is Nested By": null,
+    "Covers": null,
+    "Is Covered By": null,
+    "Has Openings": null,
+    "Assigned Groups": null
+  },
+  "Element Location": {
+    "Storeys Map": {
+      "Ref.": {
+        "Elevation": 0.0,
+        "Unit": "meters"
+      },
+      "VÅN 1": {
+        "Elevation": 2.7,
+        "Unit": "meters"
+      },
+      "VÅN 2": {
+        "Elevation": 6.0,
+        "Unit": "meters"
+      },
+      "VÅN 3": {
+        "Elevation": 9.3,
+        "Unit": "meters"
+      },
+      "VÅN 4": {
+        "Elevation": 12.0,
+        "Unit": "meters"
+      },
+      "VÅN 5": {
+        "Elevation": 16.0,
+        "Unit": "meters"
+      }
+    },
+    "Element Located in Storey": "VÅN 4",
+    "Spatial Relationship": [
+      {
+        "name": "1018 4979",
+        "type": "IfcProject"
+      },
+      {
+        "name": "Default",
+        "type": "IfcSite"
+      },
+      {
+        "name": "",
+        "type": "IfcBuilding"
+      },
+      {
+        "name": "VÅN 4",
+        "type": "IfcBuildingStorey"
+      }
+    ]
+  },
+  "CompilationGroupID": "2b667ae43a"
+}

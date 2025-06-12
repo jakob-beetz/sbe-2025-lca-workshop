@@ -1,0 +1,75 @@
+{
+    "IFC Project Name": "1072",
+    "File Name": "1072_HiLo_Model-Architecture.ifc",
+    "File Size (MB)": 34.89,
+    "IFC Schema": "IFC2X3",
+    "IFC Project Units": {
+        "LENGTHUNIT": "MILLIMETRE",
+        "AREAUNIT": "SQUARE_METRE",
+        "VOLUMEUNIT": "CUBIC_METRE",
+        "PLANEANGLEUNIT": "DEGREE",
+        "MASSUNIT": "GRAM",
+        "MASSDENSITYUNIT": "UNKNOWN"
+    },
+    "BIM Authoring Application": {
+        "Application Name": "Autodesk Revit 2021 (ENU)",
+        "Version": "2021",
+        "Application Identifier": "Revit",
+        "Developer": "Autodesk Revit 2021 (ENU)"
+    },
+    "Building Elements Overview": {
+        "Total Building Elements": 803,
+        "Breakdown by Type": {
+            "IfcSlab": 49,
+            "IfcWall": 47,
+            "IfcWallStandardCase": 186,
+            "IfcDoor": 3,
+            "IfcCurtainWall": 8,
+            "IfcPlate": 74,
+            "IfcMember": 291,
+            "IfcWindow": 14,
+            "IfcStair": 1,
+            "IfcStairFlight": 1,
+            "IfcBeam": 16,
+            "IfcRoof": 1,
+            "IfcBuildingElementProxy": 38,
+            "IfcColumn": 74
+        }
+    },
+    "Module 01: Data Extraction": {
+        "Module 01a: Extract All Elements": {
+            "Building Elements with Childern (Disregarded for inference)": 9,
+            "Building Elements without Childern": 794,
+            "Skipped Elements due to Configuration": 0,
+            "BREP Timeouts": [
+                {
+                    "Name": "Shell_V12:Shell_V12:5294566",
+                    "GlobalId": "1YKyzAV3HA3hGaVYlxUqa8"
+                },
+                {
+                    "Name": "Dachd\u00e4mmung_V3:Dachd\u00e4mmung_V3:5659319",
+                    "GlobalId": "2TLYsKbtX0nh0z8PYscOBM"
+                },
+                {
+                    "Name": "2021-Hilo_ASF_Construction v9_003:2021-Hilo_ASF_Construction v9_003:6549949",
+                    "GlobalId": "2yJbbEqSPDc8j9KFU1qo7s"
+                },
+                {
+                    "Name": "1072_210525_TreppeInnenRevitExport_MK:1072_210525_TreppeInnenRevitExport_MK:7935324",
+                    "GlobalId": "3F0C$S43P1ZRg2TjWrCk52"
+                }
+            ]
+        },
+        "Module 01b: Aggregate Elements": {
+            "Total individual elements aggregated (due to shared ObjectType and IfcMaterials)": 727,
+            "Total aggregation groups generated (and representative elements for inference)": 66,
+            "Total individual elements identified as unique": 67
+        },
+        "Module 01c: Dissect Layers": {
+            "Total multilayer elements": 14,
+            "Total Target Layer JSON files created": 33,
+            "Total single-layer or non-layer elements": 119
+        },
+        "Required Inferences": 152
+    }
+}

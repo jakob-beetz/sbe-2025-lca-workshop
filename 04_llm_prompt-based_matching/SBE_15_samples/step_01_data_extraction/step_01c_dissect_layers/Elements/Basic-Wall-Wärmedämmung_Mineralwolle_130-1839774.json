@@ -1,0 +1,155 @@
+{
+  "Element Metadata": {
+    "Name": "Basic Wall:Wärmedämmung_Mineralwolle_130:1839774",
+    "UID": "53051",
+    "GlobalId": "0YWQUbZyv37PGtSZXywZ22",
+    "Type": "IfcWall",
+    "ObjectType": "Basic Wall:Wärmedämmung_Mineralwolle_130",
+    "Classification": "Not defined",
+    "Decomposes": {},
+    "Is Decomposed By": []
+  },
+  "Element Material Data": [
+    {
+      "IfcEntity": "IfcMaterialLayerSet",
+      "Layers": [
+        {
+          "IfcEntity": "IfcMaterialLayer",
+          "Material Name": "Wärmedämmung Mineralwolle, 0.035 W/mK",
+          "Description": "Unknown",
+          "Category": "Unknown",
+          "Thickness": 0.13,
+          "Thickness unit": "METRE"
+        }
+      ]
+    }
+  ],
+  "Element Geometry Data": {
+    "Quantities (IFC)": {},
+    "Geometric Representation": [
+      "Brep",
+      "Curve2D"
+    ],
+    "Quantities (COMPAS)": {
+      "Net Volume": 0.22159,
+      "Net Volume unit": "CUBIC_METRE",
+      "Entire Surface Area": 4.54742,
+      "Entire Surface Area unit": "SQUARE_METRE"
+    },
+    "Bounding Box Dimensions (OBB - local frame)": {
+      "X": 3.94,
+      "Y": 0.13,
+      "Z": 0.47,
+      "Bounding Box Dimensions Unit": "METRE"
+    },
+    "Bounding Box Volume": 0.2407,
+    "Real Volume to Bounding Box Volume Ratio": 0.92061,
+    "Face Count (tessellated element)": {
+      "Face Count": 24
+    },
+    "Vertex Count (tessellated element)": {
+      "Vertex Count": 42
+    },
+    "Edge Count (tessellated element)": {
+      "Edge Count": 57
+    },
+    "Primary Object Axis (Cardinal Direction)": "E"
+  },
+  "Element Property Sets": {
+    "Psets Element": {
+      "Related to Mass": "False",
+      "Base Constraint": "Level: 00_Betonplatte",
+      "Base Extension Distance": "0.0",
+      "Base is Attached": "False",
+      "Base Offset": "0.0",
+      "Cross-Section": "Vertical",
+      "Location Line": "Core Face: Exterior",
+      "Top Extension Distance": "0.0",
+      "Top is Attached": "False",
+      "Top Constraint": "Level: 00_Eingang",
+      "Room Bounding": "False",
+      "Top Offset": "-60.0",
+      "Unconnected Height": "479.999999999999",
+      "Area": "1.70949595841052",
+      "Length": "3940.0",
+      "Volume": "0.22159203036123",
+      "Edited by": "",
+      "Workset": "Architecture",
+      "Category": "Walls",
+      "Family": "Basic Wall: Wärmedämmung_Mineralwolle_130",
+      "Family and Type": "Basic Wall: Wärmedämmung_Mineralwolle_130",
+      "Type": "Basic Wall: Wärmedämmung_Mineralwolle_130",
+      "Type Id": "Basic Wall: Wärmedämmung_Mineralwolle_130",
+      "Phase Created": "Zu Bauen",
+      "Enable Analytical Model": "False",
+      "Structural": "False",
+      "Structural Usage": "Non-bearing"
+    },
+    "Psets Object Type": {
+      "Analytical Properties.Roughness": "3",
+      "Analytical Properties.Absorptance": "0.7",
+      "Analytical Properties.Heat Transfer Coefficient (U)": "0.261538461538462",
+      "Analytical Properties.Thermal Mass": "0.408336731712",
+      "Analytical Properties.Thermal Resistance (R)": "3.82352941176471",
+      "Construction.Function": "Exterior",
+      "Construction.Wrapping at Ends": "None",
+      "Construction.Wrapping at Inserts": "Exterior",
+      "Construction.Width": "130.0",
+      "Data.Unternehmer": "Künzli",
+      "Graphics.Coarse Scale Fill Pattern": "<Solid fill",
+      "Graphics.Coarse Scale Fill Color": "12632256",
+      "Identity Data.Edited by": "",
+      "Identity Data.Assembly Code": "",
+      "Identity Data.Assembly Description": "",
+      "Identity Data.Workset": "Wall Types",
+      "Identity Data.Cost": "80.0",
+      "Identity Data.Type Name": "Wärmedämmung_Mineralwolle_130",
+      "Other.Category": "Walls",
+      "Other.Family Name": "Basic Wall"
+    }
+  },
+  "Element Relationships": {
+    "Nests": null,
+    "Is Nested By": null,
+    "Covers": null,
+    "Is Covered By": null,
+    "Has Openings": null,
+    "Assigned Groups": null
+  },
+  "Element Location": {
+    "Storeys Map": {
+      "00_Betonplatte": {
+        "Elevation": -0.54,
+        "Unit": "meters"
+      },
+      "00_Eingang": {
+        "Elevation": 0.0,
+        "Unit": "meters"
+      },
+      "01_Galerie": {
+        "Elevation": 2.92,
+        "Unit": "meters"
+      }
+    },
+    "Element Located in Storey": "00_Betonplatte",
+    "Spatial Relationship": [
+      {
+        "name": "1072",
+        "type": "IfcProject"
+      },
+      {
+        "name": "Default",
+        "type": "IfcSite"
+      },
+      {
+        "name": "",
+        "type": "IfcBuilding"
+      },
+      {
+        "name": "00_Betonplatte",
+        "type": "IfcBuildingStorey"
+      }
+    ]
+  },
+  "CompilationGroupID": "f9691ec733"
+}

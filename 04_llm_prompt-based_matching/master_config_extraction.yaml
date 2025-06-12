@@ -1,0 +1,204 @@
+########################################
+# COMPAS-LCA Master Configuration File #
+########################################
+
+# =================================================================
+# This is the master configuration file for the COMPAS-LCA pipeline
+# If it is too overwhelming, you can just use the default settings
+# You MUST specify the api_key for the LLM inferences
+# Also the database choice determines the output significantly
+# =================================================================
+
+# === Project Settings ===
+project_config:
+  input_ifc_file: "/content/sbe-2025-lca-workshop/data/IFC_models/1072_HiLo_Model-Architecture-IFC4.ifc"
+  project_path: "/content/sbe-2025-lca-workshop/04_llm_prompt-based_matching/HiLo"
+
+
+# === Database Settings ===
+# Choose the LCA database that should be used for the material matching & LCA calculation
+# Do not change this setting when executing the modules separately!
+database_config:
+
+  # Choose database:
+  # KBOB is a smaller database with specifc materials for the Swiss environment
+  # Oekobaudat is more comprehensive, but requires more token usage and is more expensive (by a factor of 2-3)
+  # Write in small letters "kbob" or "oekobaudat"
+  database: "oekobaudat"    #("kbob"/"oekobaudat")
+
+
+# === Category Inference Settings ===
+# Model settings for the LLM-based LCA database category inference
+category_inference_config:
+
+  company: "OpenAI"
+
+  model: "gpt-4o"
+
+  api_key: ''  # Replace with your actual API key
+  max_tokens: 2048
+
+  temperature: 0
+
+
+# === Material Inference Settings ===
+# Model settings for the LLM-based LCA database material entries inference
+material_inference_config:
+
+  company: "OpenAI"
+  
+  model: "gpt-4o"
+
+  # insert the API key in single quotation marks (')
+  api_key: ''  # Replace with your actual API key
+  
+  max_tokens: 2048
+
+  temperature: 0
+
+
+# === Category Prompt Variables ===
+# Customize your prompt for the LLM-based category inference
+category_prompt_variables:
+
+  # Prompt Language
+  language: "de" #("en"/"de")
+
+  # LLM uses Chain of Thought Reasoning
+  chain_of_thought: false
+
+  # LLM should first identify key information, 
+  # LLM then uses that information to decduce an answer.
+  extract_then_reason: true
+
+  # LLM produces preliminary output
+  # It evaluates and potentially improves upon its answer
+  iterative_self_refinement: true
+
+  # The LLM is given an exemplary category match.
+  # Examples only available for KBOB (Oekobaudat has empty examples)
+  include_examples: false
+
+
+# === Material Prompt Variables ===
+# Customize your prompt for the LLM-based material inference
+material_prompt_variables:
+
+  # Decide if the density (if available) of a material entry should be included in the LCI database passed to the LLM
+  # Can increase token usage, especially for large material lists like in the Oekobaudat!
+  include_density: false #(false/true)
+
+  # Specifies how strictly the LLM should match materials
+  # Trade-off between more results and false positives
+  matching_strictness: "Low" #("Low"/"Mid"/"High")
+
+  # This boolean instructs the LLM to prioritize the materials that it thinks are particularly sustainable
+  prioritize_sustainability: false #(false/true)
+
+  # Prompt Language
+  language: "de" #("en"/"de")
+
+  # LLM uses Chain of Thought Reasoning
+  chain_of_thought: false
+
+  # LLM should first identify key information, 
+  # LLM then uses that information to decduce an answer.
+  extract_then_reason: true
+
+  # LLM produces preliminary output
+  # It evaluates and potentially improves upon its answer
+  iterative_self_refinement: true
+
+  # The LLM is given an context-aware exemples for the material inference.
+  # Examples only available for KBOB (Oekobaudat has empty examples)
+  include_examples: false
+
+
+
+# === Extraction Settings ===
+# Depending on the availability of the IFC quantities, the BREP calculation can be disabeled
+# It would also mean that any bounding-box, geometric complexity and ratios are not included for the LLM inference
+# It is recommended to enable the brep calculation, but specify brep calculation timeout for high complexity elements
+extraction_config:
+
+  # If this is set to true, all subtypes of IfcBuildingElement will be included in the extraction
+  # If set to false, you can adjust the selection of IFC entities in the file found in entity_config_path
+  include_all_entities: true
+
+  # If you want to specify subtypes, refer to following YAML config file
+  entity_config_path: "config/data_filters/entity_selection.yaml"
+
+  # Calculate BREP related quantities (area, volume) with compas_occ
+  brep_enabled: false
+
+  # Specify maximum time (seconds) for BREP processing
+  brep_timeout: 30
+
+
+
+# === IfcBuilding Element Data Filtering ===
+# The filter sub-module is used to customize the data sheets that are passed to the LLM
+# This is important to minimize token usage and to ensure that the LLM is not overloaded with data
+# The settings below allow for filtering the JSON files / IFC data sheets. Recommended preset settings are included
+filter_config:
+
+  # Used to remove "empty" or "unknown" key-value pairs (minimizes tokens)
+  remove_empty_values: true
+
+  # Choose either "custom" or "preset". Custom allows for user-based configuration of what should be included.
+  # Presets are three tiers of level of information (LOI) that are already optimized for the LLM inference.
+  mode: "preset"
+
+  # Choose data Level of Information (LOI) preset. 
+  # Used only if mode is "preset"
+  preset: "medium_LOI" # ("low_LOI"/"medium_LOI"/"high_LOI")
+
+  # Used only if mode is "custom"
+  # This is the folder that contains both YAML files where you can fully customize the Element and Target Layer data sheets
+  # Only use custom if you know exactly what you want or don't want to pass to the LLM.
+  # custom_path: "config/data_filters/filter_custom"
+
+  # If "use_pset_filter" is set to true, only psets included list "config/data_filters/pset_selection.py" are passed to the LLM
+  # This minimizes token usage alot, especially if there are a lot of unimportant psets (such as costs, quantities, etc.)
+  # Please inspect the JSON datas in the folders data/pipeline/step_01c_dissect_layers and determine which presets have important material and functional data.
+  # If there is no prior knowledge of exact pset key names (or relevancy for inference), set to false
+  use_pset_filter: true
+
+  # Path to the pset key file if use_pset_filter: true (can add and remove keys!)
+  # In this file you can add and remove keys that are used for the PSET filtering of the JSON data sheets
+  # The pset_key_file already has an exhaustive list of keys based on empirical knowledge of case study IFC files
+  # Do not change the path!
+  # pset_key_file: "config/data_filters/pset_selection.py"
+
+  # Reordering of keys. Maintain the name and the indent, only change order!
+  # LLMs can be sensitive to the order of data. Especially data in the "middle" tends to get lost, according to some literature.
+  # The presets below are a good basis (i.e., you can also just leave as-is)
+  # Key order for the "IfcBuildingElement" data sheets
+  element_key_order:
+    - Element Metadata
+    - Element Material Data
+    - Element Geometry Data
+    - Element Property Sets
+    - Element Relationships
+    - Element Location
+    - CompilationGroupID
+
+  # Key order for the dissected layer sheets of multi-layer elements
+  target_layer_key_order:
+    - Target Layer of Material Inference
+    - Building Element Context
+    - CompilationGroupID
+
+  # Key order for the dissected layer sheets of multi-layer elements
+  building_element_context_key_order:
+    - Element Metadata
+    - Other Material Layers
+    - Layer Set Metadata
+    - Element Geometry Data
+    - Element Property Sets
+    - Element Relationships
+    - Element Location
+
+
+
+

@@ -1,0 +1,16 @@
+﻿Id,model,Name,Data Structure,Type,ObjectType,Material Descriptor,Layer Number,Layer Thickness [m],Length [m],Largest Surface Area [m^2],Volume [m^3]
+0mZKsgvRH1Mhc20hMTKOGe,HiLo,Floor:3-Schichtplatte 40mm:5206093,ELEMENT,IfcSlab,Floor:3-Schichtplatte 40mm,Massivholz,1,0.04,1.21,0.5445,0.02178
+2p6mMpo0jBHOHKNx73TrN0,HiLo,TU DF 1 - Pfostenstock Falztüre:DL - 900 x 2130:1118965,ELEMENT,IfcDoor,TU DF 1 - Pfostenstock Falztüre:DL - 900 x 2130,,0,,1.06,2.4486,0.10707
+1GYJkCWSXDPAizLcwxbAKl,HiLo,Bleche Fassade_V6:Bleche Fassade_V6:4910201,ELEMENT,IfcBuildingElementProxy,Bleche Fassade_V6:Bleche Fassade_V6,Material 4,0,,16.62,118.833,0.06457
+0ZBO6J2ib94OVy391p4h7r,LTU,Stiffener:Stiffener:1094120,ELEMENT,IfcBuildingElementProxy,Stiffener,Steel - S355J2G3,0,,0.21,0.0252,0.00023
+1o7gVYtKXE5gHCcVTSsaqP,HiLo,Basic Wall:3-Schichtplatte 27mm - Schalplatte:3555236,ELEMENT,IfcWallStandardCase,Basic Wall:3-Schichtplatte 27mm - Schalplatte,3-Schicht-Platte,1,0.027,5.28,1.9008,0.0513
+0P4ZzpAg98fhj_ztVf$AYc,HiLo,Basic Wall:BSP 140 - 5s:1686981,ELEMENT,IfcWall,Basic Wall:BSP 140 - 5s,Brettschichtholz C24,1,0.14,5.84,17.4616,1.13687
+2WGIh0xUz90vps28eTVSLJ,KIT_SmileyWest,1OG-Balkon-1-1,ELEMENT,IfcSlab,,Stahlbeton,1,0.12,2.9,0.725,0.087
+3PSzbSor5DzehfFtR_jj_6,HiLo,Basic Wall:Wärmedämmung_Slentex 70:687731,ELEMENT,IfcWallStandardCase,Basic Wall:Wärmedämmung_Slentex 70,Wärmedämmung Slentex Aerogel,1,0.07,3.13,2.2536,0.15822
+0YWQUbZyv37PGtSZXywZ22,HiLo,Basic Wall:Wärmedämmung_Mineralwolle_130:1839774,ELEMENT,IfcWall,Basic Wall:Wärmedämmung_Mineralwolle_130,"Wärmedämmung Mineralwolle, 0.035 W/mK",1,0.13,3.94,1.8518,0.22159
+0foM5uUXf3UBf6TLj8DTUQ,HiLo,Pfosten rechteckig:Forster 60 x 90 - Nur Pfosten:2355404,ELEMENT,IfcMember,Pfosten rechteckig:Forster 60 x 90 - Nur Pfosten,"Stahl, 45-34, Pulverbeschichtung schwarz",0,,0.51,0.0459,0.00275
+0kqm0N1Tf3ZwwqJEWcbbQT,KIT_SmileyWest,EG-A-1-1,ELEMENT,IfcWallStandardCase,,Massiv,1,0.15,6.91,17.966,2.6364
+3YjB$irNvB$vE12DKBJJ5a,HiLo,Basic Wall:Holzbau_Archisonic_Vorbauschale:2146702,TARGET LAYER,IfcWallStandardCase,Basic Wall:Holzbau_Archisonic_Vorbauschale,Archisonic Charcoal,1,0.012,2.29,1.3511,0.016185
+2OBrcmyk58NupXoVOHUtC0,Duplex,Floor:Finish Floor - Wood:169093,TARGET LAYER,IfcSlab,Floor:Finish Floor - Wood,Wood - Flooring,1,0.016,6.25,23.1875,0.352674
+3WYMOXWhn94v_FiR6NbhgP,HiLo,Basic Wall:Holzfassade hinterlüftet:1105047,TARGET LAYER,IfcWall,Basic Wall:Holzfassade hinterlüftet,"Holzschalung Vertikal, Nadelholz,  schwarz gestrichen",1,0.02,5.94,19.1268,0.372633
+1hOSvn6df7F8_7GcBWlRqU,Duplex,Floor:Residential - Wood Joist with Subflooring:144800,TARGET LAYER,IfcSlab,Floor:Residential - Wood Joist with Subflooring,Wood - Sheathing - plywood,1,0.019,16.97,62.9587,1.125354

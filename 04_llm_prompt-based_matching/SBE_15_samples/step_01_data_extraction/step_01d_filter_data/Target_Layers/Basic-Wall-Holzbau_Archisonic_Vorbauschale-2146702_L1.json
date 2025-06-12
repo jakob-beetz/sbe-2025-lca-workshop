@@ -1,0 +1,70 @@
+{
+    "Target Layer of Material Inference": {
+        "Material Name": "Archisonic Charcoal",
+        "Thickness": 0.012,
+        "Thickness Unit": "METRE",
+        "Layer Number": 1
+    },
+    "Building Element Context": {
+        "Element Metadata": {
+            "Name": "Basic Wall:Holzbau_Archisonic_Vorbauschale:2146702",
+            "Type": "IfcWallStandardCase",
+            "ObjectType": "Basic Wall:Holzbau_Archisonic_Vorbauschale"
+        },
+        "Other Material Layers": [
+            {
+                "Material Name": "MDF",
+                "Thickness": 0.012,
+                "Thickness Unit": "METRE",
+                "Layer Number": 2
+            }
+        ],
+        "Element Geometry Data": {
+            "Quantities (IFC)": {
+                "Width": 0.024,
+                "Width unit": "METRE",
+                "Length": 0.59,
+                "Length unit": "METRE",
+                "Height": 2.286,
+                "Height unit": "METRE",
+                "Gross Side Area": 1.3488,
+                "Gross Side Area unit": "SQUARE_METRE",
+                "Net Side Area": 1.3488,
+                "Net Side Area unit": "SQUARE_METRE",
+                "Gross Footprint Area": 0.0142,
+                "Gross Footprint Area unit": "SQUARE_METRE",
+                "Gross Volume": 0.0324,
+                "Gross Volume unit": "CUBIC_METRE",
+                "Net Volume": 0.0324,
+                "Net Volume unit": "CUBIC_METRE"
+            },
+            "Quantities (COMPAS)": {
+                "Net Volume": 0.03237,
+                "Net Volume unit": "CUBIC_METRE",
+                "Entire Surface Area": 2.83571,
+                "Entire Surface Area unit": "SQUARE_METRE"
+            }
+        },
+        "Element Property Sets": {
+            "Psets Element": {
+                "Related to Mass": "False",
+                "Room Bounding": "True",
+                "Base Constraint": "Level: 00_Eingang",
+                "Location Line": "Finish Face: Exterior",
+                "Area": "1.3488",
+                "Length": "590.0385",
+                "Volume": "0.0324",
+                "Workset": "Innenausbau",
+                "Category": "Walls",
+                "Family": "Basic Wall: Holzbau_Archisonic_Vorbauschale",
+                "Family and Type": "Basic Wall: Holzbau_Archisonic_Vorbauschale",
+                "Type": "Basic Wall: Holzbau_Archisonic_Vorbauschale",
+                "Type Id": "Basic Wall: Holzbau_Archisonic_Vorbauschale",
+                "Phase Created": "Zu Bauen",
+                "Structural": "False",
+                "Structural Usage": "Non-bearing"
+            }
+        }
+    },
+    "CompilationGroupID": "f17ad5cce9"
+}

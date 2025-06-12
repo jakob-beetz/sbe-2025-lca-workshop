@@ -1,0 +1,37 @@
+{
+    "Element Metadata": {
+        "Name": "Bleche Fassade_V6:Bleche Fassade_V6:4910201",
+        "Type": "IfcBuildingElementProxy",
+        "ObjectType": "Bleche Fassade_V6:Bleche Fassade_V6"
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterial",
+            "Material Name": "Material 4"
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.06457,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 27.10547,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        }
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Level": "Level: 00_Eingang",
+            "Elevation from Level": "0.0",
+            "Host": "Level : 00_Eingang",
+            "Area": "13.5527",
+            "Volume": "0.0646",
+            "Workset": "Dachkonstruktion",
+            "Category": "Generic Models",
+            "Family": "Bleche Fassade_V6: Bleche Fassade_V6",
+            "Family and Type": "Bleche Fassade_V6: Bleche Fassade_V6",
+            "Type": "Bleche Fassade_V6: Bleche Fassade_V6",
+            "Type Id": "Bleche Fassade_V6: Bleche Fassade_V6",
+            "Phase Created": "Zu Bauen"
+        }
+    }
+}

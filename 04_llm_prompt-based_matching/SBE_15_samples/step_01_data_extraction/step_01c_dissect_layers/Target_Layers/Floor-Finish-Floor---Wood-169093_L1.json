@@ -1,0 +1,164 @@
+{
+  "Target Layer of Material Inference": {
+    "Material Name": "Wood - Flooring",
+    "Thickness": 0.016,
+    "Thickness Unit": "METRE",
+    "Layer Number": 1
+  },
+  "Building Element Context": {
+    "Element Metadata": {
+      "Name": "Floor:Finish Floor - Wood:169093",
+      "UID": "20792",
+      "GlobalId": "2OBrcmyk58NupXoVOHUtC0",
+      "Type": "IfcSlab",
+      "ObjectType": "Floor:Finish Floor - Wood",
+      "Classification": "Not defined",
+      "Decomposes": {},
+      "Is Decomposed By": []
+    },
+    "Other Material Layers": [
+      {
+        "Material Name": "Insulation / Thermal Barriers - Semi-rigid insulation",
+        "Thickness": 0.003,
+        "Thickness Unit": "METRE",
+        "Layer Number": 2
+      }
+    ],
+    "Layer Set Metadata": {
+      "IfcEntity": "IfcMaterialLayerSetUsage",
+      "Layer Set Name": "Floor:Finish Floor - Wood",
+      "Layer Set Description": "Unknown",
+      "Layer Set Total Thickness": "Unknown",
+      "Layer Direction and Growth description": "Layers are stacked vertically, defining the element’s buildup."
+    },
+    "Element Geometry Data": {
+      "Quantities (IFC)": {},
+      "Geometric Representation": [
+        "SweptSolid"
+      ],
+      "Quantities (COMPAS)": {
+        "Net Volume": 0.4188,
+        "Net Volume unit": "CUBIC_METRE",
+        "Entire Surface Area": 44.4648,
+        "Entire Surface Area unit": "SQUARE_METRE"
+      },
+      "Bounding Box Dimensions (OBB - local frame)": {
+        "X": 6.25,
+        "Y": 3.71,
+        "Z": 0.02,
+        "Bounding Box Dimensions Unit": "METRE"
+      },
+      "Bounding Box Volume": 0.4637,
+      "Real Volume to Bounding Box Volume Ratio": 0.9032,
+      "Face Count (tessellated element)": {
+        "Face Count": 20
+      },
+      "Vertex Count (tessellated element)": {
+        "Vertex Count": 36
+      },
+      "Edge Count (tessellated element)": {
+        "Edge Count": 48
+      },
+      "Primary Object Axis (Cardinal Direction)": "N"
+    },
+    "Element Property Sets": {
+      "Psets Element": {
+        "Reference": "Reference",
+        "IsExternal": "False",
+        "LoadBearing": "True",
+        "Level": "Level 2",
+        "Height Offset From Level": "0.019",
+        "Room Bounding": "True",
+        "Related to Mass": "False",
+        "Structural": "False",
+        "InstallationDate": "InstallationDate",
+        "SerialNumber": "SerialNumber",
+        "WarrantyStartDate": "WarrantyStartDate",
+        "BarCode": "BarCode",
+        "AssetIdentifier": "AssetIdentifier",
+        "TagNumber": "TagNumber",
+        "Phase Created": "New Construction",
+        "Perimeter": "19.91399999999999",
+        "Area": "22.04323199999996",
+        "Volume": "0.4188214079999995",
+        "Thickness": "0.019",
+        "Vertical Projection": "Default",
+        "Structural Usage": "3",
+        "Default Thickness": "0.019",
+        "Function": "0",
+        "Coarse Scale Fill Color": "0",
+        "Manufacturer": "Manufacturer",
+        "Assembly Description": "",
+        "Assembly Code": "",
+        "AccessibilityPerformance": "AccessibilityPerformance",
+        "CodePerformance": "CodePerformance",
+        "Color": "Color",
+        "Constituents": "Constituents",
+        "Features": "Features",
+        "Finish": "Finish",
+        "Grade": "Grade",
+        "Material": "Material",
+        "ModelReference": "ModelReference",
+        "NominalHeight": "NominalHeight",
+        "NominalLength": "NominalLength",
+        "NominalWidth": "NominalWidth",
+        "ProductionYear": "ProductionYear",
+        "Shape": "Shape",
+        "Size": "Size",
+        "SustainabilityPerformance": "SustainabilityPerformance",
+        "WarrantyDescription": "WarrantyDescription",
+        "WarrantyDurationLabor": "WarrantyDurationLabor",
+        "WarrantyDurationParts": "WarrantyDurationParts",
+        "WarrantyGuarantorLabor": "WarrantyGuarantorLabor",
+        "WarrantyGuarantorParts": "WarrantyGuarantorParts",
+        "ExpectedLife": "ExpectedLife",
+        "ReplacementCost": "ReplacementCost",
+        "AssetAccountingType": "FIXED",
+        "Classification Description": "Wood Flooring",
+        "Classification Code": "23-35 50 14 11",
+        "ModelLabel": "ModelLabel"
+      },
+      "Psets Object Type": {}
+    },
+    "Element Location": {
+      "Storeys Map": {
+        "T/FDN": {
+          "Elevation": -1.25,
+          "Unit": "meters"
+        },
+        "Level 1": {
+          "Elevation": 0.0,
+          "Unit": "meters"
+        },
+        "Level 2": {
+          "Elevation": 3.1,
+          "Unit": "meters"
+        },
+        "Roof": {
+          "Elevation": 6.0,
+          "Unit": "meters"
+        }
+      },
+      "Element Located in Storey": "Level 2",
+      "Spatial Relationship": [
+        {
+          "name": "0001",
+          "type": "IfcProject"
+        },
+        {
+          "name": "Default",
+          "type": "IfcSite"
+        },
+        {
+          "name": null,
+          "type": "IfcBuilding"
+        },
+        {
+          "name": "Level 2",
+          "type": "IfcBuildingStorey"
+        }
+      ]
+    }
+  },
+  "CompilationGroupID": "74a0965f0a"
+}

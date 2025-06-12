@@ -1,0 +1,58 @@
+{
+    "Target Layer of Material Inference": {
+        "Material Name": "Holzschalung Vertikal, Nadelholz,  schwarz gestrichen",
+        "Thickness": 0.02,
+        "Thickness Unit": "METRE",
+        "Layer Number": 1
+    },
+    "Building Element Context": {
+        "Element Metadata": {
+            "Name": "Basic Wall:Holzfassade hinterlüftet:1105047",
+            "Type": "IfcWall",
+            "ObjectType": "Basic Wall:Holzfassade hinterlüftet"
+        },
+        "Other Material Layers": [
+            {
+                "Material Name": "Luft",
+                "Thickness": 0.03,
+                "Thickness Unit": "METRE",
+                "Layer Number": 2
+            },
+            {
+                "Material Name": "Luft",
+                "Thickness": 0.04,
+                "Thickness Unit": "METRE",
+                "Layer Number": 3
+            }
+        ],
+        "Element Geometry Data": {
+            "Quantities (COMPAS)": {
+                "Net Volume": 1.67685,
+                "Net Volume unit": "CUBIC_METRE",
+                "Entire Surface Area": 38.90098,
+                "Entire Surface Area unit": "SQUARE_METRE"
+            }
+        },
+        "Element Property Sets": {
+            "Psets Element": {
+                "Related to Mass": "False",
+                "Room Bounding": "True",
+                "Base Constraint": "Level: 00_Betonplatte",
+                "Location Line": "Core Face: Exterior",
+                "Area": "18.6502",
+                "Length": "5923.3444",
+                "Volume": "1.6769",
+                "Workset": "Architecture",
+                "Category": "Walls",
+                "Family": "Basic Wall: Holzfassade hinterlüftet",
+                "Family and Type": "Basic Wall: Holzfassade hinterlüftet",
+                "Type": "Basic Wall: Holzfassade hinterlüftet",
+                "Type Id": "Basic Wall: Holzfassade hinterlüftet",
+                "Phase Created": "Zu Bauen",
+                "Structural": "False",
+                "Structural Usage": "Non-bearing"
+            }
+        }
+    },
+    "CompilationGroupID": "78593db8a4"
+}

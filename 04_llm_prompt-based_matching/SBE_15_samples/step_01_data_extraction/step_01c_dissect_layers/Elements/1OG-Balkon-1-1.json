@@ -1,0 +1,124 @@
+{
+  "Element Metadata": {
+    "Name": "1OG-Balkon-1-1",
+    "UID": "146052",
+    "GlobalId": "2WGIh0xUz90vps28eTVSLJ",
+    "Type": "IfcSlab",
+    "ObjectType": null,
+    "Classification": "Not defined",
+    "Decomposes": {},
+    "Is Decomposed By": []
+  },
+  "Element Material Data": [
+    {
+      "IfcEntity": "IfcMaterialLayerSetUsage",
+      "Layer Set Name": "Stahlbeton",
+      "Layer Set Description": "Unknown",
+      "Layer Set Total Thickness": "Unknown",
+      "Layers": [
+        {
+          "IfcEntity": "IfcMaterialLayer",
+          "Material Name": "Stahlbeton",
+          "Description": "Unknown",
+          "Category": "Unknown",
+          "Thickness": 0.12,
+          "Thickness unit": "METRE"
+        }
+      ],
+      "Layer Direction and Growth description": "Layers are stacked vertically, growing downward from the element’s reference surface."
+    }
+  ],
+  "Element Geometry Data": {
+    "Quantities (IFC)": {
+      "Net Footprint Area": 0.725,
+      "Net Footprint Area unit": "SQUARE_METRE",
+      "Net Volume": 0.087,
+      "Net Volume unit": "CUBIC_METRE"
+    },
+    "Geometric Representation": [
+      "SweptSolid"
+    ],
+    "Quantities (COMPAS)": {
+      "Net Volume": 0.087,
+      "Net Volume unit": "CUBIC_METRE",
+      "Entire Surface Area": 2.2059,
+      "Entire Surface Area unit": "SQUARE_METRE"
+    },
+    "Bounding Box Dimensions (OBB - local frame)": {
+      "X": 2.9,
+      "Y": 0.25,
+      "Z": 0.12,
+      "Bounding Box Dimensions Unit": "METRE"
+    },
+    "Bounding Box Volume": 0.087,
+    "Real Volume to Bounding Box Volume Ratio": 1.0,
+    "Face Count (tessellated element)": {
+      "Face Count": 12
+    },
+    "Vertex Count (tessellated element)": {
+      "Vertex Count": 24
+    },
+    "Edge Count (tessellated element)": {
+      "Edge Count": 30
+    },
+    "Primary Object Axis (Cardinal Direction)": "E"
+  },
+  "Element Property Sets": {
+    "Psets Element": {
+      "ThermalTransmittance": "0.6",
+      "IsExternal": "True"
+    },
+    "Psets Object Type": {}
+  },
+  "Element Relationships": {
+    "Nests": null,
+    "Is Nested By": null,
+    "Covers": null,
+    "Is Covered By": null,
+    "Has Openings": null,
+    "Assigned Groups": null
+  },
+  "Element Location": {
+    "Storeys Map": {
+      "KG": {
+        "Elevation": -2.81,
+        "Unit": "meters"
+      },
+      "EG": {
+        "Elevation": -0.25,
+        "Unit": "meters"
+      },
+      "1.OG": {
+        "Elevation": 2.53,
+        "Unit": "meters"
+      },
+      "2.OG": {
+        "Elevation": 5.23,
+        "Unit": "meters"
+      },
+      "Dach": {
+        "Elevation": 7.93,
+        "Unit": "meters"
+      }
+    },
+    "Element Located in Storey": "1.OG",
+    "Spatial Relationship": [
+      {
+        "name": "Project-Smiley-West",
+        "type": "IfcProject"
+      },
+      {
+        "name": "Gelaende-Smiley-West",
+        "type": "IfcSite"
+      },
+      {
+        "name": "Gebaeude-Smiley-West",
+        "type": "IfcBuilding"
+      },
+      {
+        "name": "1.OG",
+        "type": "IfcBuildingStorey"
+      }
+    ]
+  }
+}

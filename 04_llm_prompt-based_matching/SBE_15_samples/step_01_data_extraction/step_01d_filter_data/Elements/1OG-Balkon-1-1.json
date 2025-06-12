@@ -1,0 +1,40 @@
+{
+    "Element Metadata": {
+        "Name": "1OG-Balkon-1-1",
+        "Type": "IfcSlab"
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterialLayerSetUsage",
+            "Layer Set Name": "Stahlbeton",
+            "Layer Direction and Growth description": "Layers are stacked vertically, growing downward from the element’s reference surface.",
+            "Layers": [
+                {
+                    "Material Name": "Stahlbeton",
+                    "Thickness": 0.12,
+                    "Thickness unit": "METRE"
+                }
+            ]
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Net Footprint Area": 0.725,
+            "Net Footprint Area unit": "SQUARE_METRE",
+            "Net Volume": 0.087,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.087,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 2.2059,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        }
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "ThermalTransmittance": "0.6",
+            "IsExternal": "True"
+        }
+    }
+}

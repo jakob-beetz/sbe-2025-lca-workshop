@@ -1,0 +1,106 @@
+{
+    "query": "IfcProduct",
+    "attributes": [
+        {
+            "name": "material.Name",
+            "header": "Material",
+            "sort": "NONE",
+            "group": "NONE",
+            "summary": "NONE",
+            "formatting": "{{value}}"
+        },
+        {
+            "name": "class",
+            "header": "IFC Class",
+            "sort": "NONE",
+            "group": "NONE",
+            "summary": "NONE",
+            "formatting": "{{value}}"
+        },
+        {
+            "name": "Qto_WallBaseQuantities.NetSideArea",
+            "header": "NetSideArea",
+            "sort": "NONE",
+            "group": "NONE",
+            "summary": "NONE",
+            "formatting": "{{value}}"
+        },
+        {
+            "name": "type",
+            "header": "type",
+            "sort": "NONE",
+            "group": "NONE",
+            "summary": "NONE",
+            "formatting": "{{value}}"
+        },
+        {
+            "name": "PSet_Revit_Dimensions.Area",
+            "header": "Area",
+            "sort": "NONE",
+            "group": "NONE",
+            "summary": "NONE",
+            "formatting": "{{value}}"
+        },
+        {
+            "name": "PSet_Revit_Dimensions.Volume",
+            "header": "Volume",
+            "sort": "NONE",
+            "group": "NONE",
+            "summary": "NONE",
+            "formatting": "{{value}}"
+        },
+        {
+            "name": "material.item.Material.Name.0",
+            "header": "mat.0",
+            "sort": "NONE",
+            "group": "NONE",
+            "summary": "NONE",
+            "formatting": "{{value}}"
+        },
+        {
+            "name": "material.item.Material.Name.1",
+            "header": "mat.1",
+            "sort": "NONE",
+            "group": "NONE",
+            "summary": "NONE",
+            "formatting": "{{value}}"
+        },
+        {
+            "name": "material.item.Material.Name.2",
+            "header": "mat.2",
+            "sort": "NONE",
+            "group": "NONE",
+            "summary": "NONE",
+            "formatting": "{{value}}"
+        },
+        {
+            "name": "material.item.Material.Name.3",
+            "header": "mat.3",
+            "sort": "NONE",
+            "group": "NONE",
+            "summary": "NONE",
+            "formatting": "{{value}}"
+        },
+        {
+            "name": "materials",
+            "header": "materials",
+            "sort": "NONE",
+            "group": "NONE",
+            "summary": "NONE",
+            "formatting": "{{value}}"
+        }
+    ],
+    "settings": {
+        "should_generate_svg": false,
+        "should_preserve_existing": false,
+        "include_global_id": true,
+        "null_value": "N/A",
+        "empty_value": "-",
+        "true_value": "YES",
+        "false_value": "NO",
+        "concat_value": ", ",
+        "csv_delimiter": ",",
+        "format": "web",
+        "csv_custom_delimiter": ""
+    }
+}

@@ -1,5 +1,15 @@
 # sbe-2025-lca-workshop
-Sustainable Built Environment LCA Workshop for material mapping and BIM based LCA
+[Sustainable Built Environment 2025](https://sbe.ethz.ch/) LCA Workshop for material mapping and BIM based LCA
 
 
+# Activity 01
+Execute a notebook introducting you the basics of IfcOpenShell
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jakob-beetz/sbe-2025-lca-workshop/blob/master/Activity_01_ifc_data_structure.ipynb)
+
+# Activity 02
+use Selectors to extract quantities from an IFC file
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jakob-beetz/sbe-2025-lca-workshop/blob/master/Activity_02_ifc_qto_with_selectors.ipynb)
+
+# Activity 03
+Run a notebook to match materials
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jakob-beetz/sbe-2025-lca-workshop/blob/master/Activity_03_STS_Matching.ipynb)

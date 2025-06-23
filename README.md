@@ -16,3 +16,8 @@ use Selectors to extract quantities from an IFC file
 Run a notebook to match materials
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jakob-beetz/sbe-2025-lca-workshop/blob/master/Activity_03_STS_Matching.ipynb)
+
+# Activity 04
+Run a notebook to match materials using LLM prompts
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jakob-beetz/sbe-2025-lca-workshop/blob/master/Activity_04_llm_prompt_based_matching.ipynb)

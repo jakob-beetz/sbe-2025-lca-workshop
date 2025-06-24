@@ -10,7 +10,7 @@ Execute a notebook introducting you the basics of IfcOpenShell
 # Activity 01 - B
 use Selectors to extract quantities from an IFC file
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jakob-beetz/sbe-2025-lca-workshop/blob/master/Activity_02_ifc_qto_with_selectors.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jakob-beetz/sbe-2025-lca-workshop/blob/master/Activity_01_B_ifc_qto_with_selectors.ipynb)
 
 # Activity 03
 Run a notebook to match materials
